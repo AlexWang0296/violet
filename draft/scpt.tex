@@ -3,112 +3,47 @@
 %\documentclass[final,5p,times,twocolumn]{elsarticle}
 \documentclass[final,5p,times,twocolumn]{elsarticle}
 \usepackage[labelfont=bf,justification=raggedright]{caption}
-
 \captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
-
 \captionsetup[table]{labelsep=newline,font=footnotesize,singlelinecheck=false,skip=5pt}
 %reviewc
 %final,5p,times,twocolumn
 \usepackage{lineno,hyperref}
-
 \usepackage{float}
-
 \modulolinenumbers[5]
- 
-
 \journal{Materials and Design}
-
-%%%%%%%%%%%%%%%%%%%%%%%
-%% Elsevier bibliography styles
-%%%%%%%%%%%%%%%%%%%%%%%
-%% To change the style, put a % in front of the second line of the current style and
-%% remove the % from the second line of the style you would like to use.
-%%%%%%%%%%%%%%%%%%%%%%%
-
-%% Numbered
-%\bibliographystyle{model1-num-names}
-
-%% Numbered without titles
-%\bibliographystyle{model1a-num-names}
-
-%% Harvard
-%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
-
-%% Vancouver numbered
-%\usepackage{numcompress}\bibliographystyle{model3-num-names}
-
-%% Vancouver name/year
-%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
-
-%% APA style
-%\bibliographystyle{model5-names}\biboptions{authoryear}
-
-%% AMA style
-%\usepackage{numcompress}\bibliographystyle{model6-num-names}
-
-%% `Elsevier LaTeX' style
 \bibliographystyle{~/format/elsarticle-num.bst}
-
 %%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{document}
-
 \begin{frontmatter}
-
 \title{Effect of Nanovoid on Fracture Process of Two-Phase $\alpha$($\rm TiAl$)+$\gamma$($\rm Ti_3Al$) Alloy}
 %\tnotetext[mytitlenote]{*** \href{http://www.ctan.org/tex-archive/macros/latex/contrib/elsarticle}{CTAN}.}
-
 %% Group authors per affiliation:
 %\author{Maomao Wang\fnref{myfootnote}}
 
-
 \address[mymainaddress]{School of Mechanical and Electronical Engineering, Lanzhou University of Technology. Lanzhou 730050, China}
-
-
 \begin{abstract}
  The fracture processes of nanocrystalline metallic materia is affected by dislocation, nanovoid and other defects. Existing studies of defect evolution in titanium-aluminium alloy cover the case that voids located in single crystals, inside grain in poly crystals and at the grain boundaries.Molecular dynamics simulation was performed to study the evolution of a spherical nanovoid in $\alpha$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension.
 \end{abstract}
-
 \begin{keyword}
 $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 \end{keyword}
-
 \end{frontmatter}
-
 \linenumbers
-
 \section{Introduction}
-
 TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{int.uti.j.1}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{int.uti.m.1}.
 Metal 
-
-% study on poly 
-% gap
-
 \section Molecular dynamics simulation analysis
-
 \subsection{Model creation of nanocrystalline}
 $\gamma  TiAl$ has a fcc-centered tetragonal with an $\L1_0$ structure \ref{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\ref{}, and the constructing parameters are givin by Table.\ref{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \ref{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \ref{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \ref{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \ref{}.
-
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \ref{compare LJ and other}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \ref{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \ref{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
 \subsection{Analysis method}
-
 \paragraph{defect identification}
-
 \paragraph{stress calculation}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
 where $\f_\alpha$ is the interatomic force between atom i and j in the direction $\alpha$, $\gamma_\beta$ is the distance in direction 
-
-
-
-
-
-
-
-
 \begin{table}[H]
 \centering
 \caption{Experimental conditions}
@@ -124,75 +59,20 @@ where $\f_\alpha$ is the interatomic force between atom i and j in the direction
 \end{tabular}
 \label{Tab:par}
 \end{table}
-
-
 The crystal structure parameters of $\gamma$($\rm TiAl$) phase and $\alpha$($\rm Ti_3Al$) phase is shown as Table\ref{tab:str_par}. 
 \subsection{Molecular Dynamics Model}
 The crystal structure of $\gamma$-TiAl
 is shown by Fig \ref{fig:pf_model_labeled}
-
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=0.5\linewidth]{pict/model_labeled}
-%	\caption{Representative nanocrystalline bulk mode}
-%	\centering
-%	\label{fig:pf_model}
-%\end{figure}
 \subsection{Identification of Defects}
-%\paragraph{}
-% \begin{table}[h]
-% 	\centering
-% 	\caption{Table caption}
-% 	\begin{tabular}{l l l}
-% 		\hline
-% 		\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-% 		\hline
-% 		Treatment 1 & 0.0003262 & 0.562 \\
-% 		Treatment 2 & 0.0015681 & 0.910 \\
-% 		Treatment 3 & 0.0009271 & 0.296 \\
-% 		\hline
-% 	\end{tabular}
-% 	
-% \end{table}
-%
-%
-%$$E=\sum_{i}^n a_i=0$$
-%
-%where
-%
-%
-%parameters can be given as Table \ref{Tab:par}:
-%
-%
-%
 \section{Results and Discussion}
-
 \subsection{The influence of void on strength of TiAl alloy}
-
 The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure ~\ref{fig:strline}.
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2} / \gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree ref{}.
 2. The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
 3.Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=0.7\linewidth]{pict/stress}
-%	\caption{}
-%	\centering
-%	\label{fig:stress}
-%\end{figure}
-
-
-
 \subsection{Decrease of Strength}
-
-
 \section{Conclusion}
-
-
-
 %\section*{References}
-
 \bibliography{/home/alex/Documents/Bibtex/VIOLET-ref.bib}
 Fig.\ref{fig:stress}.
-
 \end{document}
