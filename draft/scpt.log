@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -554,64 +554,61 @@ LaTeX Warning: Reference `fig:pf_model_labeled' on page 1 undefined on input li
 ne 130.
 
 
+LaTeX Warning: Reference `fig:strline' on page 1 undefined on input line 170.
+
+
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 157.
+(hyperref)                removing `\alpha' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 157.
+(hyperref)                removing `\gamma' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 157.
+(hyperref)                removing `subscript' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 157.
+(hyperref)                removing `math shift' on input line 181.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-
-LaTeX Warning: Reference `Tab:par' on page 2 undefined on input line 162.
-
-
-LaTeX Warning: Reference `fig:strline' on page 2 undefined on input line 170.
-
 No file scpt.bbl.
 
 LaTeX Warning: Reference `fig:stress' on page 2 undefined on input line 194.
@@ -649,25 +646,24 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 8148 strings out of 494923
- 119899 string characters out of 6180742
- 209186 words of memory out of 5000000
+ 8146 strings out of 494923
+ 119874 string characters out of 6180742
+ 212186 words of memory out of 5000000
  11342 multiletter control sequences out of 15000+600000
  43122 words of font info for 104 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,8n,38p,1223b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1223b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on scpt.pdf (2 pages, 62267 bytes).
+1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
+ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on scpt.pdf (2 pages, 59798 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
