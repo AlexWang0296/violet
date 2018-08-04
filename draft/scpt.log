@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.24)  4 AUG 2018 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,54 +513,45 @@ Package natbib Warning: Citation `int.uti.m.1' on page 1 undefined on input lin
 e 82.
 
 
-LaTeX Warning: Reference `(' on page 1 undefined on input line 98.
+LaTeX Warning: Command \L invalid in math mode on input line 91.
 
 
-LaTeX Warning: Reference `(' on page 1 undefined on input line 98.
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 96--99
-[]\OT1/txr/m/n/10 The in the ma-te-rial is de-ter-mined by in-ter-atomic po-
- []
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
 
 
-Underfull \hbox (badness 3884) in paragraph at lines 96--99
-\OT1/txr/m/n/10 ten-tial. We per-formed constant-pressure and constant-
- []
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 101.
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
 
 
-LaTeX Warning: Reference `tab:str_par' on page 1 undefined on input line 121.
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 121--122
-[]\OT1/txr/m/n/10 The crys-tal struc-ture pa-ram-e-ters of $\OML/txmi/m/it/10 ^
-^M$\OT1/txr/m/n/10 ($TiAl$) phase and
- []
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Reference `compare LJ and other' on page 1 undefined on input li
+ne 94.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 94.
+
+
+LaTeX Warning: Reference `' on page 1 undefined on input line 94.
+
+
+LaTeX Warning: Reference `tab:str_par' on page 1 undefined on input line 127.
 
 
 LaTeX Warning: Reference `fig:pf_model_labeled' on page 1 undefined on input li
-ne 124.
-
-
-/home/alex/violet/draft/scpt.tex:128: LaTeX Error: File `pict/model_labeled' no
-t found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 ...[width=0.5\linewidth]{pict/model_labeled}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+ne 130.
 
 
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
@@ -569,99 +560,77 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 154.
+(hyperref)                removing `\alpha' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 154.
+(hyperref)                removing `\gamma' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 154.
+(hyperref)                removing `subscript' on input line 157.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 157.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 
-LaTeX Warning: Reference `Tab:par' on page 2 undefined on input line 156.
+LaTeX Warning: Reference `Tab:par' on page 2 undefined on input line 162.
 
 
-LaTeX Warning: Reference `fig:strline' on page 2 undefined on input line 164.
-
-/home/alex/violet/draft/scpt.tex:169: Undefined control sequence.
-<recently read> \centeringw 
-                            
-l.169 	\centeringw
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-/home/alex/violet/draft/scpt.tex:170: LaTeX Error: File `pict/stress' not found
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170 ...raphics[width=0.7\linewidth]{pict/stress}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `fig:strline' on page 2 undefined on input line 170.
 
 No file scpt.bbl.
 
-LaTeX Warning: Reference `fig:stress' on page 2 undefined on input line 188.
+LaTeX Warning: Reference `fig:stress' on page 2 undefined on input line 194.
 
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
+
+Package caption Warning: Unused \captionsetup[figure] on input line 7.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
 [2
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (./scpt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 
 
 Package rerunfilecheck Warning: File `scpt.out' has changed.
@@ -670,23 +639,23 @@ Package rerunfilecheck Warning: File `scpt.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `scpt.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9E2D09CE405D4BECCB9D623994CED805;643.
+(rerunfilecheck)             After:  344F27F288188BFC37EE933E77BF3134;710.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 8142 strings out of 494923
- 119690 string characters out of 6180742
- 210186 words of memory out of 5000000
- 11324 multiletter control sequences out of 15000+600000
- 36330 words of font info for 84 fonts, out of 8000000 for 9000
+ 8148 strings out of 494923
+ 119899 string characters out of 6180742
+ 209186 words of memory out of 5000000
+ 11342 multiletter control sequences out of 15000+600000
+ 43122 words of font info for 104 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,8n,39p,1717b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,8n,38p,1223b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -695,10 +664,10 @@ onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on scpt.pdf (2 pages, 62272 bytes).
+Output written on scpt.pdf (2 pages, 62267 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 71 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

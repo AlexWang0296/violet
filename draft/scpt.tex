@@ -7,7 +7,7 @@
 \captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
 
 \captionsetup[table]{labelsep=newline,font=footnotesize,singlelinecheck=false,skip=5pt}
-%review
+%reviewc
 %final,5p,times,twocolumn
 \usepackage{lineno,hyperref}
 
@@ -62,7 +62,7 @@
 %\author{Maomao Wang\fnref{myfootnote}}
 
 
-%\address[mymainaddress]{School of Mechanical and Electronical Engineering, Lanzhou University of Technology. Lanzhou 730050, China}
+\address[mymainaddress]{School of Mechanical and Electronical Engineering, Lanzhou University of Technology. Lanzhou 730050, China}
 
 
 \begin{abstract}
@@ -79,26 +79,32 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 
 \section{Introduction}
 
-TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite {int.uti.j.1}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{int.uti.m.1}.
-Metal
+TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{int.uti.j.1}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{int.uti.m.1}.
+Metal 
 
 % study on poly 
 % gap
 
-
 \section Molecular dynamics simulation analysis
-\subsection{potential}
-\subsection{Mode creation of nanocrystalline alloy}
 
-The crystal structure of $\gamma$-TiAl alloy is L10 [32,33] which is shown in Figure 1; the lattice constants
+\subsection{Model creation of nanocrystalline}
+$\gamma  TiAl$ has a fcc-centered tetragonal with an $\L1_0$ structure \ref{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\ref{}, and the constructing parameters are givin by Table.\ref{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \ref{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \ref{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \ref{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \ref{}.
+
+\subsection{Atomic potential}
+The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \ref{compare LJ and other}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \ref{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \ref{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
+\subsection{Analysis method}
+
+\paragraph{defect identification}
+
+\paragraph{stress calculation}
+
  
 
-The  in the material is determined by interatomic potential. 
-We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation. The simulations were performed on the a system of 460000 atoms.
-Potential function is an mathematical approximation used  to determine interatomic effect among particles in MD simulation. The embedded atom method (MEAM) potential by \ref() was used In the study, which is used MD simulations were performed using the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code\ref().
 
 
-The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \ref{}. Periodic boundary conditions are applied along all three directions, in effect creating  TiAl poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms, has edge sizes of $L_x = nm$, $L_y =  nm$, $L_z =  nm$. During the construction process, the grain centers were randomly placed in a simulation cell resulting in the arbitrary shape and orientation of the grains. The construction of a specific grain would stop at a position where atoms from one grain center were no longer closer to the centers of other grains. There was only one intragranular or intergranular spherical void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. 1(b). The intergranular spherical void was at the center of the simulation cell, as shown in Fig. 1(c). Simulation specimens of the 16.32 nm grain size models with initial void diameters at or below 13 nm were mainly considered in the analysis sections owing to the fact that their spherical void surfaces did not intersect with surrounding GBs after the equilibration process. This avoided conflict between competing sources of dislocation emission: GBs or spherical void surfaces. Different diameter intragranular voids were all embedded in the same grain and at the same position in the samples, as shown in Fig. 1(b). The intergranular voids with different initial diameters were identically at the center of the simulation model, as shown in Fig. 1(c).
+
+
+
 
 
 \begin{table}[H]
@@ -110,7 +116,7 @@ The simulation cells of two phase poly crystal with an initially spherical void 
 		\hline
 		Manchester United & 6 & 4 & 0 & 2 & 10 & 5 & 12  \\
 		Celtic            & 6 & 3 & 0 & 3 &  8 & 9 &  9  \\
-		Benefit          & 6 & 2 & 1 & 3 &  7 & 8 &  7  \\
+		Benefit           & 6 & 2 & 1 & 3 &  7 & 8 &  7  \\
 		FC Copenhagen     & 6 & 2 & 1 & 3 &  5 & 8 &  7  \\
 		\hline
 \end{tabular}
@@ -123,13 +129,13 @@ The crystal structure parameters of $\gamma$($\rm TiAl$) phase and $\alpha$($\rm
 The crystal structure of $\gamma$-TiAl
 is shown by Fig \ref{fig:pf_model_labeled}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{pict/model_labeled}
-	\caption{Representative nanocrystalline bulk mode}
-	\centering
-	\label{fig:pf_model}
-\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.5\linewidth]{pict/model_labeled}
+%	\caption{Representative nanocrystalline bulk mode}
+%	\centering
+%	\label{fig:pf_model}
+%\end{figure}
 \subsection{Identification of Defects}
 \paragraph{}
  \begin{table}[h]
@@ -165,13 +171,13 @@ The existence of void detract the strength, and the void inside $\alpha$ phase g
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2} / \gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree ref{}.
 2. The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
 3.Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
-\begin{figure}
-	\centeringw
-	\includegraphics[width=0.7\linewidth]{pict/stress}
-	\caption{}
-	\centering
-	\label{fig:stress}
-\end{figure}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{pict/stress}
+%	\caption{}
+%	\centering
+%	\label{fig:stress}
+%\end{figure}
 
 
 
