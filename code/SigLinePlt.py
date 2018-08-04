@@ -13,7 +13,7 @@ plt.xlabel('strain')
 plt.ylabel('Area/A2')
 plt.savefig('area.png')
 plt.show()
-print(os.path.abspath('.'))
+#plt.savefig()
 
 
 
