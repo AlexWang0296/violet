@@ -29,20 +29,25 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 \end{keyword}
 \end{frontmatter}
 \linenumbers
+
 \section{Introduction}
 TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{int.uti.j.1}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{int.uti.m.1}.
 Metal 
-\section Molecular dynamics simulation analysis
+
+\section{Molecular dynamics simulation}
+
 \subsection{Model creation of nanocrystalline}
 $\gamma  TiAl$ has a fcc-centered tetragonal with an $\L1_0$ structure \ref{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\ref{}, and the constructing parameters are givin by Table.\ref{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \ref{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \ref{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \ref{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \ref{}.
+
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \ref{compare LJ and other}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \ref{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \ref{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
+
 \subsection{Analysis method}
-\paragraph{defect identification}
-\paragraph{stress calculation}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
+
+
 where $\f_\alpha$ is the interatomic force between atom i and j in the direction $\alpha$, $\gamma_\beta$ is the distance in direction 
 \begin{table}[H]
 \centering
