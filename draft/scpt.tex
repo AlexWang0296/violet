@@ -42,33 +42,16 @@ $\gamma  TiAl$ has a fcc-centered tetragonal with an $\L1_0$ structure \ref{}, a
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \ref{compare LJ and other}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \ref{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \ref{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
 
-\subsection{Analysis method}
+\subsection{data Analysis method}
+\paragraph{Cen}
+In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \ref{C.L. Kelchner, S.J. Plimpton, J.C. Hamilton, Phys. Rev. B 58 (1998) 11085–11088. [27]} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
+$$P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2$$
+where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.<Details>
+\paragraph{stress}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
 
-
-where $\f_\alpha$ is the interatomic force between atom i and j in the direction $\alpha$, $\gamma_\beta$ is the distance in direction 
-\begin{table}[H]
-\centering
-\caption{Experimental conditions}
-\begin{tabular}{l*{6}{c}r}	
-		\hline
-		Team              & $\alpha$ & W & D & L & F  & A & Pts \\
-		\hline
-		Manchester United & 6 & 4 & 0 & 2 & 10 & 5 & 12  \\
-		Celtic            & 6 & 3 & 0 & 3 &  8 & 9 &  9  \\
-		Benefit           & 6 & 2 & 1 & 3 &  7 & 8 &  7  \\
-		FC Copenhagen     & 6 & 2 & 1 & 3 &  5 & 8 &  7  \\
-		\hline
-\end{tabular}
-\label{Tab:par}
-\end{table}
-The crystal structure parameters of $\gamma$($\rm TiAl$) phase and $\alpha$($\rm Ti_3Al$) phase is shown as Table\ref{tab:str_par}. 
-\subsection{Molecular Dynamics Model}
-The crystal structure of $\gamma$-TiAl
-is shown by Fig \ref{fig:pf_model_labeled}
-\subsection{Identification of Defects}
 \section{Results and Discussion}
 \subsection{The influence of void on strength of TiAl alloy}
 The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure ~\ref{fig:strline}.
