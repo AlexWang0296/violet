@@ -1,4 +1,4 @@
-﻿% choose one of following three
+% choose one of following three
 %\documentclass[review]{elsarticle}
 %\documentclass[final,5p,times,twocolumn]{elsarticle}
 \documentclass[final,5p,times,twocolumn]{elsarticle}
@@ -34,24 +34,39 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{int.uti.j.1}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{int.uti.m.1}.
 Metal 
 
-\section{Molecular dynamics simulation}
+
 
 \subsection{Model creation of nanocrystalline}
 $\gamma  TiAl$ has a fcc-centered tetragonal with an $\L1_0$ structure \ref{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\ref{}, and the constructing parameters are givin by Table.\ref{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \ref{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \ref{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \ref{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \ref{}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/pf_model_labeled}
+	\caption{}
+	\label{fig：Simulation box}
+	\caption{Simulation box}
+\end{figure}
 
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \ref{compare LJ and other}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \ref{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \ref{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
 
 \subsection{data Analysis method}
 \paragraph{Cen}
-In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \ref{C.L. Kelchner, S.J. Plimpton, J.C. Hamilton, Phys. Rev. B 58 (1998) 11085–11088. [27]} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
+In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \ref{C.L. Kelchner1998} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
 $$P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2$$
 where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.<Details>
 \paragraph{stress}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
-
+\section{Molecular dynamics simulation}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/cell}
+	\caption{}
+	\label{fig:cell}
+	\caption{units cell}
+\end{figure}
 \section{Results and Discussion}
 \subsection{The influence of void on strength of TiAl alloy}
 The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure ~\ref{fig:strline}.

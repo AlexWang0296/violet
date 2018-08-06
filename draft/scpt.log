@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  5 AUG 2018 19:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.8)  6 AUG 2018 10:17
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/DOC/GitHub/violet/draft/scpt.tex
-(c:/DOC/GitHub/violet/draft/scpt.tex
+**scpt.tex
+(./scpt.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./elsarticle.cls
@@ -347,14 +346,75 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box31
 \@float@everytoks=\toks20
 \@floatcapt=\box32
-) (./scpt.aux)
+) (./scpt.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package inputenc Error: Unicode character ： (U+FF1A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+Your command was ignored.
+Type I <command> <return> to replace it with another command,
+or <return> to continue without it.
+
+! Extra \endcsname.
+\@namedef ...xpandafter \def \csname #1\endcsname 
+                                                  
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+)
 \openout1 = `scpt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 16.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 16.
 
-
-(c:/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (c:/texlive/2018/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 16.
@@ -393,6 +453,10 @@ LaTeX Font Info:    Try loading font information for OT1+txr on input line 16.
 File: ot1txr.fd 2000/12/15 v3.1
 )
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+Underfull \hbox (badness 10000) in paragraph at lines 32--13
+[]\OT1/cmr/m/n/10 Package in-pu-tenc Er-ror: Uni-code char-ac-ter
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen135
@@ -475,6 +539,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
+
+(./scpt.out) (./scpt.out)
 \@outlinefile=\write4
 \openout4 = `scpt.out'.
 
@@ -498,6 +564,55 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 25.
 (c:/texlive/2018/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 30.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 30.
+
+[1
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
 LaTeX Font Info:    Try loading font information for OT1+txss on input line 33.
 
 
@@ -508,178 +623,133 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 33.
 
 
-Package natbib Warning: Citation `int.uti.j.1' on page 1 undefined on input lin
+Package natbib Warning: Citation `int.uti.j.1' on page 2 undefined on input lin
 e 34.
 
 
-Package natbib Warning: Citation `int.uti.m.1' on page 1 undefined on input lin
+Package natbib Warning: Citation `int.uti.m.1' on page 2 undefined on input lin
 e 34.
 
 
 LaTeX Warning: Command \L invalid in math mode on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 40.
+LaTeX Warning: Reference `' on page 2 undefined on input line 40.
+
+<img/pf_model_labeled.png, id=47, 688.974pt x 542.025pt>
+File: img/pf_model_labeled.png Graphic file (type png)
+<use img/pf_model_labeled.png>
+Package pdftex.def Info: img/pf_model_labeled.png  used on input line 44.
+(pdftex.def)             Requested size: 176.39923pt x 138.77281pt.
+
+LaTeX Warning: Reference `compare LJ and other' on page 2 undefined on input li
+ne 51.
 
 
-LaTeX Warning: Reference `compare LJ and other' on page 1 undefined on input li
-ne 43.
+LaTeX Warning: Reference `' on page 2 undefined on input line 51.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 43.
+LaTeX Warning: Reference `' on page 2 undefined on input line 51.
 
 
-LaTeX Warning: Reference `' on page 1 undefined on input line 43.
-
-c:/DOC/GitHub/violet/draft/scpt.tex:47: Missing \endcsname inserted.
-<to be read again> 
-                   \OT1\textendash 
-l.47 ...hys. Rev. B 58 (1998) 11085–11088. [27]}
-                                                   is used to identify the n...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Reference `1' on page 1 undefined on input line 47.
-
-c:/DOC/GitHub/violet/draft/scpt.tex:47: Extra \endcsname.
-\NR@setref ... \NR@@setref \csname r@#1\endcsname 
-                                                  
-l.47 ...hys. Rev. B 58 (1998) 11085–11088. [27]}
-                                                   is used to identify the n...
-I'm ignoring this, since I wasn't doing a \csname.
-
-
-LaTeX Warning: Reference `fig:strline' on page 1 undefined on input line 57.
+LaTeX Warning: Reference `C.L. Kelchner1998' on page 2 undefined on input line 
+55.
 
 
 Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 [] 
  []
 
+[2
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+ <./img/pf_model_labeled.png>]
+<img/cell.png, id=64, 381.1038pt x 136.8312pt>
+File: img/cell.png Graphic file (type png)
+<use img/cell.png>
+Package pdftex.def Info: img/cell.png  used on input line 65.
+(pdftex.def)             Requested size: 176.39923pt x 63.33563pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
+LaTeX Warning: Reference `fig:strline' on page 3 undefined on input line 72.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 61.
-
-[1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 No file scpt.bbl.
 
-LaTeX Warning: Reference `fig:stress' on page 2 undefined on input line 69.
+LaTeX Warning: Reference `fig:stress' on page 3 undefined on input line 84.
 
 
 Package natbib Warning: There were undefined citations.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 6.
-See the caption package documentation for explanation.
-
-
 Package caption Warning: Unused \captionsetup[table] on input line 7.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-[2
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+[3
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
- (./scpt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+ <./img/cell.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
+ (./scpt.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.32 ... box}{{1}{2}{\relax }{figure.caption.1}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
+Package rerunfilecheck Info: File `scpt.out' has not changed.
+(rerunfilecheck)             Checksum: FD2BECA91EBC0E1CEB9AA39C451E760D;594.
 
-Package rerunfilecheck Warning: File `scpt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `scpt.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AD6CA63115E4E7E8352EEC83114B147F;594.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
  ) 
 Here is how much of TeX's memory you used:
- 8096 strings out of 492649
- 118829 string characters out of 6133385
- 222139 words of memory out of 5000000
- 11864 multiletter control sequences out of 15000+600000
- 39867 words of font info for 99 fonts, out of 8000000 for 9000
+ 8136 strings out of 492649
+ 119221 string characters out of 6133385
+ 220499 words of memory out of 5000000
+ 11890 multiletter control sequences out of 15000+600000
+ 43122 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,5n,38p,1230b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,6n,39p,1203b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2018/texm
-f-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/t
-ype1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txf
-onts/txex.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2018
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on scpt.pdf (2 pages, 62561 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fon
+ts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/publi
+c/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.
+pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb><c:/texlive
+/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+
+Output written on scpt.pdf (3 pages, 1524640 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
