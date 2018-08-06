@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Xiong2015}
+L.~Xiong, S.~Xu, D.~L. McDowell, Y.~Chen, {Concurrent atomistic-continuum
+  simulations of dislocation-void interactions in fcc crystals}, Int. J. Plast.
+  65 (2015) 33--42.
+\newblock \href {http://dx.doi.org/10.1016/j.ijplas.2014.08.002}
+  {\path{doi:10.1016/j.ijplas.2014.08.002}}.
+
+\bibitem{intro-structure}
+L.~Microstructures,
+  \href{http://doi.wiley.com/10.1002/9783527636204.ch6}{{Deformation Behavior
+  of Two-Phase $\alpha$2(Ti3Al) + $\gamma$(TiAl) Alloys}}, Gamma Titan. Alum.
+  Alloy. 2 (2011) 125--248.
+\newblock \href {http://dx.doi.org/10.1002/9783527636204.ch6}
+  {\path{doi:10.1002/9783527636204.ch6}}.
+\newline\urlprefix\url{http://doi.wiley.com/10.1002/9783527636204.ch6}
+
+\end{thebibliography}
