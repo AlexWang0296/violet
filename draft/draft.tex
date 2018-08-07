@@ -1,4 +1,7 @@
-\documentclass[final,5p,times]{elsarticle}
+\documentclass[final,5p,times,twocolumn]{elsarticle}
+\usepackage[labelfont=bf,justification=raggedright]{caption}
+\captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
+\captionsetup[table]{labelsep=newline,font=footnotesize,singlelinecheck=false,skip=5pt}
 %\documentclass[final,5p,times,twocolumn]{elsarticle}
 	\setlength{\mathindent}{3cm}
 	\usepackage{lineno,hyperref}
@@ -20,7 +23,7 @@
 	%\bibliographystyle{model1a-num-names}
 	
 	%% Harvard
-	\bibliographystyle{elsarticle-num.bst}
+\bibliographystyle{elsarticle-num.bst}
 \modulolinenumbers[5]
 \journal{Materials and Design}
 %%%%%%%%%%%%%%%%%%%%%%%
@@ -49,6 +52,8 @@ TiAl alloy has been used as structural material in aviation industry because its
 
 \begin{table}[h]
 	\centering
+	\caption{Parameters of  nanocrystalline}
+
 	\begin{tabular}{l c c l}
 			\hline
 			Phase			& Space group		& Designation		& Parameters \\
@@ -59,7 +64,6 @@ TiAl alloy has been used as structural material in aviation industry because its
 			 				&					&					& $c$ = 0.4062 \\			
 			\hline
 	\end{tabular}
-	\caption{Parameters of  Nanocrystallin}
 	\label{Tab:model-parameter}
 	\end{table}
 
@@ -87,29 +91,27 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
 
-\subsection{data Analysis method}
-\paragraph{Cen}
+\subsection{Analysis method}
+\paragraph{CSP}
 In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \cite{} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
-
-
-where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) defined by \ref{eq:csp} is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.<Details> It is shown as follows:
 
 \begin{equation} \label{eq:csp} 
 	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2
-	\end{equation}
+\end{equation}
+
+where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.
 	
-\paragraph{stress}
+\paragraph{Virial Stress}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
-
 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/process-ia}
 	\label{fig:process.ia}
-	\caption{Fracture process of specimem with void in $\alpha$ pahse}
+	\caption{Fracture process of specimen with void in $\alpha$ phase}
 \end{figure}
 
 \section{Results and Discussion}
