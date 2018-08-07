@@ -1,10 +1,10 @@
-%\documentclass[review]{elsarticle}
-\documentclass[final,5p,times,twocolumn]{elsarticle}
-
+\documentclass[final,5p,times]{elsarticle}
+%\documentclass[final,5p,times,twocolumn]{elsarticle}
+	\setlength{\mathindent}{3cm}
 	\usepackage{lineno,hyperref}
 	\modulolinenumbers[5]
 	
-	\journal{Journal of \LaTeX\ Templates}
+	\journal{Computational Materaials Science}
 	
 	%%%%%%%%%%%%%%%%%%%%%%%
 	%% Elsevier bibliography styles
@@ -43,29 +43,39 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 
 \section{Introduction}
 TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{Xiong2015}. However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{intro-structure}.
+
+\section{Molecular Dynamics Simulation }
+\subsection{Model Creation of Crystalline}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{l c c l}
+			\hline
+			Phase			& Space group		& Designation		& Parameters \\
+			\hline
+			$\alpha_2$		& $\rm P6_3/mmc$ 	& $\rm 0_{19}$ 		& $a$ = 0.5765 \\
+							&					&					& $c$ = 0.46833 \\
+			$\gamma$		& $\rm tP4$ 		& $\rm L1_0$		& $a$ = 0.3997 \\
+			 				&					&					& $c$ = 0.4062 \\			
+			\hline
+	\end{tabular}
+	\caption{Parameters of  Nanocrystallin}
+	\label{Tab:model-parameter}
+	\end{table}
+
+
+
+
+$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/cell}
 	%\label{fig:cell}
 	\caption{units cell}
 \end{figure}
-\subsection{Model creation of nanocrystalline}
 
-\begin{table}[h]
-	\centering
-	\caption{Parameters of  Nanocrystallin}
-	\begin{tabular}{l*{6}{c}r}
-			\hline
-			Phase			& Space group		& Designation		& Lattice parameters \\
-			\hline
-			$\alpha_2$		& $\rm P6_3/mmc$ 	& $\rm 0_{19}$ 		& a=0.5765 c=0.46833  \\
-			$\gamma$		& $\rm tP4$ 		& $\rm L1_0$			& a = 0.3997 c=0.4062 \\
-			\hline
-	\end{tabular}
-	\label{Tab:model-parameter}
-	\end{table}
 
-$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/pf_model_labeled}
@@ -80,13 +90,19 @@ The interaction of particle in the material is determined by interatomic potenti
 \subsection{data Analysis method}
 \paragraph{Cen}
 In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \cite{} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
-$$P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2$$
-where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.<Details>
+
+
+where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) defined by \ref{eq:csp} is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.<Details> It is shown as follows:
+
+\begin{equation} \label{eq:csp} 
+	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2
+	\end{equation}
+	
 \paragraph{stress}
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
-\section{Molecular dynamics simulation}
+
 
 
 \begin{figure}
