@@ -2,6 +2,8 @@
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
+#csfont = {'fontname':'Times New Roman'}
+plt.rcParams["font.family"] = "Times New Roman"
 
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
@@ -19,7 +21,11 @@ p4 = plt.plot(ds4.step, ds4.stress, label='ia')
 
 plt.title('stress-strain curve')
 plt.xlabel('Step')
+plt.xlim(xmax=3e5)
 plt.ylabel('Stress (GPa)')
-plt.legend()
+plt.legend(frameon=False)
+plt.savefig('/home/alex/violet/draft/img/allline.pdf')
 plt.show()
-
+#/home/alex/violet/all.line.pdf
+#/home/alex/violet/code/pict/area.png
+#/home/alex/violet/draft/img/ag.png

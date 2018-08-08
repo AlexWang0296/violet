@@ -9,6 +9,7 @@
 			"captionsetup",
 			"labelsep",
 			"singlelinecheck"
-		]
+		],
+		"python.pythonPath": "/home/alex/anaconda3/envs/py35/bin/python"
 	}
 }
