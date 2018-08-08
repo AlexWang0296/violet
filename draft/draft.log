@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.8)  8 AUG 2018 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.8)  8 AUG 2018 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -518,47 +518,47 @@ Overfull \hbox (1.90001pt too wide) has occurred while \output is active
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 96.
+(hyperref)                removing `\alpha' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 96.
+(hyperref)                removing `\gamma' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 96.
+(hyperref)                removing `subscript' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 96.
+(hyperref)                removing `math shift' on input line 95.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -567,57 +567,56 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 <img/allline.pdf, id=65, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
-Package pdftex.def Info: img/allline.pdf  used on input line 123.
+Package pdftex.def Info: img/allline.pdf  used on input line 122.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 <img/ialine.pdf, id=66, 462.52798pt x 346.89601pt>
 File: img/ialine.pdf Graphic file (type pdf)
 <use img/ialine.pdf>
-Package pdftex.def Info: img/ialine.pdf  used on input line 133.
+Package pdftex.def Info: img/ialine.pdf  used on input line 132.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 <img/agline.pdf, id=67, 462.52798pt x 346.89601pt>
 File: img/agline.pdf Graphic file (type pdf)
 <use img/agline.pdf>
-Package pdftex.def Info: img/agline.pdf  used on input line 140.
+Package pdftex.def Info: img/agline.pdf  used on input line 139.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+<img/crack_surf.pdf, id=68, 462.52798pt x 346.89601pt>
+File: img/crack_surf.pdf Graphic file (type pdf)
+<use img/crack_surf.pdf>
+Package pdftex.def Info: img/crack_surf.pdf  used on input line 147.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ (./draft.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
  [2 <./img/allline.pdf> <./img/ialine.pdf
 
 pdfTeX warning: pdflatex (file ./img/ialine.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
-> <./img/agline.pdf
+>] [3
 
-pdfTeX warning: pdflatex (file ./img/agline.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
+ <./img/agline.pdf> <./img/crack_surf.pdf
+
+pdfTeX warning: pdflatex (file ./img/crack_surf.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
 >]
-<img/crack_surf.pdf, id=173, 462.52798pt x 346.89601pt>
-File: img/crack_surf.pdf Graphic file (type pdf)
-<use img/crack_surf.pdf>
-Package pdftex.def Info: img/crack_surf.pdf  used on input line 148.
-(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- (./draft.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
- [3
-
- <./img/crack_surf.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `draft.out' has not changed.
 (rerunfilecheck)             Checksum: A6F1BE6486947C79830B7A30A5AB8A52;606.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 8161 strings out of 494923
- 120338 string characters out of 6180743
- 212372 words of memory out of 5000000
- 11334 multiletter control sequences out of 15000+600000
+ 8163 strings out of 494923
+ 120375 string characters out of 6180743
+ 211510 words of memory out of 5000000
+ 11336 multiletter control sequences out of 15000+600000
  43530 words of font info for 106 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,9n,39p,1214b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,9n,39p,1214b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts
@@ -627,7 +626,7 @@ sy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on draft.pdf (3 pages, 1579705 bytes).
+Output written on draft.pdf (3 pages, 1579583 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams
