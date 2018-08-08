@@ -1,11 +1,13 @@
-\documentclass[final,5p,times,twocolumn]{elsarticle}
+\documentclass[final,5p,times,onecolumn]{elsarticle}
+%\documentclass[]{elsarticle}
 \usepackage[labelfont=bf,justification=raggedright]{caption}
 \captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
 \captionsetup[table]{labelsep=newline,font=footnotesize,singlelinecheck=false,skip=5pt}
 %\documentclass[final,5p,times,twocolumn]{elsarticle}
-	\setlength{\mathindent}{3cm}
-	\usepackage{lineno,hyperref}
-	\modulolinenumbers[5]
+\setlength{\mathindent}{3cm}
+%Function format
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
 	
 	\journal{Computational Materaials Science}
 	
@@ -49,22 +51,20 @@ TiAl alloy has been used as structural material in aviation industry because its
 
 \section{Molecular Dynamics Simulation }
 
+\subsection{Model Creation of Crystalline}
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/cell}
-	\label{fig:unit_cell}
 	\caption{unit cell}
+	\label{fig:unit_cell}
 \end{figure}
-
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/pf_model_labeled}
+	\includegraphics[width=1\linewidth]{img/pf_model_labeled}
 	\caption{Simulation box}
 	\label{fig:simulation_box}
-\subsection{Model Creation of Crystalline}
-
-
 \end{figure}
 
 \begin{table}[h]
@@ -92,7 +92,9 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
-
+\begin{equation} \label{eq:eam} 
+	E= \displaystyle\sum
+\end{equation}
 \subsection{Analysis method}
 \paragraph{CSP}
 In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \cite{} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
@@ -108,20 +110,20 @@ The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
  
-
+\subsection{Decrease of Strength}
 
 The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2} / \gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree ref{}.
-2. The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
-3.Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
-\subsection{Decrease of Strength}
+The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
+
+Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/allline}
-	\label{fig:allline}
 	\caption{Fracture process of specimen with void in $\alpha$ phase}
+	\label{fig:all_line}
 \end{figure}
 
 \section{Results and Discussion}
@@ -130,27 +132,29 @@ The existence of void detract the strength, and the void inside $\alpha$ phase g
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/ialine}
-	\label{fig:ialine}
 	\caption{stress-strain curve}
+	\label{fig:ia_line}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/agline}
-	\label{fig:agline}
 	\caption{stress-strain curve}
+	\label{fig:ag_line}
 \end{figure}
 
 \subsection{Fracture Process}
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/crack_surf}
-	\label{fig:agline}
+	\label{fig:surf}
 	\caption{stress-strain curve}
 \end{figure}
 
+\section{Conclusion}
 %\bibliographystyle{elsarticle-num.bst}
+
 \bibliography{ref/VIOLET-ref}
-%Fig.\cite{fig:stress}.
 
 \end{document}
