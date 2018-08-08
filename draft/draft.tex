@@ -84,17 +84,15 @@ TiAl alloy has been used as structural material in aviation industry because its
 	\label{tab:lattice_parameter}
 	\end{table}
  
-
-
 $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
-
-
 
 \subsection{Atomic potential}
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method, due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study, which is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
+
 \begin{equation} \label{eq:eam} 
 	E= \displaystyle\sum
 \end{equation}
+
 \subsection{Analysis method}
 \paragraph{CSP}
 In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \cite{} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
@@ -110,14 +108,7 @@ The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
  
-\subsection{Decrease of Strength}
 
-The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.
-1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2} / \gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree ref{}.
-
-The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
-
-Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
 \begin{figure}
 	\centering
@@ -127,7 +118,16 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 \end{figure}
 
 \section{Results and Discussion}
-\subsection{The influence of void on strength of TiAl alloy}
+%\subsection{The influence of void on strength of TiAl alloy}
+\subsection{Decrease of Strength}
+
+The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.
+1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}.
+
+
+The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
+ 
+Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
 \begin{figure}
 	\centering
