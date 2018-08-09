@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.9)  9 AUG 2018 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.9)  9 AUG 2018 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,7 +229,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip47
 )
-(./draft.aux)
+No file draft.aux.
 \openout1 = `draft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
@@ -246,7 +246,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
-
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
@@ -294,8 +293,6 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
-
-(./draft.out) (./draft.out)
 \@outlinefile=\write4
 \openout4 = `draft.out'.
 
@@ -362,12 +359,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<img/cell.png, id=61, 381.1038pt x 136.8312pt>
+<img/cell.png, id=22, 381.1038pt x 136.8312pt>
 File: img/cell.png Graphic file (type png)
 <use img/cell.png>
 Package pdftex.def Info: img/cell.png  used on input line 68.
 (pdftex.def)             Requested size: 345.0pt x 123.87141pt.
-<img/pf_model_labeled.png, id=63, 688.974pt x 542.025pt>
+<img/pf_model_labeled.png, id=24, 688.974pt x 542.025pt>
 File: img/pf_model_labeled.png Graphic file (type png)
 <use img/pf_model_labeled.png>
 Package pdftex.def Info: img/pf_model_labeled.png  used on input line 75.
@@ -377,44 +374,70 @@ Package pdftex.def Info: img/pf_model_labeled.png  used on input line 75.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./img/cell.png>] [3 <./img/pf_model_labeled.png>] [4]
-<img/allline.pdf, id=86, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=48, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
 Package pdftex.def Info: img/allline.pdf  used on input line 126.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
  [5] [6 <./img/allline.pdf>]
-<img/ialine.pdf, id=132, 462.52798pt x 346.89601pt>
+<img/ialine.pdf, id=99, 462.52798pt x 346.89601pt>
 File: img/ialine.pdf Graphic file (type pdf)
 <use img/ialine.pdf>
 Package pdftex.def Info: img/ialine.pdf  used on input line 144.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
-<img/agline.pdf, id=133, 462.52798pt x 346.89601pt>
+<img/agline.pdf, id=100, 462.52798pt x 346.89601pt>
 File: img/agline.pdf Graphic file (type pdf)
 <use img/agline.pdf>
 Package pdftex.def Info: img/agline.pdf  used on input line 151.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
-<img/crack_surf.pdf, id=134, 462.52798pt x 346.89601pt>
+
+
+LaTeX Warning: Reference `fig:' on page 7 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:' on page 7 undefined on input line 161.
+
+<img/crack_surf.pdf, id=101, 462.52798pt x 346.89601pt>
 File: img/crack_surf.pdf Graphic file (type pdf)
 <use img/crack_surf.pdf>
-Package pdftex.def Info: img/crack_surf.pdf  used on input line 160.
+Package pdftex.def Info: img/crack_surf.pdf  used on input line 166.
 (pdftex.def)             Requested size: 345.0pt x 258.76337pt.
- (./draft.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
- [7] [8 <./img/ialine.pdf>] [9 <./img/agline.pdf>] [10 <./img/crack_surf.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+<img/1stdiv.pdf, id=102, 462.52798pt x 346.89601pt>
+File: img/1stdiv.pdf Graphic file (type pdf)
+<use img/1stdiv.pdf>
+Package pdftex.def Info: img/1stdiv.pdf  used on input line 173.
+(pdftex.def)             Requested size: 345.0pt x 258.76337pt.
+No file draft.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+[7] [8 <./img/ialine.pdf>] [9 <./img/agline.pdf>] [10 <./img/crack_surf.pdf>]
+[11 <./img/1stdiv.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
  (./draft.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
-Package rerunfilecheck Info: File `draft.out' has not changed.
-(rerunfilecheck)             Checksum: CACC7C81C4CC385E29148FCB7394E809;555.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+
+
+Package rerunfilecheck Warning: File `draft.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `draft.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  EF106768EE5458D2E3EE9EF848E06264;619.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
  ) 
 Here is how much of TeX's memory you used:
- 6896 strings out of 492649
- 104112 string characters out of 6129608
- 199074 words of memory out of 5000000
- 10700 multiletter control sequences out of 15000+600000
- 8508 words of font info for 30 fonts, out of 8000000 for 9000
+ 6874 strings out of 492649
+ 103850 string characters out of 6129608
+ 198463 words of memory out of 5000000
+ 10687 multiletter control sequences out of 15000+600000
+ 8340 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,9n,39p,1214b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -433,12 +456,11 @@ e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on draft.pdf (10 pages, 1717388 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on draft.pdf (11 pages, 1714950 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
