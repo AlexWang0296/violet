@@ -24,7 +24,7 @@ for img in dv1st:
 plt.title('1st Deviation of Area of Surface of Crack')
 plt.xlabel('strain')
 plt.ylabel('area of crack surface')
-plt.xlim(xmax=70)
+plt.xlim(xmax=50)
 plt.legend(["ag", "ia", "ig", "pf"],frameon=False)
 plt.savefig(os.path.join(writepath,'1stdiv.pdf'))
 
