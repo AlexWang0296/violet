@@ -5,9 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','surf')
-writepath = os.path.join(WDIR,'draft','img')
+#WDIR = os.getcwd()
+WDIR = os.path.dirname(__file__)
+loadpath = os.path.join(WDIR,'data','surf')
+#writepath = os.path.join(WDIR,'draft','img')
+writepath = os.path.join(WDIR,'..','draft','img')
 
 #plt.savefig(os.path.join(WDIR,'draft','img','surf.pdf'))
 #loadpath = os.path.join(WDIR,'code','data','surf')

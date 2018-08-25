@@ -5,8 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','surf')
+WDIR = os.path.dirname(__file__)
+loadpath = os.path.join(WDIR,'data','surf')
+writepath = os.path.join(WDIR,'..','draft','img')
 #plt.savefig(os.path.join(WDIR,'draft','img','surf.pdf'))
 #loadpath = os.path.join(WDIR,'code','data','surf')
 ag = np.loadtxt(os.path.join(loadpath,'surf_ag.txt'))
@@ -22,7 +23,7 @@ plt.title('Growth of Crack')
 plt.xlabel('strain')
 plt.ylabel('area of crack surface')
 plt.legend(["ag", "ia", "ig", "pf"],frameon=False)
-plt.savefig(os.path.join(WDIR,'draft','img','surf.pdf'))
-#plt.show()
+plt.savefig(os.path.join(writepath,'surf.pdf'))
+plt.show()
 
 

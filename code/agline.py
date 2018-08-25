@@ -6,8 +6,8 @@ import pandas as pd
 from os import listdir
 
 WDIR = os.path.dirname(__file__)
-writepath = os.path.join(WDIR,'..','draft','img')
 loadpath = os.path.join(WDIR,'data','stress_strain')
+writepath = os.path.join(WDIR,'..','draft','img')
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
 # import data from .csv file:
