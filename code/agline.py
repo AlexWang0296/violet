@@ -3,13 +3,11 @@ import os
 import os.path
 import matplotlib.pyplot as plt
 import pandas as pd
+from os import listdir
 
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','stress_strain')
-writepath = os.path.join(WDIR,'draft','img')
-
-
-
+WDIR = os.path.dirname(__file__)
+writepath = os.path.join(WDIR,'..','draft','img')
+loadpath = os.path.join(WDIR,'data','stress_strain')
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
 # import data from .csv file:
