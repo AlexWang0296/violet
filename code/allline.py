@@ -28,7 +28,8 @@ plt.xlim(xmax=3e5)
 plt.ylabel('Stress (GPa)')
 plt.legend(frameon=False)
 plt.savefig(os.path.join(writepath,'allline.pdf'))
-#plt.show()
-#/home/alex/violet/all.line.pdf
-#/home/alex/violet/code/pict/area.png
-#/home/alex/violet/draft/img/ag.png
+
+# plt.show()
+# /home/alex/violet/all.line.pdf
+# /home/alex/violet/code/pict/area.png
+# /home/alex/violet/draft/img/ag.png
