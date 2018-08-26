@@ -1,13 +1,29 @@
 # 读取输出文件，绘制应力应变曲线
+'''
+violet
+├── code
+│   ├── data
+│   │   ├── size
+│   │   ├── stress_strain
+│   │   └── surf
+│   └── pict
+└── draft
+    ├── bkp
+    ├── img
+    ├── material
+    └── ref
+'''
+
 import os
 import os.path
+from os import listdir
 import matplotlib.pyplot as plt
 import pandas as pd
 #csfont = {'fontname':'Times New Roman'}
 #plt.rcParams["font.family"] = "Times New Roman"
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','stress_strain')
-writepath = os.path.join(WDIR,'draft','img')
+WDIR = os.path.dirname(__file__)
+loadpath = os.path.join(WDIR,'data','stress_strain')
+writepath = os.path.join(WDIR,'..','draft','img')
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
 # import data from .csv file:
@@ -27,8 +43,9 @@ plt.xlabel('Step')
 plt.xlim(xmax=3e5)
 plt.ylabel('Stress (GPa)')
 plt.legend(frameon=False)
-plt.savefig(os.path.join(writepath,'allline.pdf'))
-#plt.show()
-#/home/alex/violet/all.line.pdf
-#/home/alex/violet/code/pict/area.png
-#/home/alex/violet/draft/img/ag.png
+plt.savefig(os.path.join(writepath, 'allline.pdf'))
+
+# plt.show()
+# /home/alex/violet/all.line.pdf
+# /home/alex/violet/code/pict/area.png
+# /home/alex/violet/draft/img/ag.png

@@ -5,9 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','surf')
-writepath = os.path.join(WDIR,'draft','img')
+#WDIR = os.getcwd()
+WDIR = os.path.dirname(__file__)
+loadpath = os.path.join(WDIR,'data','surf')
+#writepath = os.path.join(WDIR,'draft','img')
+writepath = os.path.join(WDIR,'..','draft','img')
 
 #plt.savefig(os.path.join(WDIR,'draft','img','surf.pdf'))
 #loadpath = os.path.join(WDIR,'code','data','surf')
@@ -24,7 +26,7 @@ for img in dv1st:
 plt.title('1st Deviation of Area of Surface of Crack')
 plt.xlabel('strain')
 plt.ylabel('area of crack surface')
-plt.xlim(xmax=70)
+plt.xlim(xmax=50)
 plt.legend(["ag", "ia", "ig", "pf"],frameon=False)
 plt.savefig(os.path.join(writepath,'1stdiv.pdf'))
 

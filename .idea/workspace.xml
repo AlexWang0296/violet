@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0439c09c-e7fa-490b-89db-f90e7af4bc7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/surf_div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.aux" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.blg" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.blg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.log" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.out" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.tex" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/img/surf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/surf.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/Falcon.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/Falcon.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/surf_div.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/surf_div.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/img/1stdiv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/1stdiv.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/IBIS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/IBIS.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-fracture.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-fracture.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/app.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/app.bib" afterDir="false" />
@@ -26,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/汇报.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/汇报.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/程序教程.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/组内发表.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/组内发表.bib" afterDir="false" />
@@ -41,40 +29,44 @@
     <session id="-1657594785">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="18" />
+          <entry key="Python Console" value="74" />
           <entry key="py" value="313" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="331" />
+          <entry key="Python" value="387" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/SigLinePlt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="297">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -86,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/agline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="675">
               <caret line="28" column="25" selection-start-line="28" selection-end-line="29" />
             </state>
           </provider>
@@ -96,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/code/allline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -104,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/surf_div.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="81">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -144,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,16 +236,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18358532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" visible="true" weight="0.33370662" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -261,12 +248,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" sideWeight="0.067226894" side_tool="true" visible="true" weight="0.3477322" />
-      <window_info anchor="right" id="SciView" sideWeight="0.9327731" visible="true" weight="0.3477322" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33818588" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.3477322" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.07445008" side_tool="true" visible="true" weight="0.3477322" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +267,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/surf_div.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/code/surfidt.py">
@@ -286,16 +290,9 @@
     <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/numpy/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/allline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/SigLinePlt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="297">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -305,15 +302,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/agline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="675">
           <caret line="28" column="25" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/allline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/surf_div.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="81">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

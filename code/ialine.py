@@ -3,9 +3,13 @@ import os
 import matplotlib.pyplot as plt
 import pandas as pd
 #csfont = {'fontname':'Times New Roman'}
-WDIR = os.getcwd()
-loadpath = os.path.join(WDIR,'code','data','stress_strain')
-writepath = os.path.join(WDIR,'draft','img')
+#WDIR = os.getcwd()
+#loadpath = os.path.join(WDIR,'code','data','stress_strain')
+#writepath = os.path.join(WDIR,'draft','img')
+
+WDIR = os.path.dirname(__file__)
+loadpath = os.path.join(WDIR,'data','stress_strain')
+writepath = os.path.join(WDIR,'..','draft','img')
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
 # import data from .csv file:
@@ -24,7 +28,7 @@ plt.xlim(1e5,2e5)
 #plt.lim(-6,6)
 #plt.legend()
 plt.savefig(os.path.join(writepath,'ialine.pdf'))
-#plt.show()
+plt.show()
 #/home/alex/violet/all.line.pdf
 #/home/alex/violet/code/pict/area.png
 #/home/alex/violet/draft/img/ag.png
