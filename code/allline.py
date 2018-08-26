@@ -19,6 +19,8 @@ import os.path
 from os import listdir
 import matplotlib.pyplot as plt
 import pandas as pd
+plt.rcParams["font.family"] = 'Times New Roman'
+
 #csfont = {'fontname':'Times New Roman'}
 #plt.rcParams["font.family"] = "Times New Roman"
 WDIR = os.path.dirname(__file__)
@@ -45,7 +47,7 @@ plt.ylabel('Stress (GPa)')
 plt.legend(frameon=False)
 plt.savefig(os.path.join(writepath, 'allline.pdf'))
 
-# plt.show()
+plt.show()
 # /home/alex/violet/all.line.pdf
 # /home/alex/violet/code/pict/area.png
 # /home/alex/violet/draft/img/ag.png

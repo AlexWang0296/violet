@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/alex/anaconda3/bin/python",
+    "python.pythonPath": "/home/alex/anaconda3/envs/py35/bin/python",
     "cSpell.words": [
         "csfont",
         "getcwd",
