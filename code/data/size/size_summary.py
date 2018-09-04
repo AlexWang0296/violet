@@ -14,7 +14,7 @@ violet
 '''
 import os
 import matplotlib.pyplot as plt
-plt.rcParams["font.family"] = 'Times New Roman'
+# plt.rcParams["font.family"] = 'Times New Roman'
 
 WDIR = os.path.dirname(__file__)
 writepath = os.path.join(WDIR,'..','..','..','draft','img')

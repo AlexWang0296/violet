@@ -1,4 +1,4 @@
-\documentclass[review]{elsarticle}
+\documentclass[times]{elsarticle}
 %\documentclass[]{elsarticle}
 \usepackage[labelfont=bf,justification=raggedright]{caption}
 \captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
@@ -20,8 +20,8 @@
 	
 	%% Numbered
 	%\bibliographystyle{model1-num-names}
-	
-	%% Numbered without titles
+
+	%% Numbered without titles2
 	%\bibliographystyle{model1a-num-names}
 	
 	%% Harvard
@@ -40,9 +40,11 @@
 \begin{abstract}
  The fracture processes of nanocrystalline metallic materia is affected by dislocation, nanovoid and other defects. Existing studies of defect evolution in titanium-aluminium alloy cover the case that voids located in single crystals, inside grain in poly crystals and at the grain boundaries.Molecular dynamics simulation was performed to study the evolution of a spherical nanovoid in $\alpha$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension. The results show that voids located at the $\alpha$/$\gamma$ phase boundary have significant detract to strength of Ti-Al polycrystalline.
 \end{abstract}
+
 \begin{keyword}
 $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 \end{keyword}
+
 \end{frontmatter}
 \linenumbers
 
@@ -61,21 +63,17 @@ lamellae[R].
 
 \section{Molecular Dynamics Simulation }
 
+\subsection{Atomic Potential}
+The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation.
+
+\begin{equation} \label{eq:eam} 
+	E= \displaystyle\sum
+\end{equation}
+
 \subsection{Model Creation of Crystalline}
+$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cells are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions (PBC)are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is  $L_x = $ nm, $L_y = $ nm, $L_z = $ nm, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{img/cell}
-	\caption{unit cell}
-	\label{fig:unit_cell}
-\end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{img/pf_model_labeled}
-	\caption{Simulation box}
-	\label{fig:simulation_box}
-\end{figure}
 
 \begin{table}[h]
 \centering
@@ -94,20 +92,9 @@ lamellae[R].
 	\label{tab:lattice_parameter}
 \end{table}
  
-$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cell are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase poly crystal with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions are applied along all three directions, that makes poly crystal with periodic nanovoid structures. Each cuboidal model, containing about 4.6 million atoms,The initial dimension of simulation cell is  $L_x = nm$, $L_y =  nm$, $L_z =  nm$. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
-
-\subsection{Atomic Potential}
-The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature(NPT) molecular dynamics simulation.
-
-
-\begin{equation} \label{eq:eam} 
-	E= \displaystyle\sum
-\end{equation}
-
 \subsection{Analysis method}
 \paragraph{CSP}
-In view of the fact that dislocations cannot be easily spotted in a three-dimensional crystal, a centrosymmetry parameter \cite{} is used to identify the nucleation and propagation of dislocations. The said centrosymmetry parameter is defined as follow:
-
+The centrosymmetry parameter is defined as follow:
 \begin{equation} \label{eq:csp} 
 	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2
 \end{equation}
@@ -121,17 +108,10 @@ $$\sigma_t(i)= $$
  
 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{img/allline}
-	\caption{Fracture process of specimen with void in $\alpha$ phase}
-	\label{fig:all_line}
-\end{figure}
 
-\section{Results and Discussion}
-%\subsection{The influence of void on strength of TiAl alloy}
-\subsection{Decrease of Strength}
-
+\subsection{Fracture Process}
+\paragraph{initiation of crack}
+\paragraph{fracture process}
 The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}.
 
@@ -139,19 +119,6 @@ The core of  a dislocation intersecting an interface often needs to be transform
  
 Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamellae, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{img/ialine}
-	\caption{stress-strain curve}
-	\label{fig:ia_line}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=1\linewidth]{img/agline}
-	\caption{stress-strain curve}
-	\label{fig:ag_line}
-\end{figure}
 
 %\subsection{Fracture Process with Integranular Void }
 
@@ -160,17 +127,67 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 \subsection{Evolution of spherical boid in the simulation with intragranular spherical voids}
 A step, of the width of a burgers vector, will be generated at both sidesof a crystal along teh direction of teh burgers vector after dislocation traversing teh entire crystal, as is shown in \ref{fig:}. A small tep will be formed at spherical void surface toward teh void interiorafter dislocation absorptionat sphericalvoid surfaces, as is shown in \ref{fig:}. If a great number of dislocation slip along their respective systemstowards teh spherical nanovoid in all directions, and are absorbed at spherical void surfaces, the spherical nanovoid will eventually shrink from teh dash circle to 
 
-
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{img/crack_surf}
-	\label{fig:surf}
-	\caption{stress-strain curve}
+	\includegraphics[width=0.7\linewidth]{img/cell}
+	\caption{unit cell}
+	\label{fig:unit_cell}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\linewidth]{img/1stdiv}
+	\includegraphics[width=0.7\linewidth]{img/pf_model_labeled}
+	\caption{Simulation box}
+	\label{fig:simulation_box}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/allline}
+	\caption{Fracture process of specimen with void in $\alpha$ phase}
+	\label{fig:all_line}
+\end{figure}
+
+\section{Results and Discussion}
+%\subsection{The influence of void on strength of TiAl alloy}
+\subsection{Effect of Void Size}
+\paragraph{size}
+\paragraph{position}
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{"img/fracture process"}
+	\caption{}
+	\label{fig:fracture-process}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
+	\caption{}
+	\label{fig:effectofvol}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/ialine}
+	\caption{stress-strain curve}
+	\label{fig:ia_line}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/agline}
+	\caption{stress-strain curve}
+	\label{fig:ag_line}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/1stdiv}
 	\label{fig:surf}
 	\caption{stress-strain curve}
 \end{figure}
