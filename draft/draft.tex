@@ -107,6 +107,7 @@ $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
  
 
+\section{Results and Discussion}
 
 
 \subsection{Fracture Process}
@@ -125,7 +126,7 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 %\subsection{Fracture Process with Intergranular Void }
 
 \subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
-A step, of the width of a burgers vector, will be generated at both sidesof a crystal along teh direction of teh burgers vector after dislocation traversing teh entire crystal, as is shown in \ref{fig:}. A small tep will be formed at spherical void surface toward teh void interiorafter dislocation absorptionat sphericalvoid surfaces, as is shown in \ref{fig:}. If a great number of dislocation slip along their respective systemstowards teh spherical nanovoid in all directions, and are absorbed at spherical void surfaces, the spherical nanovoid will eventually shrink from teh dash circle to 
+A step, of the width of a burgers vector, will be generated at both sidesof a crystal along teh direction of teh burgers vector after dislocation traversing teh entire crystal, as is shown in \ref{fig:}. A small tep will be formed at spherical void surface toward teh void interiorafter dislocation absorptionat sphericalvoid surfaces, as is shown in \ref{fig:}. If a great number of dislocation slip along their respective systemstowards teh spherical nanovoid in all directions, and are absorbed at spherical void surfaces, the spherical nanovoid will eventually shrink from teh dash circle to
 
 \begin{figure}
 	\centering
@@ -149,11 +150,32 @@ A step, of the width of a burgers vector, will be generated at both sidesof a cr
 	\label{fig:all_line}
 \end{figure}
 
-\section{Results and Discussion}
 %\subsection{The influence of void on strength of TiAl alloy}
+
+\begin{figure}
+	\centering
+ 	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
+	\caption{}
+	\label{fig:voleff}
+\end{figure}
+
 \subsection{Effect of Void Size}
 \paragraph{size}
-\paragraph{position}
+Voids with different size: 2A, 5A, 10A, 15A were placed into the model respectively. It has been observed that  voids detracts the strengths of the material. The max stress stress of the simulation cell decreases as the volume of voids are lareger. From Fig \ref{fig:voleff}, there is a critical value of void radius about 15A, the void greater than 15A cause serious detraction of strength of material. 
+Engineering stress is calculated
+$$ \sigma = S/A$$
+The rate of decrease of loading area are smaller comparing with the detraction of strength, so it can be assumed that the yield yield behaviour and strength is much more related with local behaviour of grain boundaries and void.
+
+Grain and phase boundaris are obstancles to deformation process, thus the stability of boundaries have great impact on the strength of materials. Interactive between grainboundary and void determins the fracture mode of the TiAl alloy.
+
+According to Schmid's law:
+$$\tau = \sigma*m$$
+where m is the Schmid factor :
+$$ m = cos(\phi)cos(\lambda)$$
+
+\paragraph{position}critical void 
+The location of void affects strength of material. Comparing with the model with integranular void, the model with intergranular voids is weaker. atomic stress is calculated 
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{"img/fracture process"}
@@ -162,12 +184,6 @@ A step, of the width of a burgers vector, will be generated at both sidesof a cr
 \end{figure}
 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
-	\caption{}
-	\label{fig:effectofvol}
-\end{figure}
 
 
 \begin{figure}
