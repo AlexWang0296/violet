@@ -1,0 +1,10 @@
+Figure 6.31 Quantitative representation of the simulations shown in Figure 6.30 . At the nominal strain ε = 0.002, about 5 per cent of the volume remains elastic, while in 80 per cent of the grains the effective plastic strain
+ε p is less than the nominal strain ε . At ε = 0.01, ε p is higher than ε in about 72
+per cent of the grains. Results provided by Brockman [113] .
+interface - related glide processes, and (iii) lack of information about the relative importance of lamellar spacing, colony size, domain size, lamellar spacing, and separation distance of α 2
+lamellae. 
+
+
+The failure modes of materials have significant influence on the design of material properties in materials science. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions [1].These defects are known to play a fundamental role in the deformation of the material. Nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important. Therefore, it is necessary to study the deformation response of porous materials with the consideration of microstructure evolution.
+
+Most previous work on void growth studies, both experimental and simulation approaches, have been used to better describe ductile fracture processes.Furthermore, some numerical methods, such as crystal plasticity finite element method [2–7], dislocation dynamics and molecular dynamics [8–19], have been used to reveal the mechanism of void growth.
