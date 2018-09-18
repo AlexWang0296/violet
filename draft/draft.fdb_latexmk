@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex draft"] 1537275421 "draft.aux" "draft.bbl" "draft" 1537275422
-  "draft.aux" 1537275421 5163 f95b05b3fe3ebb98b4b1b712a25473b0 ""
+["bibtex draft"] 1537279471 "draft.aux" "draft.bbl" "draft" 1537279489
+  "draft.aux" 1537279489 5223 09733c927b2237caaa49d96d47a3af4a ""
   "draft.bcf" 0 -1 0 ""
   "elsarticle-num.bst.bst" 0 -1 0 ""
   "ref/VIOLET-ref.bib" 1537003778 11306 04dfde7aad3f51802865c63410d1dbdb ""
   (generated)
-  "draft.blg"
   "draft.bbl"
-["pdflatex"] 1537275421 "/home/alex/Documents/violet/draft/draft.tex" "draft.pdf" "draft" 1537275422
+  "draft.blg"
+["pdflatex"] 1537279489 "/home/alex/Documents/violet/draft/draft.tex" "draft.pdf" "draft" 1537279489
   "/etc/texmf/web2c/texmf.cnf" 1536927869 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alex/Documents/violet/draft/draft.tex" 1537275421 14990 83fc8767a7b71648f7cecee7d4f6522b ""
+  "/home/alex/Documents/violet/draft/draft.tex" 1537279488 15086 6be7923510bfa174bdf3d2953fe5d500 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1480098701 768 1321e9409b4137d6fb428ac9dc956269 ""
@@ -40,6 +40,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb" 1480098746 6339 e2b78706efdc360ee6aec9b6e20211a7 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb" 1480098746 17531 c91f2d6943f51d7c46d6b7b9cedd50ba ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb" 1480098746 20336 69267d8a81bca8b24c9b42694a4a28f9 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb" 1480098746 27693 bfb340b71292c6ead561e4943433945d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1480098746 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1480098746 44729 811d6c62865936705a31c797a1d5dada ""
   "/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1480098746 46026 6dab18b61c907687b520c72847215a68 ""
@@ -96,11 +97,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1536927902 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1536927913 4126966 cc970fa64fc3cfb13d1ec44052d99bc0 ""
-  "draft.aux" 1537275421 5163 f95b05b3fe3ebb98b4b1b712a25473b0 ""
-  "draft.bbl" 1537275421 656 a35f993aa65066eb5fca3809e58831e5 "bibtex draft"
-  "draft.out" 1537275421 776 144fe16f14efa519ce166f6421f9dd88 ""
-  "draft.spl" 1537275421 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "draft.tex" 1537275421 14990 83fc8767a7b71648f7cecee7d4f6522b ""
+  "draft.aux" 1537279489 5223 09733c927b2237caaa49d96d47a3af4a ""
+  "draft.bbl" 1537279471 656 a35f993aa65066eb5fca3809e58831e5 "bibtex draft"
+  "draft.out" 1537279489 776 144fe16f14efa519ce166f6421f9dd88 ""
+  "draft.spl" 1537279489 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "draft.tex" 1537279488 15086 6be7923510bfa174bdf3d2953fe5d500 ""
   "elsarticle.cls" 1537003778 31590 61d674822fe063421163554a72c5e445 ""
   "img/1stdiv.pdf" 1537003778 14803 8edcb865a2ea24d5523f0c93c903af27 ""
   "img/allline.pdf" 1537003778 35016 f7ea7077f9f3cd389b634bd847e74269 ""
@@ -113,8 +114,8 @@
   "img/frame2.pdf" 1537190492 172330 c2d0f8185507e07530088ea5e778ce80 ""
   "img/models.pdf" 1537274418 1666042 8ccbd70a059d0ac4068282a43d7bcfad ""
   (generated)
-  "draft.aux"
-  "draft.pdf"
+  "draft.spl"
   "draft.out"
   "draft.log"
-  "draft.spl"
+  "draft.pdf"
+  "draft.aux"
