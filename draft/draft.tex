@@ -1,5 +1,5 @@
 \documentclass[times]{elsarticle}
-\usepackage[margin=2cm]{geometry}
+\usepackage[margin=2.5cm]{geometry}
 %\documentclass[]{elsarticle}
 \usepackage[labelfont=bf,justification=raggedright]{caption}
 \captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
@@ -51,23 +51,11 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 
 \section{Introduction}
 \paragraph{Material}
-TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{vu2013}.However, single phase $\gamma-\rm TiAl$ generally brittle at room temperatures and this limits their use in many other fields.Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{}.
+TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{vu2013}. Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{}. Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine and combustion generator. 
 
-\paragraph{Void}
-Two phase titanium aluminide alloys exhibit a much better mechanical performance than their monolithic constituents $\gamma$(TiAl) and $\alpha_2$ (Ti3Al), provided that the phase distribution and grain size are suitably controlled. Two-phase titantium aliuminde alloys with proper phase distribution and grain size exhibit better mechanicalperformance compared with monolithicconstituents gamma and alpha[].
-Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine andcombustion generator.
+The failure modes of materials have significant influence on the design of material properties in materials science. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions \cite{}. These defects are known to play a fundamental role in the deformation of the material. Nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important. Therefore, it is necessary to study the deformation response of porous materials with the consideration of microstructure evolution.
 
-The failure modes of materials have significant influence on the design of material properties in materials science. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions [1].These defects are known to play a fundamental role in the deformation of the material. Nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important. Therefore, it is necessary to study the deformation response of porous materials with the consideration of microstructure evolution.
-
-
-Two phase titanium aluminide alloys exhibit a much better mechanical performance than their monolithic constituents $\gamma$(TiAl) and $\alpha_2$ (Ti3Al), provided that the phase distribution and grain size are suitably controlled. Two-phase titantium aliuminde alloys with proper phase distribution and grain size exhibit better mechanicalperformance compared with monolithicconstituents gamma and alpha[].
-Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine andcombustion generator[].Defects such as dislocation, void and segregation plays an significant role in the process of fracture[].In order to understanding the mechanism of brittle fracture, multi-scale methods from micro to marco scale have been applied to investigate the behavior of fracture. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale.
-A previous study on void growth in gamma-TiAl single crystal has reveals that void with high volume fraction detracts incipient yield strength [].
-Molecular dynamics(MD method has been use to investigate the evolution of void in materials in nano-
-scale[].
-The fracture mechanisms in the duplex micro-structure are plasticity-induced grain boundary de- cohesion
-and cleavage, while those in the lamellar microstructure are interface delamination and crack- ing across the
-lamellae[].
+Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine andcombustion generator[].Defects such as grainboundary, void and segregation plays an significant role in the process of fracture[].In order to understanding the mechanism of brittle fracture, multi-scale methods from micro to marco scale have been applied to investigate the behavior of fracture. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale.A previous study on void growth in gamma-TiAl single crystal has reveals that void with high volume fraction detracts incipient yield strength \cite{}.Molecular dynamics(MD method has been use to investigate the evolution of void in materials in nanoscale \cite{}. The fracture mechanisms in the duplex micro-structure are plasticity induced grain boundary decohesion and cleavage, while those in the lamellar microstructure are interface delamination and cracking across the lamellae \cite{}.
 
 \section{Molecular Dynamics Simulation }
 
@@ -75,7 +63,13 @@ lamellae[].
 The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation.
 
 \begin{equation} \label{eq:eam} 
-	E= \displaystyle\sum
+	E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
+\end{equation}
+
+where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ is the energy for embedding atom i into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ is the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities, namely
+
+\begin{equation} \label{eq:eam} 
+\rho_{h,i}=\sum_{j(\neq1)} \rho_i(R_{ij})
 \end{equation}
 
 \subsection{Model Creation of Crystalline}
@@ -100,6 +94,20 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 	\label{tab:lattice_parameter}
 \end{table}
  
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/cell}
+% 	\caption{unit cell}
+% 	\label{fig:unit_cell}
+% \end{figure}
+ 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{img/models}
+	\caption{models}
+	\label{fig:simulation_box}
+\end{figure}
+
 \subsection{Analysis method}
 \paragraph{CSP}
 The centrosymmetry parameter is defined as follow:
@@ -137,74 +145,30 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 \subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
 A step, of the width of a burgers vector, will be generated at both sidesof a crystal along teh direction of teh burgers vector after dislocation traversing teh entire crystal, as is shown in \ref{fig:}. A small tep will be formed at spherical void surface toward teh void interiorafter dislocation absorptionat sphericalvoid surfaces, as is shown in \ref{fig:}. If a great number of dislocation slip along their respective systemstowards teh spherical nanovoid in all directions, and are absorbed at spherical void surfaces, the spherical nanovoid will eventually shrink from teh dash circle to
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/cell}
-	\caption{unit cell}
-	\label{fig:unit_cell}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/pf_model_labeled}
-	\caption{Simulation box}
-	\label{fig:simulation_box}
-\end{figure}
 
 
-\begin{figure}
+
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/allline}
 	\caption{Fracture process of specimen with void in $\alpha$ phase}
-	\label{fig:all_line}
-\end{figure}
-
-%\subsection{The influence of void on strength of TiAl alloy}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/frame2}
-	\caption{stress-$\sigma$=0}
-	\label{fig:all_line}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/frame150}
-	\caption{stress-$\sigma$=0.15}
-	\label{fig:all_line}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/frame160}
-	\caption{stress-$\sigma$=0.16}
-	\label{fig:all_line}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/frame170}
-	\caption{stress-$\sigma$=0.17}
-	\label{fig:all_line}
+	\label{ }
 \end{figure}
 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/frame180}
-	\caption{stress-$\sigma$=0.18}
-	\label{fig:all_line}
-\end{figure}
 
-\begin{figure}
-	\centering
- 	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
-	\caption{}
-	\label{fig:voleff}
-\end{figure}
 
 \subsection{Effect of Void Size}
 \paragraph{size}
+ 
+\begin{figure}[h]
+	\centering
+ 	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
+	\caption{Effect of Void}
+	\label{fig:voleff}
+\end{figure}
+
+
 Voids with different size: 2A, 5A, 10A, 15A were placed into the model respectively. It has been observed that  voids detracts the strengths of the material. The max stress stress of the simulation cell decreases as the volume of voids are lareger. From Fig \ref{fig:voleff}, there is a critical value of void radius about 15A, the void greater than 15A cause serious detraction of strength of material. 
 Engineering stress is calculated
 $$ \sigma = S/A$$
@@ -216,11 +180,46 @@ According to Schmid's law:
 $$\tau = \sigma*m$$
 where m is the Schmid factor :
 $$ m = cos(\phi)cos(\lambda)$$
+%\subsection{The influence of void on strength of TiAl alloy}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame2}
+	\caption{stress-$\sigma$=0}
+	\label{ }
+\end{figure}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame150}
+	\caption{stress-$\sigma$=0.15}
+	\label{ }
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame160}
+	\caption{stress-$\sigma$=0.16}
+	\label{ }
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame170}
+	\caption{stress-$\sigma$=0.17}
+	\label{ }
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame180}
+	\caption{stress-$\sigma$=0.18}
+	\label{ }
+\end{figure}
 \paragraph{position}critical void 
 The location of void affects strength of material. Comparing with the model with integranular void, the model with intergranular voids is weaker. atomic stress is calculated 
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/fracture3"}
 	\caption{Fracture Process}
@@ -230,22 +229,22 @@ The location of void affects strength of material. Comparing with the model with
 
 
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/ialine}
-	\caption{stress-strain curve}
-	\label{fig:ia_line}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/ialine}
+% 	\caption{stress-strain curve}
+% 	\label{fig:ia_line}
+% \end{figure}
+% 
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/agline}
+% 	\caption{stress-strain curve}
+% 	\label{fig:ag_line}
+% \end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/agline}
-	\caption{stress-strain curve}
-	\label{fig:ag_line}
-\end{figure}
 
-
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/1stdiv}
 	\label{fig:surf}

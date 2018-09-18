@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{vu2013}
+T.~T.~T. Vu, T.~Zehender, M.~A. Verheijen, S.~R. Plissard, G.~W.~G. Immink,
+  J.~E.~M. Haverkort, E.~P. A.~M. Bakkers, {High optical quality single crystal
+  phase wurtzite and zincblende InP nanowires}, Nanotechnology 24~(11) (2013)
+  115705.
+\newblock \href {http://dx.doi.org/10.1088/0957-4484/24/11/115705}
+  {\path{doi:10.1088/0957-4484/24/11/115705}}.
+
+\end{thebibliography}
