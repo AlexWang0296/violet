@@ -17,7 +17,7 @@
 \begin{document}
 
 \begin{frontmatter}
-\title{Effect of Nanovoid on Fracture Process of Two-Phase $\alpha$($\rm TiAl$)+$\gamma$($\rm Ti_3Al$) Alloy}
+\title{Effect of Nanovoid on Fracture Process of Two-Phase $\gamma$($\rm TiAl$)+$\alpha$($\rm Ti_3Al$) Alloy}
 \address[mymainaddress]{School of Mechanical and Electronical Engineering, Lanzhou University of Technology. Lanzhou 730050, China}
 
 \begin{abstract}
@@ -93,10 +93,10 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 \paragraph{CSP}
 The centrosymmetry parameter is defined as follow:
 \begin{equation} \label{eq:csp} 
-	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+\vec{R_{i+6}}|^2
+	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+{\vec{R}}_{i+6}|^2
 \end{equation}
 
-where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.
+where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.
 	
 \paragraph{Virial Stress}
 The atomic stress is calculated using the virial definition :
@@ -105,16 +105,15 @@ $$\sigma_t(i)= $$
    
 \section{Results and Discussion}
 \subsection{The effect of void on the strength of material}
-The strength of materails with void in different size and at different position is shown in \ref{}. The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.It's an expectable that the existence of voids detracts the strength of the materials, however it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. It can be also found that the location of void affects strength of material. Comparing with the model with integranularvoid, the model with innergranular voids is weaker. The strength calculated with continous theory is as follow:
+\paragraph{position} Void of R=10$\AA$ was placed at phase boundary, inside $\alpha$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best stength, while the void loacted inside $\alpha$ phase detracts the strength of the material most, and the void at the phase boundary have less impact on the strength.
+
+\paragraph{size} The effect of siz is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materails with geometry substraction was applied to the model, and theroticial strength of the models was calculated by formulation \ref{eq:section}:
 
 \begin{equation} \label{eq:section} 
 \sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
 \end{equation}
-where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = a\times b = 36000 A^2$, $A^* $ is section area in consider of the subsection that results from the voids.
-Comparing with the strength determined by molecular dynamics simulation and the resuts calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaciour of the materials, thus revolution of defects should be examined carefully. 
- 
-\subsection{Effect of Void Size}
-\paragraph{size}
+
+where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = a\times b = 36000 A^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the resuts calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaciour of the materials, thus revolution of defects should be examined carefully.
 
 \begin{figure}[h]
 	\centering
@@ -123,29 +122,28 @@ Comparing with the strength determined by molecular dynamics simulation and the 
 		\centering
 		\caption{Stress-Strain}
 		\label{fig:stress&strain}
-	\end{minipage}
-	%\hspace{0.1cm} 
+	\end{minipage}	
 	\hfill
 	\begin{minipage}{0.495\textwidth}		
 		\includegraphics[width=1\linewidth]{img/effect_of_vol}
 		\centering
 		\caption{Strength of model with different voids}
 		\label{fig:strength}
-
 	\end{minipage}
-
 \end{figure}
 
 \subsection{Deformation Mechanisms in Two-Phase Alloys}
-
 Deformation phenomena in TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance. The literature data covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Much of the work has been performed on single phase $\gamma$ alloys and PST crystals. However, the following discussion concentrates on deformation phenomena that rely on the elastoplastic codeformation of the $\gamma$ and $\gamma_2$ phases and on the particular point defect situation occurring in twophase alloys. Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
 
 Basic deformationg mechanism of $\alpha$ phase 
 
-\subsection{Fracture Process}
-\paragraph{initiation of crack}
-\paragraph{fracture process}
-The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{"img/fracture3"}
+	\caption{Yield process of the models}
+	\label{fig:yield}
+\end{figure}
+
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}.
 
 The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
@@ -225,12 +223,6 @@ $$ m = cos(\phi)cos(\lambda)$$
 \paragraph{position}critical void 
 The location of void affects strength of material. Comparing with the model with integranular void, the model with intergranular voids is weaker. atomic stress is calculated 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\linewidth]{"img/fracture3"}
-	\caption{Fracture Process}
-	\label{fig:fracture-process}
-\end{figure}
 
 
 

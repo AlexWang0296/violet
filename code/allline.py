@@ -57,4 +57,4 @@ plt.savefig(os.path.join(writepath, 'allline.pdf'))
 plt.show()
 # /home/alex/violet/all.line.pdf
 # /home/alex/violet/code/pict/area.png
-# /home/alex/violet/draft/img/ag.png
+# /home/alex/violet/draft/img/ag.pngf
