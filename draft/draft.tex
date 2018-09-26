@@ -1,4 +1,4 @@
-\documentclass[times]{elsarticle}
+\documentclass[times,12pt]{elsarticle}
 \usepackage[margin=2.5cm]{geometry}
 %\documentclass[]{elsarticle}
 \usepackage[labelfont=bf,justification=raggedright]{caption}
@@ -8,11 +8,10 @@
 %\setlength{\mathindent}{3cm}
 %Function format
 \usepackage{lineno,hyperref}
-\modulolinenumbers[5]
+%\modulolinenumbers[5]
 \journal{Materials and Design}
 \bibliographystyle{elsarticle-num.bst}
-\modulolinenumbers[5]
-\journal{Materials and Design}
+\journal{}
 %%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -30,7 +29,6 @@ $\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
 \end{keyword}
 
 \end{frontmatter}
-\linenumbers
 
 \section{Introduction}
 \paragraph{Material}
@@ -73,9 +71,9 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 			$\gamma$		& $\rm tP4$ 		& $\rm L1_0$		& $a$ = 0.3997 \\
 			 				&					&					& $c$ = 0.4062 \\			
 			\hline
-\end{tabular}
+\end{tabular} 
 	\label{tab:lattice_parameter}
-\end{table}
+\end{table} 
  
 % \begin{figure}[h]
 % 	\centering
@@ -83,12 +81,12 @@ $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, a
 % 	\caption{unit cell}
 % 	\label{fig:unit_cell}
 % \end{figure}
- 
+  
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{img/models}
-	\caption{models}
-	\label{fig:simulation_box}
+	\caption{Overview of model creation}
+	\label{fig:model-creation}
 \end{figure}
 
 \subsection{Analysis method}
@@ -104,11 +102,45 @@ where $\vec{R_i}$ and $\vec{R_{i+6}}$ are the vectors corresponding to the six p
 The atomic stress is calculated using the virial definition :
 $$\sigma_t(i)=-$$
 $$\sigma_t(i)= $$
- 
+   
 \section{Results and Discussion}
+\subsection{The effect of void on the strength of material}
+The strength of materails with void in different size and at different position is shown in \ref{}. The existence of void detract the strength, and the void inside $\alpha$ phase grain have most significant  impact on the strength, however the void on the grain boundary have little impact on incipient strength of the material. Detailed observation of specimen with void inside the grain is shown in Figure \cite{}.It's an expectable that the existence of voids detracts the strength of the materials, however it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. It can be also found that the location of void affects strength of material. Comparing with the model with integranularvoid, the model with innergranular voids is weaker. The strength calculated with continous theory is as follow:
+
+\begin{equation} \label{eq:section} 
+\sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
+\end{equation}
+where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = a\times b = 36000 A^2$, $A^* $ is section area in consider of the subsection that results from the voids.
+Comparing with the strength determined by molecular dynamics simulation and the resuts calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaciour of the materials, thus revolution of defects should be examined carefully. 
+ 
+\subsection{Effect of Void Size}
+\paragraph{size}
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}{0.495\textwidth}
+		\includegraphics[width=1\linewidth]{img/allline}
+		\centering
+		\caption{Stress-Strain}
+		\label{fig:stress&strain}
+	\end{minipage}
+	%\hspace{0.1cm} 
+	\hfill
+	\begin{minipage}{0.495\textwidth}		
+		\includegraphics[width=1\linewidth]{img/effect_of_vol}
+		\centering
+		\caption{Strength of model with different voids}
+		\label{fig:strength}
+
+	\end{minipage}
+
+\end{figure}
 
 \subsection{Deformation Mechanisms in Two-Phase Alloys}
-Deformation phenomena in TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance. The literature data covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Much of the work has been performed on single phase $\gamma$ alloys and PST crystals. However, the following discussion concentrates on deformation phenomena that rely on the elastoplastic codeformation of the $\gamma$ and $\gamma_2$ phases and on the particular point defect situation occurring in two - phase alloys. Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
+
+Deformation phenomena in TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance. The literature data covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Much of the work has been performed on single phase $\gamma$ alloys and PST crystals. However, the following discussion concentrates on deformation phenomena that rely on the elastoplastic codeformation of the $\gamma$ and $\gamma_2$ phases and on the particular point defect situation occurring in twophase alloys. Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
+
+Basic deformationg mechanism of $\alpha$ phase 
 
 \subsection{Fracture Process}
 \paragraph{initiation of crack}
@@ -131,25 +163,16 @@ A step, of the width of a burgers vector, will be generated at both sidesof a cr
 
 
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/allline}
-	\caption{Fracture process of specimen with void in $\alpha$ phase}
-	\label{ }
-\end{figure}
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{img/allline}
+%	\caption{Fracture process of specimen with void in $\alpha$ phase}
+%	\label{ }
+%\end{figure}
+%
 
 
 
-
-\subsection{Effect of Void Size}
-\paragraph{size}
- 
-\begin{figure}[h]
-	\centering
- 	\includegraphics[width=0.7\linewidth]{img/effect_of_vol}
-	\caption{Effect of Void}
-	\label{fig:voleff}
-\end{figure}
 
 
 Voids with different size: 2A, 5A, 10A, 15A were placed into the model respectively. It has been observed that  voids detracts the strengths of the material. The max stress stress of the simulation cell decreases as the volume of voids are lareger. From Fig \ref{fig:voleff}, there is a critical value of void radius about 15A, the void greater than 15A cause serious detraction of strength of material. 
