@@ -2,21 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0439c09c-e7fa-490b-89db-f90e7af4bc7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/data/pfct.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/pict/pfctline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/allline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/allline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data/size/size_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data/size/size_summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/surf_div.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/surf_div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.aux" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.fls" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.fls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.log" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/draft.out" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/ialine.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/ialine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.bbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.blg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.fdb_latexmk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.fls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/draft.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/draft.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/draft.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/draft.tex" beforeDir="false" afterPath="$PROJECT_DIR$/draft/draft.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/img/1stdiv.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/1stdiv.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/img/allline.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/allline.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/img/models.odg" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/models.odg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +29,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/violet$size_summary.coverage" NAME="size_summary Coverage Results" MODIFIED="1537943637425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code/data/size" />
     <SUITE FILE_PATH="coverage/violet$surf_div.coverage" NAME="surf_div Coverage Results" MODIFIED="1536040145210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/violet$ialine.coverage" NAME="ialine Coverage Results" MODIFIED="1538036034768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1657594785">
@@ -66,32 +69,34 @@
     <session id="-1946684030">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="11" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="130" />
-          <entry key="py" value="1168" />
+          <entry key="py" value="1411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1298" />
+          <entry key="Python" value="1541" />
         </counts>
       </usages-collector>
     </session>
@@ -99,34 +104,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/surfidt.py">
+        <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/surf_div.py">
+        <entry file="file://$PROJECT_DIR$/code/ialine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#1#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-              <folding>
-                <element signature="e#173#182#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -134,34 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/allline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/agline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/ialine.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/data/size/filelist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="342">
+              <caret line="23" column="31" selection-start-line="23" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -198,9 +162,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/code/data/size/filelist.py" />
-        <option value="$PROJECT_DIR$/code/data/size/size_summary.py" />
         <option value="$PROJECT_DIR$/code/allline.py" />
         <option value="$PROJECT_DIR$/code/surf_div.py" />
+        <option value="$PROJECT_DIR$/code/data/size/size_summary.py" />
+        <option value="$PROJECT_DIR$/code/pict/pfctline.py" />
+        <option value="$PROJECT_DIR$/code/ialine.py" />
       </list>
     </option>
   </component>
@@ -210,17 +176,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="960" />
     <option name="y" value="34" />
     <option name="width" value="960" />
     <option name="height" value="1046" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,11 +203,16 @@
               <item name="violet" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="violet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="violet" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +221,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.surf_div">
+  <component name="RunManager" selected="Python.ialine">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,6 +266,9 @@
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -301,10 +284,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ialine" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="violet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/ialine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="size_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/data/size" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -324,6 +329,9 @@
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -366,13 +374,14 @@
       <item itemvalue="Python.surfidt" />
       <item itemvalue="Python.size_summary" />
       <item itemvalue="Python.allline" />
+      <item itemvalue="Python.ialine" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ialine" />
+        <item itemvalue="Python.size_summary" />
         <item itemvalue="Python.surf_div" />
         <item itemvalue="Python.allline" />
-        <item itemvalue="Python.size_summary" />
-        <item itemvalue="Python.size_summary" />
         <item itemvalue="Python.size_summary" />
       </list>
     </recent_temporary>
@@ -391,9 +400,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
+    <frame x="0" y="34" width="1920" height="1046" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19688842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19957082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -412,7 +422,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.333691" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.40075108" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.07445008" side_tool="true" visible="true" weight="0.3477322" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -473,43 +483,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1248406533/numpy/core/umath.py" />
-    <entry file="file://$PROJECT_DIR$/code/data/size/filelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ialine.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/agline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/allline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <element signature="e#173#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/surfidt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -517,13 +490,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/data/pfct.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/agline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="24" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data/size/filelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/surf_div.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/allline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="31" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ialine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>

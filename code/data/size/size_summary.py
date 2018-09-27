@@ -23,9 +23,9 @@ WDIR = os.path.dirname(__file__)
 writepath = os.path.join(WDIR,'..','..','..','draft','img')
 
 size = np.array([0, 2, 5, 10, 15, 20])
-iamax = np.array([5.26, 5.25, 5.25, 5.22, 5.19, 4.96])
-agmax = np.array([5.26, 5.25, 5.17, 5.11, 5.09, 4.87])
-fac = (1-np.pi*(size/2)**2/(200*180))*iamax[0]
+iamax = np.array([5.3, 5.26, 5.25, 5.22, 5.19, 4.96])
+agmax = np.array([5.3, 5.25, 5.17, 5.11, 5.09, 4.87])
+fac = (1-(np.pi*(size/2)**2)/(200*180))*iamax[0]
 
 plt.plot(size, iamax,marker='s')
 plt.plot(size, agmax, marker='^')

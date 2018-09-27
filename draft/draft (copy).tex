@@ -1,0 +1,261 @@
+\documentclass[times,12pt]{elsarticle}
+\usepackage[margin=2.5cm]{geometry}
+%\documentclass[]{elsarticle}
+\usepackage[labelfont=bf,justification=raggedright]{caption}
+\captionsetup[figure]{name=Fig. ,labelsep=period,singlelinecheck=true,skip=5pt}
+\captionsetup[table]{labelsep=newline,font=footnotesize,singlelinecheck=false,skip=5pt}
+%\documentclass[final,5p,times,twocolumn]{elsarticle}
+%\setlength{\mathindent}{3cm}
+%Function format
+\usepackage{lineno,hyperref}
+%\modulolinenumbers[5]
+\journal{Materials and Design}
+\bibliographystyle{elsarticle-num.bst}
+\journal{}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+\title{Effect of Nanovoid on Fracture Process of Two-Phase $\gamma$($\rm TiAl$)+$\alpha$($\rm Ti_3Al$) Alloy}
+\address[mymainaddress]{School of Mechanical and Electronical Engineering, Lanzhou University of Technology. Lanzhou 730050, China}
+
+\begin{abstract}
+Fracture processes of nanocrystalline metallic materia is affected by dislocation, nanovoid and other defects. Existing studies of defect evolution in titanium-aluminium alloy cover the case that voids located in single crystals, inside grain in poly crystals and at the grain boundaries.Molecular dynamics simulation was performed to study the evolution of a spherical nanovoid in $\alpha$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension. The results show that voids located at the $\alpha$/$\gamma$ phase boundary have significant detract to strength of Ti-Al polycrystalline.
+\end{abstract}
+
+\begin{keyword}
+$\alpha$+$\gamma$ two phase TiAl alloy; void; molecular dynamics
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Introduction}
+\paragraph{Material}
+TiAl alloy has been used as structural material in aviation industry because its inherent advantages such as low density and self-diffusion rates, high elastic module and high strength \cite{vu2013}. Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{}. Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine and combustion generator. 
+
+The failure modes of materials have significant influence on the design of material properties in materials science. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions \cite{}. These defects are known to play a fundamental role in the deformation of the material. Nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important. Therefore, it is necessary to study the deformation response of porous materials with the consideration of microstructure evolution.
+
+Brittle fracture in TiAl alloy strongly affects the safety of fracture of structure like turbo of aircraft engine andcombustion generator[].Defects such as grainboundary, void and segregation plays an significant role in the process of fracture[].In order to understanding the mechanism of brittle fracture, multi-scale methods from micro to marco scale have been applied to investigate the behavior of fracture. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale.A previous study on void growth in gamma-TiAl single crystal has reveals that void with high volume fraction detracts incipient yield strength \cite{}.Molecular dynamics(MD method has been use to investigate the evolution of void in materials in nanoscale \cite{}. The fracture mechanisms in the duplex micro-structure are plasticity induced grain boundary decohesion and cleavage, while those in the lamellar microstructure are interface delamination and cracking across the lamellae \cite{}.
+
+\section{Molecular Dynamics Simulation }
+
+\subsection{Atomic Potential}
+The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to is better accuracy in metal lattice compare with F-S and L/J \cite{}. The embedded atom method (MEAM) potential developed by Zope and Mishin by \cite{} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation.
+
+\begin{equation} \label{eq:eam} 
+	E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
+\end{equation}
+
+where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ is the energy for embedding atom i into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ is the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities, namely
+
+\begin{equation} \label{eq:eam} 
+\rho_{h,i}=\sum_{j(\neq1)} \rho_i(R_{ij})
+\end{equation}
+
+\subsection{Model Creation of Crystalline}
+$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cells are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions (PBC)are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is  $L_x = $ nm, $L_y = $ nm, $L_z = $ nm, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
+
+
+
+\begin{table}[h]
+\centering
+\caption{Parameters of  nanocrystalline}
+
+\begin{tabular}{l c c l}
+\hline
+			Phase			& Space group		& Designation		& Parameters \\
+			\hline
+			$\alpha_2$		& $\rm P6_3/mmc$ 	& $\rm 0_{19}$ 		& $a$ = 0.5765 \\
+							&					&					& $c$ = 0.46833 \\
+			$\gamma$		& $\rm tP4$ 		& $\rm L1_0$		& $a$ = 0.3997 \\
+			 				&					&					& $c$ = 0.4062 \\			
+			\hline
+\end{tabular} 
+	\label{tab:lattice_parameter}
+\end{table} 
+ 
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/cell}
+% 	\caption{unit cell}
+% 	\label{fig:unit_cell}
+% \end{figure}
+  
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{img/models}
+	\caption{Overview of model creation}
+	\label{fig:model-creation}
+\end{figure}
+
+\subsection{Analysis method}
+\paragraph{CSP}
+The centrosymmetry parameter is defined as follow:
+\begin{equation} \label{eq:csp} 
+	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+{\vec{R}}_{i+6}|^2
+\end{equation}
+
+where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible.
+	
+\paragraph{Virial Stress}
+The atomic stress is calculated using the virial definition :
+$$\sigma_t(i)=-$$
+$$\sigma_t(i)= $$
+   
+\section{Results and Discussion}
+\subsection{The effect of void on the strength of material}
+\paragraph{position} Void of R=10$\AA$ was placed at phase boundary, inside $\alpha$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best stength, while the void loacted inside $\alpha$ phase detracts the strength of the material most, and the void at the phase boundary have less impact on the strength.
+
+\paragraph{size} The effect of siz is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materails with geometry substraction was applied to the model, and theroticial strength of the models was calculated by formulation \ref{eq:section}:
+
+\begin{equation} \label{eq:section} 
+\sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
+\end{equation}
+
+where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = a\times b = 36000 A^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the resuts calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaciour of the materials, thus revolution of defects should be examined carefully.
+
+\begin{figure}[h]
+	\centering
+	\begin{minipage}{0.495\textwidth}
+		\includegraphics[width=1\linewidth]{img/allline}
+		\centering
+		\caption{Stress-Strain}
+		\label{fig:stress&strain}
+	\end{minipage}	
+	\hfill
+	\begin{minipage}{0.495\textwidth}		
+		\includegraphics[width=1\linewidth]{img/effect_of_vol}
+		\centering
+		\caption{Strength of model with different voids}
+		\label{fig:strength}
+	\end{minipage}
+\end{figure}
+
+\subsection{Deformation Mechanisms in Two-Phase Alloys}
+Deformation phenomena in TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance. The literature data covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Much of the work has been performed on single phase $\gamma$ alloys and PST crystals. However, the following discussion concentrates on deformation phenomena that rely on the elastoplastic codeformation of the $\gamma$ and $\gamma_2$ phases and on the particular point defect situation occurring in twophase alloys. Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
+
+The configure of atoms is shown in Fig.\ref{fig:yield}, it can be seen that dislication emission initiate in $\gamma$ pahse in XXX ps, and the deformation canbe mainly confied to the majority $\gamma$ pahse. $\gamma$(TiAl) deforms by octahedral glide of ordinary dislocations with the Burgers vector b=1/2<110] and superdislocations with the Burgers vectors b=<101] and $b=1/2<11\overline{2}]$. The other potential deformation mode is mechanical twinning along $1/6<11\overline{2}]{111}$.
+From Fig.\ref{fig:yield}, of the two constituents of ($\alpha_2$+$\gamma$) alloys, the $\alpha_2$ phase is more difficult to deform. A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$ phase is certainly the strong plastic anisotropy of the $\alpha_2$ phase. TEM examinations performed on tensile  tested lamellar alloys have revealed that the limited plasticity of the $\alpha_2$ phase is mainly carried by local slip of <a>-type dislocations with the Burgers vector $b=1/3<11\overline{2}0>$ prism planes\ref{fig:yield}, which is by far the easiest slip system in $\alpha_2$ single crystals. 
+
+Basic deformationg mechanism of $\alpha$ phase 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{"img/fracture3"}
+	\caption{Yield process of the models}
+	\label{fig:yield}
+\end{figure}
+
+1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}.
+
+The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
+ 
+Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamella, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
+
+
+%\subsection{Fracture Process with Integranular Void }
+
+%\subsection{Fracture Process with Intergranular Void }
+
+\subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
+A step, of the width of a burgers vector, will be generated at both sidesof a crystal along teh direction of teh burgers vector after dislocation traversing teh entire crystal, as is shown in \ref{}. A small tep will be formed at spherical void surface toward teh void interiorafter dislocation absorptionat sphericalvoid surfaces, as is shown in \ref{}. If a great number of dislocation slip along their respective systemstowards teh spherical nanovoid in all directions, and are absorbed at spherical void surfaces, the spherical nanovoid will eventually shrink from teh dash circle to
+
+
+
+
+%\begin{figure}[h]
+%	\centering
+%	\includegraphics[width=0.7\linewidth]{img/allline}
+%	\caption{Fracture process of specimen with void in $\alpha$ phase}
+%	\label{ }
+%\end{figure}
+%
+
+
+
+
+
+Voids with different size: 2A, 5A, 10A, 15A were placed into the model respectively. It has been observed that  voids detracts the strengths of the material. The max stress stress of the simulation cell decreases as the volume of voids are lareger. From Fig \ref{fig:voleff}, there is a critical value of void radius about 15A, the void greater than 15A cause serious detraction of strength of material. 
+Engineering stress is calculated
+$$ \sigma = S/A$$
+The rate of decrease of loading area are smaller comparing with the detraction of strength, so it can be assumed that the yield yield behaviour and strength is much more related with local behaviour of grain boundaries and void.
+
+Grain and phase boundaris are obstancles to deformation process, thus the stability of boundaries have great impact on the strength of materials. Interactive between grainboundary and void determins the fracture mode of the TiAl alloy.
+
+According to Schmid's law:
+$$\tau = \sigma*m$$
+where m is the Schmid factor :
+$$ m = cos(\phi)cos(\lambda)$$
+%\subsection{The influence of void on strength of TiAl alloy}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame2}
+	\caption{stress-$\sigma$=0}
+	\label{ }
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame150}
+	\caption{stress-$\sigma$=0.15}
+	\label{ }
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame160}
+	\caption{stress-$\sigma$=0.16}
+	\label{ }
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame170}
+	\caption{stress-$\sigma$=0.17}
+	\label{ }
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/frame180}
+	\caption{stress-$\sigma$=0.18}
+	\label{ }
+\end{figure}
+\paragraph{position}critical void 
+The location of void affects strength of material. Comparing with the model with integranular void, the model with intergranular voids is weaker. atomic stress is calculated 
+
+
+
+
+
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/ialine}
+% 	\caption{stress-strain curve}
+% 	\label{fig:ia_line}
+% \end{figure}
+% 
+% \begin{figure}[h]
+% 	\centering
+% 	\includegraphics[width=0.7\linewidth]{img/agline}
+% 	\caption{stress-strain curve}
+% 	\label{fig:ag_line}
+% \end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/1stdiv}
+	\label{fig:surf}
+	\caption{stress-strain curve}
+\end{figure}
+
+
+\section{Conclusion}
+%\bibliographystyle{elsarticle-num.bst}
+
+\bibliography{ref/VIOLET-ref}
+
+\end{document}

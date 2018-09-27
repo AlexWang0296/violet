@@ -1,0 +1,14 @@
+\begin{thebibliography}{-------}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[Vu \em{et~al.}(2013)Vu, Zehender, Verheijen, Plissard, Immink,
+  Haverkort, and Bakkers]{vu2013}
+Vu, T.T.T.; Zehender, T.; Verheijen, M.A.; Plissard, S.R.; Immink, G.W.G.;
+  Haverkort, J.E.M.; Bakkers, E.P.A.M.
+\newblock {High optical quality single crystal phase wurtzite and zincblende
+  InP nanowires}.
+\newblock {\em Nanotechnology} {\bf 2013}, {\em 24},~115705.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0957-4484/24/11/115705}{\detokenize{10.1088/0957-4484/24/11/115705}}}.
+
+\end{thebibliography}
