@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: alexpub.aux
 The style file: Definitions/mdpi.bst
-Database file #1: ref/VIOLET-ref.bib
+Database file #1: ref/VIOLET-ref.bib.bib
 Warning--I didn't find a database entry for ""
-You've used 1 entry,
+You've used 3 entries,
             2865 wiz_defined-function locations,
-            570 strings with 4257 characters,
-and the built_in function-call counts, 514 in all, are:
-= -- 32
-> -- 45
-< -- 0
-+ -- 16
-- -- 14
-* -- 57
-:= -- 98
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 18
-empty$ -- 34
-format.name$ -- 15
-if$ -- 96
+            591 strings with 4728 characters,
+and the built_in function-call counts, 1283 in all, are:
+= -- 102
+> -- 79
+< -- 1
++ -- 30
+- -- 24
+* -- 133
+:= -- 218
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 54
+empty$ -- 101
+format.name$ -- 27
+if$ -- 252
 int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 10
-num.names$ -- 3
-pop$ -- 5
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 22
+num.names$ -- 9
+pop$ -- 15
 preamble$ -- 0
-purify$ -- 1
+purify$ -- 3
 quote$ -- 0
-skip$ -- 8
+skip$ -- 25
 stack$ -- 0
-substring$ -- 20
-swap$ -- 4
+substring$ -- 68
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 7
+type$ -- 21
 warning$ -- 0
-while$ -- 3
+while$ -- 11
 width$ -- 0
-write$ -- 17
+write$ -- 45
 (There was 1 warning)

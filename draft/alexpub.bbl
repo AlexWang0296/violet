@@ -11,4 +11,22 @@ Vu, T.T.T.; Zehender, T.; Verheijen, M.A.; Plissard, S.R.; Immink, G.W.G.;
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0957-4484/24/11/115705}{\detokenize{10.1088/0957-4484/24/11/115705}}}.
 
+\bibitem[Kim(1995)]{Kim1995}
+Kim, Y.W.
+\newblock {Effects of microstructure on the deformation and fracture of
+  $\gamma$-TiAl alloys}.
+\newblock {\em Materials Science and Engineering: A} {\bf 1995}, {\em
+  192-193},~519--533.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
+
+\bibitem[Xiong \em{et~al.}(2015)Xiong, Xu, McDowell, and Chen]{Xiong2015}
+Xiong, L.; Xu, S.; McDowell, D.L.; Chen, Y.
+\newblock {Concurrent atomistic-continuum simulations of dislocation-void
+  interactions in fcc crystals}.
+\newblock {\em International Journal of Plasticity} {\bf 2015}, {\em
+  65},~33--42.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2014.08.002}{\detokenize{10.1016/j.ijplas.2014.08.002}}}.
+
 \end{thebibliography}
