@@ -14,7 +14,7 @@
 \history{Received: date; Accepted: date; Published: date}
  
 % Full title of the paper (Capitalized)
-% \Title{Effect of Nanovoid on Fracture Process of Two-Phase $\gamma$($\rm TiAl$)+$\alpha$($\rm Ti_3Al$) Alloy}
+% \Title{Effect of Nanovoid on Fracture Process of Two-Phase $\gamma$($\rm TiAl$)+$\alpha_2$($\rm Ti_3Al$) Alloy}
 \Title{The Effect of Void on the}
 % Author Orchid ID: enter ID or remove command
 \newcommand{\orcidauthorA}{0000-0000-000-000X} % Add \orcidA{} behind the author's name
@@ -44,10 +44,10 @@ $^{2}$ \quad Affiliation 2; e-mail@e-mail.com}
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\) 
-\abstract{Fracture processes of nanocrystalline metallic materia is affected by dislocation, nanovoid and other defects. Existing studies of defect evolution in titanium-aluminium alloy cover the case that voids located in single crystals, inside grain in poly crystals and at the grain boundaries.Molecular dynamics simulation was performed to study the evolution of a spherical nanovoid in $\alpha$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension. The results show that voids located at the $\alpha$/$\gamma$ phase boundary have significant detract to strength of Ti-Al polycrystalline.}
+\abstract{Fracture processes of nanocrystalline metallic materia is affected by dislocation, nanovoid and other defects. Existing studies of defect evolution in titanium-aluminium alloy cover the case that voids located in single crystals, inside grain in poly crystals and at the grain boundaries.Molecular dynamics simulation was performed to study the evolution of a spherical nanovoid in $\alpha_2$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension. The results show that voids located at the $\alpha_2$/$\gamma$ phase boundary have significant detract to strength of Ti-Al polycrystalline.}
 
 % Keywords
-\keyword{$\alpha$ + $\gamma$ two phase TiAl alloy; void; molecular dynamics}
+\keyword{$\alpha_2$ + $\gamma$ two phase TiAl alloy; void; molecular dynamics}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -92,7 +92,7 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 \end{figure}
 
 \cite{}
-$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha TiAl$ is hcp structure, the structure of the two initial cells are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions (PBC)are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is  $L_x = $ nm, $L_y = $ nm, $L_z = $ nm, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
+$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure \cite{}, and $\alpha_2 TiAl$ is hcp structure, the structure of the two initial cells are shown in Fig.\cite{}, and the constructing parameters are givin by Table.\cite{}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \cite{}. Periodic boundary conditions (PBC)are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is  $L_x = $ nm, $L_y = $ nm, $L_z = $ nm, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{}, and resulting in the arbitrary shape and orientation of the grains. Only one spherical void defect was placed intragranularlly or intergranularlly within each simulation model void within each simulation model. The intragranular spherical void was located in grain interior of the largest grain of the simulation model, as shown in Fig. \cite{}. The intergranular spherical void was at the center of the simulation cell, as shown in Fig. \cite{}.
 	
 \begin{table}[ht]
 	\caption{Parameters of  nanocrystalline}
@@ -134,12 +134,13 @@ where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six
   
 \section{Results and Discussion}
 %	/home/alex/Documents/violet/draft/img/perfect-line.pdf
-The model without and type of void defect was regarded as benchmark of other simulation, deformation mechanisms was chose to . In order to examine deforamtion behaviour carefully, the whole tension process was sliced into four stages. Stage 1 is typical elasttic stage of the model, which is originate from strain $\epsilon = 0$ to $\epsilon = 0.09$. Stage 2 is yield stage of the model range from $\epsilon = 0.09$ to $\epsilon = $. stage 3.cracking stage and 4. Fracture stage. More specificially, a greater number of moments was snaped in stage 2 and stage 3.  
+In order to examine deforamtion behaviour carefully, tensile loading was applied to the model without any types of void defect. The whole tension process was saperated into four stages: Stage-1 is typical elasttic part of the deformation, which is originated from $\epsilon = 0$ to $\epsilon = 0.092$, includeing key point 1. Stage-2 is yield stage ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6. In stage-2, the stress decreased slightly along with the increasing of strain. Stage-3 is cracking stage and in this stage the strength of the model have beeen was detracted sharply, we can confine that the structure almost fail after the stage-3. Snapshots of atoms configuration are labeled with key points number from 1 to 10, specific list of key points numbers were shown in Table.\ref{tab:key-point}. Deformation beaviour of the $\alpha_2$ phase had $\gamma$ phase were discussed in the folling subsection respectively.
+
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=1\linewidth]{img/perfect-line2-2}
-		\caption{perfect-line2-2}
-		\label{fig:perfect-line2-2}
+		\caption{Deformation process of the model without void defect}
+		\label{fig:deformation-pf}
 	\end{figure}
 
 	\begin{table}[ht]
@@ -151,10 +152,10 @@ The model without and type of void defect was regarded as benchmark of other sim
 		\midrule
 		Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.20 & 0.21 & 0.22 & 0.23 \\
 		\midrule
-		Strain	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.20 & 0.21 & 0.22 & 0.23 \\
+		Strain	& 0 & 0.092 & 0.094 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112 \\
 		\bottomrule
 		\end{tabular} 
-		\label{tab:key-pint}
+		\label{tab:key-point}
 	\end{table} 
 
 
@@ -171,16 +172,16 @@ From Fig.\ref{fig:yield}, of the two constituents of ($\alpha_2$+$\gamma$) alloy
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=1\linewidth]{img/def-alpha}
-		\label{fig:def-alpha}
-		\caption{$\alpha$ phase deformation}
+		\label{fig:def-alpha_2}
+		\caption{$\alpha_2$ phase deformation}
 	\end{figure}
-Basic deformationg mechanism of $\alpha$ phase 
+Basic deformationg mechanism of $\alpha_2$ phase 
 
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=1\linewidth]{"img/disl-gamma"}
 		\caption{Disloaction in $\gamma$}
-		\label{fig:dis-alpha}
+		\label{fig:dis-alpha_2}
 	\end{figure}
 
 %	\begin{figure}[ht]
@@ -191,7 +192,7 @@ Basic deformationg mechanism of $\alpha$ phase
 %	\end{figure}
 1.In many cases the orientation of slip slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1 }_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}.
 	
-The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
+The core of  a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2<110] dislocation gliding in one $\gamma$ grain has to be converted in to a <101] super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
 	
 Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamella, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 	
@@ -233,7 +234,7 @@ A step, of the width of a burgers vector, will be generated at both sidesof a cr
 	 
 \subsection{The effect of void on the strength of material}
 
-Void of R=10$\AA$ was placed at phase boundary, inside $\alpha$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best stength, while the void loacted inside $\alpha$ phase detracts the strength of the material most, and the void at the phase boundary have less impact on the strength.
+Void of R=10$\AA$ was placed at phase boundary, inside $\alpha_2$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best stength, while the void loacted inside $\alpha_2$ phase detracts the strength of the material most, and the void at the phase boundary have less impact on the strength.
 	
 The effect of siz is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materails with geometry substraction was applied to the model, and theroticial strength of the models was calculated by formulation \ref{eq:section}:
 	
@@ -274,7 +275,7 @@ where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and
 	%\begin{figure}[ht]
 	%	\centeringT
 	%	\includegraphics[width=0.7\linewidth]{img/allline}
-	%	\caption{Fracture process of specimen with void in $\alpha$ phase}
+	%	\caption{Fracture process of specimen with void in $\alpha_2$ phase}
 	%	\label{ }
 	%\end{figure}
 	%
