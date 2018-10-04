@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.14)  3 OCT 2018 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.9.14)  4 OCT 2018 09:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,32 +1246,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- (./alexpub.bbl) [1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Definitions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>]
-<img/models.pdf, id=82, 578.13158pt x 144.51154pt>
+<img/models.pdf, id=79, 578.13158pt x 144.51154pt>
 File: img/models.pdf Graphic file (type pdf)
 <use img/models.pdf>
 Package pdftex.def Info: img/models.pdf  used on input line 89.
 (pdftex.def)             Requested size: 443.86319pt x 110.95007pt.
  [2 <./img/models.pdf>]
-<img/perfect-line2-2.pdf, id=119, 614.26657pt x 270.98404pt>
+<img/perfect-line2-2.pdf, id=117, 614.26657pt x 270.98404pt>
 File: img/perfect-line2-2.pdf Graphic file (type pdf)
 <use img/perfect-line2-2.pdf>
 Package pdftex.def Info: img/perfect-line2-2.pdf  used on input line 139.
 (pdftex.def)             Requested size: 443.86319pt x 195.81128pt.
-<img/def-gamma.pdf, id=120, 578.13158pt x 234.84904pt>
+<img/def-gamma.pdf, id=118, 578.13158pt x 234.84904pt>
 File: img/def-gamma.pdf Graphic file (type pdf)
 <use img/def-gamma.pdf>
 Package pdftex.def Info: img/def-gamma.pdf  used on input line 164.
 (pdftex.def)             Requested size: 443.86319pt x 180.30753pt.
-<img/def-alpha.pdf, id=124, 578.13158pt x 234.84904pt>
+<img/def-alpha.pdf, id=122, 578.13158pt x 234.84904pt>
 File: img/def-alpha.pdf Graphic file (type pdf)
 <use img/def-alpha.pdf>
 Package pdftex.def Info: img/def-alpha.pdf  used on input line 172.
 (pdftex.def)             Requested size: 443.86319pt x 180.30753pt.
  [3 <./img/perfect-line2-2.pdf>]
-<"img/disl-gamma".pdf, id=184, 578.13158pt x 278.21106pt>
+<"img/disl-gamma".pdf, id=183, 578.13158pt x 278.21106pt>
 File: "img/disl-gamma".pdf Graphic file (type pdf)
 <use "img/disl-gamma".pdf>
 Package pdftex.def Info: "img/disl-gamma".pdf  used on input line 180.
@@ -1286,12 +1286,12 @@ LaTeX Warning: Reference `' on page 6 undefined on input line 216.
 
 LaTeX Warning: Reference `' on page 6 undefined on input line 216.
 
-<"img/dis-void".pdf, id=318, 597.65012pt x 260.14355pt>
+<"img/dis-void".pdf, id=316, 597.65012pt x 260.14355pt>
 File: "img/dis-void".pdf Graphic file (type pdf)
 <use "img/dis-void".pdf>
 Package pdftex.def Info: "img/dis-void".pdf  used on input line 220.
 (pdftex.def)             Requested size: 443.86319pt x 193.20976pt.
-<"img/orowan".pdf, id=319, 597.65012pt x 108.37656pt>
+<"img/orowan".pdf, id=317, 597.65012pt x 108.37656pt>
 File: "img/orowan".pdf Graphic file (type pdf)
 <use "img/orowan".pdf>
 Package pdftex.def Info: "img/orowan".pdf  used on input line 227.
@@ -1304,17 +1304,17 @@ Missing character: There is no Å in font pplr7t!
 
 pdfTeX warning: pdflatex (file ./img/orowan.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<"img/fracture3".pdf, id=363, 578.13158pt x 350.48105pt>
+<"img/fracture3".pdf, id=360, 578.13158pt x 350.48105pt>
 File: "img/fracture3".pdf Graphic file (type pdf)
 <use "img/fracture3".pdf>
 Package pdftex.def Info: "img/fracture3".pdf  used on input line 249.
 (pdftex.def)             Requested size: 443.86319pt x 269.0851pt.
-<img/allline.pdf, id=364, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=361, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
 Package pdftex.def Info: img/allline.pdf  used on input line 259.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=365, 462.52798pt x 346.89601pt>
+<img/effect_of_vol.pdf, id=362, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
 Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 266.
@@ -1323,36 +1323,39 @@ Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 266.
 
 LaTeX Warning: Reference `' on page 7 undefined on input line 286.
 
-[7 <./img/fracture3.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 366.
+[7 <./img/fracture3.pdf> <./img/allline.pdf
+
+pdfTeX warning: pdflatex (file ./img/allline.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/effect_of_vol.pdf
+
+pdfTeX warning: pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] (./alexpub.bbl)
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 367.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 366.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 367.
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--366
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
   [] \T1/ppl/m/n/9 (+20) 2018 by the au-thors. Sub-mit-ted to \T1/ppl/m/it/9 (+20) Jour-nal Not Spec-i-fied \T1/ppl/m/n/9 (+20) for pos-si-ble open ac-cess
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 366--366
+Underfull \hbox (badness 2165) in paragraph at lines 367--367
 \T1/ppl/m/n/9 (+20) pub-li-ca-tion un-der the terms and con-di-tions of the Cre-ative Com-mons At-tri-bu-tion (CC BY) li-cense
  []
 
 
 AED: lastpage setting LastPage
-[8 <./img/allline.pdf> <./img/effect_of_vol.pdf
-
-pdfTeX warning: pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
+[8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./alexpub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `alexpub.out' has not changed.
-(rerunfilecheck)             Checksum: 2292A84206BEC29D2EAE6FF93B5D8C08;2223.
+(rerunfilecheck)             Checksum: A704900EA1C454A1368673E817D6BDB0;2231.
 
 
 LaTeX Warning: There were undefined references.
@@ -1363,17 +1366,17 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  25676 strings out of 492982
- 439457 string characters out of 6134896
- 534782 words of memory out of 5000000
+ 439465 string characters out of 6134896
+ 533782 words of memory out of 5000000
  28523 multiletter control sequences out of 15000+600000
  56643 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,56p,2567b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0500.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (8 pages, 12120675 bytes).
+Output written on alexpub.pdf (8 pages, 12120780 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
+ 546 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  36 named destinations out of 1000 (max. 500000)
  40089 words of extra memory for PDF output out of 42996 (max. 10000000)
 
