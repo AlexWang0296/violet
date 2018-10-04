@@ -418,12 +418,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT img/perfect-line2-2.pdf
 INPUT ./img/perfect-line2-2.pdf
 INPUT ./img/perfect-line2-2.pdf
-INPUT img/def-gamma.pdf
-INPUT ./img/def-gamma.pdf
-INPUT ./img/def-gamma.pdf
-INPUT img/def-alpha.pdf
-INPUT ./img/def-alpha.pdf
-INPUT ./img/def-alpha.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -433,6 +427,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7y.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT img/def-gamma.pdf
+INPUT ./img/def-gamma.pdf
+INPUT ./img/def-gamma.pdf
+INPUT img/def-alpha.pdf
+INPUT ./img/def-alpha.pdf
+INPUT ./img/def-alpha.pdf
 INPUT img/disl-gamma.pdf
 INPUT ./img/disl-gamma.pdf
 INPUT ./img/disl-gamma.pdf

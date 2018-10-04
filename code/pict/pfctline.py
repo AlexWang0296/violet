@@ -13,21 +13,21 @@ writepath = os.path.join(WDIR,'..','draft','img')
 # pre-set head name
 prop = ['step', 'strain', 'stress', 'energy']
 # import data from .csv file:
-ds1 = pd.read_csv(os.path.join(loadpath,'ia.csv'), sep=' ', skiprows=1, names=prop)
-
+ds1 = pd.read_csv('/home/alex/Documents/violet/code/data/stress_strain/pf.csv', sep=' ', skiprows=1, names=prop)
+# /home/alex/Documents/violet/code/data/stress_strain/pf.csv
 # plot lines
-p1 = plt.plot(ds1.step, ds1.stress, label='ia')
+p1 = plt.plot(ds1.strain, ds1.stress, label='ia')
 
 # config title and label
 
 plt.title('stress-strain curve')
 plt.xlabel('Step')
 plt.ylabel('Stress (GPa)')
-plt.xlim(1e5,2e5)
+#plt.xlim(1e5,2e5)
 
 #plt.lim(-6,6)
 #plt.legend()
-plt.savefig(os.path.join(writepath,'ialine.pdf'))
+plt.savefig('pfline.pdf')
 plt.show()
 #/home/alex/violet/all.line.pdf
 #/home/alex/violet/code/pict/area.png
