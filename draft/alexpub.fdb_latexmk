@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex alexpub"] 1538614919 "alexpub.aux" "alexpub.bbl" "alexpub" 1538620722
+["bibtex alexpub"] 1538614919 "alexpub.aux" "alexpub.bbl" "alexpub" 1538620779
   "./Definitions/mdpi.bst" 1532271441 23431 61fd1b54f1bf37375fec81df815e286b ""
-  "alexpub.aux" 1538620721 5590 3c7397f5eb3e88ff48bca9086c7f9762 ""
+  "alexpub.aux" 1538620779 5590 3c7397f5eb3e88ff48bca9086c7f9762 ""
   "alexpub.bcf" 0 -1 0 ""
   "ref/VIOLET-ref.bib" 1538534991 12923 be84c0712bd546ad88c3226d23981e1d ""
   (generated)
-  "alexpub.blg"
   "alexpub.bbl"
-["pdflatex"] 1538620721 "/home/alex/Documents/violet/draft/alexpub.tex" "alexpub.pdf" "alexpub" 1538620722
+  "alexpub.blg"
+["pdflatex"] 1538620779 "/home/alex/Documents/violet/draft/alexpub.tex" "alexpub.pdf" "alexpub" 1538620779
   "/etc/texmf/web2c/texmf.cnf" 1536927869 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/alex/Documents/violet/draft/alexpub.tex" 1538620721 23709 418449997404b3c49a714a6f9ec09ec2 ""
+  "/home/alex/Documents/violet/draft/alexpub.tex" 1538620779 23710 253e259cf7edc7a274bc180a1cbe79a6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplb7t.tfm" 1480098688 1616 371d1ee60c04b008c8fd760060cd34f1 ""
@@ -218,10 +218,10 @@
   "Definitions/logo-mdpi.eps" 1532234032 736786 8818d4fdfce9a8e859e47bd730481fab ""
   "Definitions/logo-orcid.eps" 1532234032 284378 45e3e5787524f1178a6d00d0629833ef ""
   "Definitions/mdpi.cls" 1535998776 40260 1eb3e2bd6d53837453122eb10edadedf ""
-  "alexpub.aux" 1538620721 5590 3c7397f5eb3e88ff48bca9086c7f9762 ""
+  "alexpub.aux" 1538620779 5590 3c7397f5eb3e88ff48bca9086c7f9762 ""
   "alexpub.bbl" 1538614919 1418 dcea0e0de137e83c5a4c75f1af062e82 "bibtex alexpub"
-  "alexpub.out" 1538620721 2231 a704900ea1c454a1368673e817d6bdb0 ""
-  "alexpub.tex" 1538620721 23709 418449997404b3c49a714a6f9ec09ec2 ""
+  "alexpub.out" 1538620779 2231 a704900ea1c454a1368673e817d6bdb0 ""
+  "alexpub.tex" 1538620779 23710 253e259cf7edc7a274bc180a1cbe79a6 ""
   "img/allline.pdf" 1537951052 30422 a90eb795b134af11238b609206ad9279 ""
   "img/def-alpha.pdf" 1538101505 1395204 315c00ad50b4f9a369788a311b4e1361 ""
   "img/def-gamma.pdf" 1538101327 1674718 d72944cd250928366716422093d8d6be ""
@@ -235,5 +235,5 @@
   (generated)
   "alexpub.out"
   "alexpub.pdf"
-  "alexpub.aux"
   "alexpub.log"
+  "alexpub.aux"
