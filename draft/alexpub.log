@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.9)  5 OCT 2018 09:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.9)  6 OCT 2018 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,23 +682,23 @@ LaTeX Warning: Label `fig:dis-void' multiply defined.
 )
 \openout1 = `alexpub.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -717,8 +717,8 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 53.
-LaTeX Info: Redefining \microtypecontext on input line 53.
+(lastpage)             ! on input line 54.
+LaTeX Info: Redefining \microtypecontext on input line 54.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -732,7 +732,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -740,9 +740,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count178
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
  (./alexpub.out) (./alexpub.out)
 \@outlinefile=\write4
 \openout4 = `alexpub.out'.
@@ -786,87 +786,107 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 53.
+(hyperref)                removing `\alpha' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 53.
+(hyperref)                removing `subscript' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\gamma' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\alpha' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `subscript' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\gamma' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\alpha' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `subscript' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\gamma' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 53.
+(hyperref)                removing `math shift' on input line 54.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 53.
+(hyperref)                removing `\alpha' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 54.
 
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2018-10-03 17:57:51
@@ -875,32 +895,33 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 (epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 43968 bytes
 (epstopdf)             Command: <repstopdf --outfile=Definitions/logo-mdpi-eps-converted-to.pdf Definitions/logo-mdpi.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 <Definitions/logo-mdpi-eps-converted-to.pdf, id=48, 88.33pt x 58.2175pt>
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 53.
+Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on input line 54.
 (pdftex.def)             Requested size: 43.16885pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <18> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 53.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 54.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 53.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 53.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 53.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -909,16 +930,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 53.
+(Font)              scaled to size 18.75613pt on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 53.
+(Font)              scaled to size 14.25455pt on input line 54.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 53.
+(Font)              scaled to size 11.25378pt on input line 54.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 54.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 54.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 54.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
 Package epstopdf Info: Source file: <Definitions/logo-orcid.eps>
 (epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 284378 bytes
@@ -926,22 +953,35 @@ Package epstopdf Info: Source file: <Definitions/logo-orcid.eps>
 (epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 12254 bytes
 (epstopdf)             Command: <repstopdf --outfile=Definitions/logo-orcid-eps-converted-to.pdf Definitions/logo-orcid.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
 <Definitions/logo-orcid-eps-converted-to.pdf, id=50, 102.3825pt x 102.3825pt>
 File: Definitions/logo-orcid-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-orcid-eps-converted-to.pdf>
-Package pdftex.def Info: Definitions/logo-orcid-eps-converted-to.pdf  used on input line 53.
+Package pdftex.def Info: Definitions/logo-orcid-eps-converted-to.pdf  used on input line 54.
+(pdftex.def)             Requested size: 9.10509pt x 9.10466pt.
+Package epstopdf Info: Source file: <Definitions/logo-orcid.eps>
+(epstopdf)                    date: 2018-10-03 17:57:51
+(epstopdf)                    size: 284378 bytes
+(epstopdf)             Output file: <Definitions/logo-orcid-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-10-03 17:57:51
+(epstopdf)                    size: 12254 bytes
+(epstopdf)             Command: <repstopdf --outfile=Definitions/logo-orcid-eps-converted-to.pdf Definitions/logo-orcid.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+File: Definitions/logo-orcid-eps-converted-to.pdf Graphic file (type pdf)
+<use Definitions/logo-orcid-eps-converted-to.pdf>
+Package pdftex.def Info: Definitions/logo-orcid-eps-converted-to.pdf  used on input line 54.
 (pdftex.def)             Requested size: 9.10509pt x 9.10466pt.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 53.
+(Font)              scaled to size 9.37807pt on input line 54.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 53.
+(Font)              scaled to size 7.29405pt on input line 54.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 53.
+(Font)              scaled to size 5.21004pt on input line 54.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 53.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 53.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 54.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 54.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -952,93 +992,93 @@ Package microtype Info: Loading generic protrusion settings for font family
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Definitions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>]
-<img/models.pdf, id=79, 578.13158pt x 144.51154pt>
+<img/models.pdf, id=82, 578.13158pt x 144.51154pt>
 File: img/models.pdf Graphic file (type pdf)
 <use img/models.pdf>
-Package pdftex.def Info: img/models.pdf  used on input line 89.
+Package pdftex.def Info: img/models.pdf  used on input line 91.
 (pdftex.def)             Requested size: 443.86319pt x 110.95007pt.
  [2 <./img/models.pdf>]
-<img/perfect-line2-2.pdf, id=118, 614.26657pt x 270.98404pt>
+<img/perfect-line2-2.pdf, id=121, 614.26657pt x 270.98404pt>
 File: img/perfect-line2-2.pdf Graphic file (type pdf)
 <use img/perfect-line2-2.pdf>
-Package pdftex.def Info: img/perfect-line2-2.pdf  used on input line 141.
+Package pdftex.def Info: img/perfect-line2-2.pdf  used on input line 143.
 (pdftex.def)             Requested size: 443.86319pt x 195.81128pt.
-<img/def-gamma.pdf, id=119, 578.13158pt x 234.84904pt>
+<img/def-gamma.pdf, id=122, 578.13158pt x 234.84904pt>
 File: img/def-gamma.pdf Graphic file (type pdf)
 <use img/def-gamma.pdf>
-Package pdftex.def Info: img/def-gamma.pdf  used on input line 166.
+Package pdftex.def Info: img/def-gamma.pdf  used on input line 168.
 (pdftex.def)             Requested size: 443.86319pt x 180.30753pt.
-<img/def-alpha.pdf, id=123, 578.13158pt x 234.84904pt>
+<img/def-alpha.pdf, id=126, 578.13158pt x 234.84904pt>
 File: img/def-alpha.pdf Graphic file (type pdf)
 <use img/def-alpha.pdf>
-Package pdftex.def Info: img/def-alpha.pdf  used on input line 174.
+Package pdftex.def Info: img/def-alpha.pdf  used on input line 176.
 (pdftex.def)             Requested size: 443.86319pt x 180.30753pt.
  [3 <./img/perfect-line2-2.pdf>]
-<"img/disl-gamma".pdf, id=175, 578.13158pt x 278.21106pt>
+<"img/disl-gamma".pdf, id=178, 578.13158pt x 278.21106pt>
 File: "img/disl-gamma".pdf Graphic file (type pdf)
 <use "img/disl-gamma".pdf>
-Package pdftex.def Info: "img/disl-gamma".pdf  used on input line 182.
+Package pdftex.def Info: "img/disl-gamma".pdf  used on input line 184.
 (pdftex.def)             Requested size: 443.86319pt x 213.59914pt.
  [4 <./img/def-gamma.pdf>] [5 <./img/def-alpha.pdf> <./img/disl-gamma.pdf
 
 pdfTeX warning: pdflatex (file ./img/disl-gamma.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 217.
+LaTeX Warning: Reference `' on page 6 undefined on input line 219.
 
 
-LaTeX Warning: Reference `' on page 6 undefined on input line 217.
+LaTeX Warning: Reference `' on page 6 undefined on input line 219.
 
-<"img/dis-void".pdf, id=308, 597.65012pt x 260.14355pt>
+<"img/dis-void".pdf, id=311, 597.65012pt x 260.14355pt>
 File: "img/dis-void".pdf Graphic file (type pdf)
 <use "img/dis-void".pdf>
-Package pdftex.def Info: "img/dis-void".pdf  used on input line 221.
+Package pdftex.def Info: "img/dis-void".pdf  used on input line 223.
 (pdftex.def)             Requested size: 443.86319pt x 193.20976pt.
-<"img/orowan".pdf, id=309, 597.65012pt x 108.37656pt>
+<"img/orowan".pdf, id=312, 597.65012pt x 108.37656pt>
 File: "img/orowan".pdf Graphic file (type pdf)
 <use "img/orowan".pdf>
-Package pdftex.def Info: "img/orowan".pdf  used on input line 228.
+Package pdftex.def Info: "img/orowan".pdf  used on input line 230.
 (pdftex.def)             Requested size: 443.86319pt x 80.49174pt.
 [6 <./img/dis-void.pdf> <./img/orowan.pdf
 
 pdfTeX warning: pdflatex (file ./img/orowan.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Command \r invalid in math mode on input line 237.
+LaTeX Warning: Command \r invalid in math mode on input line 239.
 
 Missing character: There is no Å in font pplr7t!
-<"img/fracture3".pdf, id=352, 578.13158pt x 350.48105pt>
+<"img/fracture3".pdf, id=355, 578.13158pt x 350.48105pt>
 File: "img/fracture3".pdf Graphic file (type pdf)
 <use "img/fracture3".pdf>
-Package pdftex.def Info: "img/fracture3".pdf  used on input line 250.
+Package pdftex.def Info: "img/fracture3".pdf  used on input line 252.
 (pdftex.def)             Requested size: 443.86319pt x 269.0851pt.
-<img/allline.pdf, id=353, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=356, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
-Package pdftex.def Info: img/allline.pdf  used on input line 260.
+Package pdftex.def Info: img/allline.pdf  used on input line 262.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=354, 462.52798pt x 346.89601pt>
+<img/effect_of_vol.pdf, id=357, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
-Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 267.
+Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 269.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
 
-LaTeX Warning: Reference `' on page 7 undefined on input line 287.
+LaTeX Warning: Reference `' on page 7 undefined on input line 289.
 
 [7 <./img/fracture3.pdf>] (./alexpub.bbl)
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 368.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 370.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 368.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 370.
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--368
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
   [] \T1/ppl/m/n/9 (+20) 2018 by the au-thors. Sub-mit-ted to \T1/ppl/m/it/9 (+20) Jour-nal Not Spec-i-fied \T1/ppl/m/n/9 (+20) for pos-si-ble open ac-cess
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 368--368
+Underfull \hbox (badness 2165) in paragraph at lines 370--370
 \T1/ppl/m/n/9 (+20) pub-li-ca-tion un-der the terms and con-di-tions of the Cre-ative Com-mons At-tri-bu-tion (CC BY) li-cense
  []
 
@@ -1048,11 +1088,11 @@ AED: lastpage setting LastPage
 
 pdfTeX warning: pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
  (./alexpub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: A704900EA1C454A1368673E817D6BDB0;2231.
 
@@ -1064,18 +1104,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25347 strings out of 492649
- 438352 string characters out of 6129608
- 537736 words of memory out of 5000000
- 28523 multiletter control sequences out of 15000+600000
- 56643 words of font info for 228 fonts, out of 8000000 for 9000
+ 25387 strings out of 492649
+ 439191 string characters out of 6129608
+ 537770 words of memory out of 5000000
+ 28560 multiletter control sequences out of 15000+600000
+ 64365 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,56p,2563b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (8 pages, 11897119 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfss0500.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on alexpub.pdf (8 pages, 11907598 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
+ 548 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  36 named destinations out of 1000 (max. 500000)
- 40089 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 43161 words of extra memory for PDF output out of 51595 (max. 10000000)
 
