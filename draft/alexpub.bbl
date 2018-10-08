@@ -1,15 +1,14 @@
 \begin{thebibliography}{-------}
 \providecommand{\natexlab}[1]{#1}
 
-\bibitem[Vu \em{et~al.}(2013)Vu, Zehender, Verheijen, Plissard, Immink,
-  Haverkort, and Bakkers]{vu2013}
-Vu, T.T.T.; Zehender, T.; Verheijen, M.A.; Plissard, S.R.; Immink, G.W.G.;
-  Haverkort, J.E.M.; Bakkers, E.P.A.M.
-\newblock {High optical quality single crystal phase wurtzite and zincblende
-  InP nanowires}.
-\newblock {\em Nanotechnology} {\bf 2013}, {\em 24},~115705.
+\bibitem[Munz(2017)]{Munz2017}
+Munz, E.D.
+\newblock {Psychotherapie in der Psychiatrie}.
+\newblock {\em Nervenheilkunde} {\bf 2017}, {\em 36},~800--805,
+  \href{http://xxx.lanl.gov/abs/arXiv:1011.1669v3}{{\normalfont
+  [arXiv:1011.1669v3]}}.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0957-4484/24/11/115705}{\detokenize{10.1088/0957-4484/24/11/115705}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/s13398-014-0173-7.2}{\detokenize{10.1007/s13398-014-0173-7.2}}}.
 
 \bibitem[Kim(1995)]{Kim1995}
 Kim, Y.W.
@@ -20,6 +19,58 @@ Kim, Y.W.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
 
+\bibitem[Appel \em{et~al.}(2016)Appel, Clemens, and Fischer]{Appel2016}
+Appel, F.; Clemens, H.; Fischer, F.D.
+\newblock {Modeling concepts for intermetallic titanium aluminides}.
+\newblock {\em Progress in Materials Science} {\bf 2016}, {\em 81},~55--124.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2016.01.001}{\detokenize{10.1016/j.pmatsci.2016.01.001}}}.
+
+\bibitem[Tang \em{et~al.}(2014)Tang, Cai, Bao, Xue, Lu, Zhu, and Rui]{Tang2014}
+Tang, F.L.; Cai, H.M.; Bao, H.W.; Xue, H.T.; Lu, W.J.; Zhu, L.; Rui, Z.Y.
+\newblock {Molecular dynamics simulations of void growth in $\gamma$-TiAl
+  single crystal}.
+\newblock {\em Computational Materials Science} {\bf 2014}, {\em 84},~232--237.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2013.12.014}{\detokenize{10.1016/j.commatsci.2013.12.014}}}.
+
+\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
+  Dilger]{Hempel2017a}
+Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
+\newblock {Study on the residual stress relaxation in girth-welded steel pipes
+  under bending load using diffraction methods}.
+\newblock {\em Materials Science and Engineering A} {\bf 2017}, {\em
+  688},~289--300.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
+
+\bibitem[Larsen and Schmidt(2016)]{Larsen2016}
+Larsen, P.M.; Schmidt, J.
+\newblock {Robust structural identification via polyhedral template matching}.
+\newblock {\em Modelling and Simulation in Materials Science and Engineering}
+  {\bf 2016}, {\em 24},~055007,
+  \href{http://xxx.lanl.gov/abs/1603.05143}{{\normalfont [1603.05143]}}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/24/5/055007}{\detokenize{10.1088/0965-0393/24/5/055007}}}.
+
+\bibitem[Jing \em{et~al.}(2018)Jing, Yuan, Shivpuri, Xu, Zhang, Shan, and
+  Guo]{Jing2018a}
+Jing, P.; Yuan, L.; Shivpuri, R.; Xu, C.; Zhang, Y.; Shan, D.; Guo, B.
+\newblock {Evolution of spherical nanovoids within copper polycrystals during
+  plastic straining: Atomistic investigation}.
+\newblock {\em International Journal of Plasticity} {\bf 2018}, {\em
+  100},~122--141.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2017.09.016}{\detokenize{10.1016/j.ijplas.2017.09.016}}}.
+
+\bibitem[Elkhateeb and Shin(2018)]{Elkhateeb2018}
+Elkhateeb, M.G.; Shin, Y.C.
+\newblock {Molecular dynamics-based cohesive zone representation of Ti6Al4V/TiC
+  composite interface}.
+\newblock {\em Materials and Design} {\bf 2018}, {\em 155},~161--169.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.matdes.2018.05.054}{\detokenize{10.1016/j.matdes.2018.05.054}}}.
+
 \bibitem[Xiong \em{et~al.}(2015)Xiong, Xu, McDowell, and Chen]{Xiong2015}
 Xiong, L.; Xu, S.; McDowell, D.L.; Chen, Y.
 \newblock {Concurrent atomistic-continuum simulations of dislocation-void
@@ -28,5 +79,32 @@ Xiong, L.; Xu, S.; McDowell, D.L.; Chen, Y.
   65},~33--42.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2014.08.002}{\detokenize{10.1016/j.ijplas.2014.08.002}}}.
+
+\bibitem[Goes \em{et~al.}(1998)Goes, Sinhoreti, Consani, and Silva]{Goes1998}
+Goes, M.F.; Sinhoreti, M.A.; Consani, S.; Silva, M.A.
+\newblock {Morphological effect of the type, concentration and etching time of
+  acid solutions on enamel and dentin surfaces.}
+\newblock {\em Brazilian dental journal} {\bf 1998}, {\em 9},~3--10.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/1742-6596/755/1/011001}{\detokenize{10.1088/1742-6596/755/1/011001}}}.
+
+\bibitem[Zope and Mishin(2003)]{Zope2003}
+Zope, R.R.; Mishin, Y.
+\newblock {Interatomic potentials for atomistic simulations of the Ti-Al
+  system}.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics} {\bf
+  2003}, {\em 68},~024102,  \href{http://xxx.lanl.gov/abs/0306298}{{\normalfont
+  [arXiv:cond-mat/0306298]}}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevB.68.024102}{\detokenize{10.1103/PhysRevB.68.024102}}}.
+
+\bibitem[Plimpton(1995)]{Plimpton1995}
+Plimpton, S.
+\newblock {Fast parallel algorithms for short-range molecular dynamics}.
+\newblock {\em Journal of Computational Physics} {\bf 1995}, {\em 117},~1--19,
+  \href{http://xxx.lanl.gov/abs/nag.2347}{{\normalfont
+  [arXiv:10.1002/nag.2347]}}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1006/jcph.1995.1039}{\detokenize{10.1006/jcph.1995.1039}}}.
 
 \end{thebibliography}
