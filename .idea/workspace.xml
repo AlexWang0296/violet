@@ -3,31 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0439c09c-e7fa-490b-89db-f90e7af4bc7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/data/size/size_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data/size/size_summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/pict/pfctline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/pict/pfctline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.aux" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/alexpub.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/alexpub.fls" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.fls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/alexpub.blg" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.log" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.tex" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/AE.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/AE.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/Falcon.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/Falcon.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/IBIS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/IBIS.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/ref/MultiScaleMethod.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/MultiScaleMethod.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/ref/TeamWork.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/TeamWork.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/app.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/app.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/battery.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/battery.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/xiangtan.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/xiangtan.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/汇报.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/汇报.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/程序教程.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,9 +73,10 @@
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,13 +93,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="130" />
+          <entry key="Python Console" value="133" />
           <entry key="py" value="1519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1649" />
+          <entry key="Python" value="1652" />
         </counts>
       </usages-collector>
     </session>
@@ -172,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/code/agline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="24" />
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -364,6 +353,9 @@
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/pict" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -454,10 +446,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="34" width="1920" height="1046" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="34" width="1920" height="1046" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22854078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -472,11 +463,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33783785" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33783785" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.40075108" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.40075108" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.07445008" side_tool="true" visible="true" weight="0.3477322" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -561,6 +552,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/ialine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -598,14 +596,7 @@
     <entry file="file://$PROJECT_DIR$/code/agline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="24" />
         </state>
       </provider>
     </entry>

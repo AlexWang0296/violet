@@ -1,49 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: alexpub.aux
 The style file: Definitions/mdpi.bst
-Database file #1: ref/VIOLET-ref.bib
-Warning--I didn't find a database entry for "Tang20"
+Database file #1: ref/VIOLET-ref.bib.bib
 Warning--I didn't find a database entry for ""
-You've used 12 entries,
+You've used 13 entries,
             2865 wiz_defined-function locations,
-            692 strings with 7698 characters,
-and the built_in function-call counts, 4943 in all, are:
-= -- 424
-> -- 258
-< -- 6
-+ -- 100
-- -- 76
-* -- 534
-:= -- 784
-add.period$ -- 48
-call.type$ -- 12
-change.case$ -- 12
-chr.to.int$ -- 12
-cite$ -- 12
-duplicate$ -- 216
-empty$ -- 413
-format.name$ -- 94
-if$ -- 995
+            701 strings with 7933 characters,
+and the built_in function-call counts, 5292 in all, are:
+= -- 459
+> -- 265
+< -- 7
++ -- 104
+- -- 78
+* -- 565
+:= -- 836
+add.period$ -- 52
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 234
+empty$ -- 447
+format.name$ -- 97
+if$ -- 1067
 int.to.chr$ -- 1
-int.to.str$ -- 12
-missing$ -- 12
-newline$ -- 76
-num.names$ -- 36
-pop$ -- 56
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 82
+num.names$ -- 39
+pop$ -- 61
 preamble$ -- 0
-purify$ -- 12
+purify$ -- 13
 quote$ -- 0
-skip$ -- 105
+skip$ -- 114
 stack$ -- 0
-substring$ -- 285
-swap$ -- 48
+substring$ -- 312
+swap$ -- 52
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 91
 warning$ -- 0
-while$ -- 45
+while$ -- 49
 width$ -- 0
-write$ -- 175
-(There were 2 warnings)
+write$ -- 189
+(There was 1 warning)

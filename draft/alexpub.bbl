@@ -10,15 +10,6 @@ Munz, E.D.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1007/s13398-014-0173-7.2}{\detokenize{10.1007/s13398-014-0173-7.2}}}.
 
-\bibitem[Kim(1995)]{Kim1995}
-Kim, Y.W.
-\newblock {Effects of microstructure on the deformation and fracture of
-  $\gamma$-TiAl alloys}.
-\newblock {\em Materials Science and Engineering: A} {\bf 1995}, {\em
-  192-193},~519--533.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
-
 \bibitem[Appel \em{et~al.}(2016)Appel, Clemens, and Fischer]{Appel2016}
 Appel, F.; Clemens, H.; Fischer, F.D.
 \newblock {Modeling concepts for intermetallic titanium aluminides}.
@@ -43,6 +34,15 @@ Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
   688},~289--300.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
+
+\bibitem[Kim(1995)]{Kim1995}
+Kim, Y.W.
+\newblock {Effects of microstructure on the deformation and fracture of
+  $\gamma$-TiAl alloys}.
+\newblock {\em Materials Science and Engineering: A} {\bf 1995}, {\em
+  192-193},~519--533.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
 
 \bibitem[Larsen and Schmidt(2016)]{Larsen2016}
 Larsen, P.M.; Schmidt, J.
@@ -106,5 +106,13 @@ Plimpton, S.
   [arXiv:10.1002/nag.2347]}}.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1006/jcph.1995.1039}{\detokenize{10.1006/jcph.1995.1039}}}.
+
+\bibitem[Hirel(2015)]{Hirel2015}
+Hirel, P.
+\newblock {Atomsk: A tool for manipulating and converting atomic data files}.
+\newblock {\em Computer Physics Communications} {\bf 2015}, {\em
+  197},~212--219.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cpc.2015.07.012}{\detokenize{10.1016/j.cpc.2015.07.012}}}.
 
 \end{thebibliography}
