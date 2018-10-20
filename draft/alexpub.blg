@@ -4,45 +4,45 @@ The top-level auxiliary file: alexpub.aux
 The style file: Definitions/mdpi.bst
 Database file #1: ref/VIOLET-ref.bib.bib
 Warning--I didn't find a database entry for ""
-You've used 13 entries,
+You've used 15 entries,
             2865 wiz_defined-function locations,
-            701 strings with 7933 characters,
-and the built_in function-call counts, 5292 in all, are:
-= -- 459
-> -- 265
-< -- 7
-+ -- 104
-- -- 78
-* -- 565
-:= -- 836
-add.period$ -- 52
-call.type$ -- 13
-change.case$ -- 13
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 234
-empty$ -- 447
-format.name$ -- 97
-if$ -- 1067
+            714 strings with 8287 characters,
+and the built_in function-call counts, 6066 in all, are:
+= -- 523
+> -- 305
+< -- 8
++ -- 120
+- -- 90
+* -- 653
+:= -- 959
+add.period$ -- 60
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 270
+empty$ -- 513
+format.name$ -- 111
+if$ -- 1222
 int.to.chr$ -- 1
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 82
-num.names$ -- 39
-pop$ -- 61
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 94
+num.names$ -- 45
+pop$ -- 70
 preamble$ -- 0
-purify$ -- 13
+purify$ -- 15
 quote$ -- 0
-skip$ -- 114
+skip$ -- 131
 stack$ -- 0
-substring$ -- 312
-swap$ -- 52
+substring$ -- 347
+swap$ -- 60
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 91
+type$ -- 105
 warning$ -- 0
-while$ -- 49
+while$ -- 56
 width$ -- 0
-write$ -- 189
+write$ -- 218
 (There was 1 warning)

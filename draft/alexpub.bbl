@@ -17,13 +17,13 @@ Appel, F.; Clemens, H.; Fischer, F.D.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2016.01.001}{\detokenize{10.1016/j.pmatsci.2016.01.001}}}.
 
-\bibitem[Tang \em{et~al.}(2014)Tang, Cai, Bao, Xue, Lu, Zhu, and Rui]{Tang2014}
-Tang, F.L.; Cai, H.M.; Bao, H.W.; Xue, H.T.; Lu, W.J.; Zhu, L.; Rui, Z.Y.
-\newblock {Molecular dynamics simulations of void growth in $\gamma$-TiAl
+\bibitem[Xu \em{et~al.}(2015)Xu, Tang, Xue, Yu, Zhu, and Rui]{Tang2014}
+Xu, X.T.; Tang, F.L.; Xue, H.T.; Yu, W.Y.; Zhu, L.; Rui, Z.Y.
+\newblock {Molecular dynamics simulations of void shrinkage in $\gamma$-TiAl
   single crystal}.
-\newblock {\em Computational Materials Science} {\bf 2014}, {\em 84},~232--237.
+\newblock {\em Computational Materials Science} {\bf 2015}, {\em 107},~58--65.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2013.12.014}{\detokenize{10.1016/j.commatsci.2013.12.014}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2015.05.007}{\detokenize{10.1016/j.commatsci.2015.05.007}}}.
 
 \bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
   Dilger]{Hempel2017a}
@@ -52,6 +52,14 @@ Larsen, P.M.; Schmidt, J.
   \href{http://xxx.lanl.gov/abs/1603.05143}{{\normalfont [1603.05143]}}.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/24/5/055007}{\detokenize{10.1088/0965-0393/24/5/055007}}}.
+
+\bibitem[Xu \em{et~al.}(2015)Xu, Tang, Xue, Yu, Zhu, and Rui]{Xu2015}
+Xu, X.T.; Tang, F.L.; Xue, H.T.; Yu, W.Y.; Zhu, L.; Rui, Z.Y.
+\newblock {Molecular dynamics simulations of void shrinkage in $\gamma$-TiAl
+  single crystal}.
+\newblock {\em Computational Materials Science} {\bf 2015}, {\em 107},~58--65.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2015.05.007}{\detokenize{10.1016/j.commatsci.2015.05.007}}}.
 
 \bibitem[Jing \em{et~al.}(2018)Jing, Yuan, Shivpuri, Xu, Zhang, Shan, and
   Guo]{Jing2018a}
@@ -114,5 +122,16 @@ Hirel, P.
   197},~212--219.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cpc.2015.07.012}{\detokenize{10.1016/j.cpc.2015.07.012}}}.
+
+\bibitem[Stukowski(2010)]{Stukowski2010a}
+Stukowski, A.
+\newblock {Visualization and analysis of atomistic simulation data with
+  OVITO-the Open Visualization Tool}.
+\newblock {\em Modelling and Simulation in Materials Science and Engineering}
+  {\bf 2010}, {\em 18},~015012,
+  \href{http://xxx.lanl.gov/abs/nag.2347}{{\normalfont
+  [arXiv:10.1002/nag.2347]}}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/18/1/015012}{\detokenize{10.1088/0965-0393/18/1/015012}}}.
 
 \end{thebibliography}
