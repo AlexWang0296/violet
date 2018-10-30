@@ -134,4 +134,12 @@ Stukowski, A.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/18/1/015012}{\detokenize{10.1088/0965-0393/18/1/015012}}}.
 
+\bibitem[Escaig(1968)]{Escaig1968}
+Escaig, B.
+\newblock {L'activation thermique des d{\'{e}}viations sous faibles contraintes
+  dans les structures h.c. et c.c. Par}.
+\newblock {\em Physica Status Solidi (b)} {\bf 1968}, {\em 28},~463--474.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/pssb.19680280203}{\detokenize{10.1002/pssb.19680280203}}}.
+
 \end{thebibliography}

@@ -1,5 +1,5 @@
  %=================================================================
-\documentclass[materials,article,submit,moreauthors,pdftex,10pt,a4paper]{Definitions/mdpi} 
+\documentclass[metals,article,submit,moreauthors,pdftex,10pt,a4paper]{Definitions/mdpi} 
 \usepackage{siunitx}
 \usepackage{multirow}
 \preto{\abstractkeywords}{\nolinenumbers}
@@ -84,7 +84,7 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{img/tial-cell}
-	\caption{Unit cell of \rm{TiAl} \ref (a) and $\rm{Ti_3Al}$ (b)}
+	\caption{Unit cell of \rm{TiAl} (a) and $\rm{Ti_3Al}$ (b)}
 	\label{fig:tial-cell}
 \end{figure}
 
@@ -104,10 +104,10 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 	\label{tab:lattice_parameter}
 \end{table} 
 
-$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure, and $\alpha_2 -\rm Ti_3Al$ has hcp structure, the two types of initial cells are shown in Fig. \ref{fig:unit-cell}, and the constructing parameters are givin by Table. 
+$\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure, and $\alpha_2 -\rm Ti_3Al$ has hcp structure, the two types of initial cells are shown in Fig. \ref{fig:tial-cell}, and the constructing parameters are givin by Table \ref{tab:lattice_parameter}. 
 In order to study the deformation mechanism of the two phase alloy and the effect of void defect, three types of models were created: Type-1.model without any void defect; Type-2. models with different size void inside $\alpha_2$ phase; Type-3. models with void at $\alpha_2-\gamma$ interface. 
 \ref{tab:lattice_parameter}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \ref{fig:model-creation}. 
-Periodic boundary conditions (PBC) are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is $L_x =20$ \si{\angstrom}, $L_y = $18\si{\angstrom}, $L_z = 21$ \si{\angstrom}, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{Hirel2015}, and resulting in the arbitrary shape and orientation of the grains.
+Periodic boundary conditions (PBC) are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is $L_x =200$ \si{\angstrom}, $L_y = $180\si{\angstrom}, $L_z = 210$ \si{\angstrom}, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{Hirel2015}, and resulting in the arbitrary shape and orientation of the grains.
 Unixial load was applied to the model at a strain rate of $5\times10^8\ \rm{s}^{-1}$.
  
 \begin{figure}[ht]
@@ -128,16 +128,11 @@ where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six
  
 \section{Results and Discussion}\label{section:RD}
 %	/home/alex/Documents/violet/draft/img/perfect-line.pdf
-
-In order to examine deformation behavior carefully, tensile loading was applied to the model without any types of void defect. The whole tension process can be divided into four stages: Stage-\uppercase\expandafter{\romannumeral1} , the elastic stage, ranging from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1; Stage-\uppercase\expandafter{\romannumeral2}, the yield stage ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6. In stage-\uppercase\expandafter{\romannumeral2}, the stress decreased slightly along with the increasing of strain. Stage-\uppercase\expandafter{\romannumeral3} is cracking stage and in this stage the strength of the model have been was detracted sharply, we can confine that the structure almost fail after the Stage-\uppercase\expandafter{\romannumeral3}. Snapshots of atoms configuration are labeled with key points number from 1 to 10, specific list of key points numbers were shown in Table. \ref{tab:key-point}.
-% Deformation beaviour of the $\alpha_2$ phase had $\gamma$ phase were discussed in the following subsection respectively.
- 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=1\linewidth]{img/perfect-line2-2}
-	\caption{Deformation process of the model without void defect}
-	\label{fig:deformation-pf}
-\end{figure}
+Deformation process of the model witout void defect is shown in Fig. \ref{fig:deformation-pf}. The streng of the model without void defect is 5.3 Gpa. According to stress response under constan rate of strain rate, the whole tensile process can be divided into four stages: 
+Stage - \uppercase\expandafter{\romannumeral1}: elasetic stage,ranging from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1;
+Stage - \uppercase\expandafter{\romannumeral2}: yield stage, ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6;
+Stage - \uppercase\expandafter{\romannumeral3}: cracking stage, ranging from $\epsilon = 0.101$ to $\epsilon = 0.112$, including key pint 7 to 10;
+Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discussion concentrates on deformation phenomena that rely on the elastoplastic co-deformation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurring in two phase alloys. 
 
 \begin{table}[ht]
 	\caption{Key point during tensile process}
@@ -148,39 +143,65 @@ In order to examine deformation behavior carefully, tensile loading was applied 
 		\textbf{Stage} &\uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3}\\
 		
 		\midrule
-		% Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.20 & 0.21 & 0.22 & 0.23 \\
+		% Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.Fu = sin20 & 0.21 & 0.22 & 0.23 \\
 		% \midule
-		\textbf{Strain}	& 0 & 0.092 & 0.094 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112 \\
+		\textbf{Strain}	& 0.05 &  0.092 & 0.092 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112 \\
 		\bottomrule
 	\end{tabular} 
 	\label{tab:key-point}
 \end{table}
+
+ 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\linewidth]{img/perfect-line2-2}
+	\caption{Deformation process of the model without void defect}
+	\label{fig:deformation-pf}
+\end{figure}
+
+
 % Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
 \subsection{Deformation Mechanism of Two Phase TiAl Alloy without Void Defects}
-Deformation process of model without void under uniaxial load is shown by stress-strain curve: Fig. \ref{fig:deformation-pf} and snapshots of atom configuration at 10 key points in Fig. \ref{fig:Defect}. In Fig.\ref{fig:Defect}a, ordered atoms in $\gamma$ phase grains have been removed, defects inside grains have been left. Similarly, the defect of $\alpha_2$ phase has been left. Following discussion concentrates on deformation phenomena that rely on the elastoplastic co-deformation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurring in two phase alloys.  The results show that, at elastic stage(stage 1), the structure of model have little change but the size of simulation box enlarged due to the loading. 
-Emission of dislocation and evolution of defects initiated at the end of elastic stage (key point 2). A  great number of dislocation emitted inside $\gamma$ phase stage 2, however,  the dislocation inside $\gamma$ phase was emitted after key point 6 in Fig. \ref{fig:Defect}b. $\gamma$(TiAl) deforms by octahedral glide of ordinary dislocations with the Burgers vector b=1/2[110] and superdislocations with the Burgers vectors $b=[101]$ and $b=1/2[11\overline{2}]$. The other potential deformation mode is mechanical twinning along $1/6[11\overline{2}]{111}$.
 
-\begin{equation}\label{eq:dis1}
-	[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]
-\end{equation}
 
-The orientation of slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1}_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}. From Fig. \ref{fig:Defect}, of the two constituents of ($\alpha_2$+$\gamma$) alloys, the $\alpha_2$ phase is more difficult to deform. A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$ phase is certainly the strong plastic anisotropy of the $\alpha_2$ phase. TEM examinations performed on tensile tested lamellar alloys have revealed that the limited plasticity of the $\alpha_2$ phase is mainly carried by local slip of [a]-type dislocations with the Burgers vector $b=1/3[11\overline{2}0]$ prism planes\ref{fig:Defect}, which is by far the easiest slip system in $\alpha_2$ single crystals. 
- 
+
+
 
 \begin{figure}[ht] 
 	\centering
 	\includegraphics[width=1\linewidth]{img/def}
-	\caption{Defect evolution}
+	\caption{Microstrucutre evolution inside $\gamma$ phase(a), $\alpha_2$ phase(b) at key point 1 to 10}
 	\label{fig:Defect}
 \end{figure}
 
+Deformation process of model without void under uniaxial load is shown by stress-strain curve Fig. \ref{fig:deformation-pf} and snapshots of atom configuration at the 10 key points in Fig. \ref{fig:Defect}.  Atoms with ordered orientation  of $\gamma$ phase grains have been removed in Fig.\ref{fig:Defect}a,\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Fig. \ref{fig:Defect}b, the defect of $\alpha_2$ phase has been left.  
 
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=1\linewidth]{img/plane}
-	\caption{close packed plane of $\gamma\ \rm{phase}\ (\rm{TiAl})$ and $\alpha (\rm{Ti_3Al})$ phase }
-	\label{fig:unit-cell}
-\end{figure}
+
+The results show that, at elastic stage(stage\uppercase\expandafter{\romannumeral1}), the structure of model have little change but the size of simulation box enlarged due to the loading, the deformation of the two phase are compatible. Emission of dislocation and evolution of defects initiated at the end of elastic stage (key point 2). A  great number of dislocation emitted inside $\gamma$ phase stage 2, however, the dislocation inside $\gamma$ phase was emitted after key point 6 in Fig. \ref{fig:Defect}b. The deformation of $\alpha_2$ phase is even more earlier than $\gamma$ phase druing yied stage, thus local displacement of two phase are incompatible during yield stage.  $\gamma$ phase (TiAl) deforms by octahedral glide of ordinary dislocations with the Burgers vector b=1/2[110] and super dislocations with the Burgers vectors $b=[101]$ and $b=1/2[11\overline{2}]$. The other potential deformation mode is mechanical twinning have been repored along $1/6[11\overline{2}]{111}$, have not been observed in the simulation because of room temperature cannot offer enough energy for dislocation nucleation.
+
+
+\begin{equation}\label{eq:dis1}
+	[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]
+\end{equation}
+The velocity of a screw dislocation can be estimated by Escaig's elastic model \cite{Escaig1968}, it can be written as 
+
+\begin{equation}\label{eq:temp-dis}
+v = v_0 \exp(-\Delta H(\tau^*)/kT)
+\end{equation}
+
+where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be obtained under different loading conditions, thus  $\Delta H(\tau^*)$ are different. We choose cases with different loading condition$\Delta H(\tau^*)$  , normalized velocity can be  case 1 to case 3  in a increse order of $\Delta H(\tau^*)$. t
+
+
+The orientation of slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1}_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}. From Fig. \ref{fig:Defect}, of the two constituents of ($\alpha_2$+$\gamma$) alloys, the $\alpha_2$ phase is more difficult to deform. A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$ phase is certainly the strong plastic anisotropy of the $\alpha_2$ phase. TEM examinations performed on tensile tested lamellar alloys have revealed that the limited plasticity of the $\alpha_2$ phase is mainly carried by local slip of [a]-type dislocations with the Burgers vector $b=1/3[11\overline{2}0]$ prism planes\ref{fig:Defect}, which is by far the easiest slip system in $\alpha_2$ single crystals. 
+
+
+
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=1\linewidth]{img/plane}
+%	\caption{close packed plane of $\gamma\ \rm{phase}\ (\rm{TiAl})$ and $\alpha (\rm{Ti_3Al})$ phase }
+%	\label{fig:unit-cell}
+%\end{figure}
 
 	\begin{figure}[ht]
 		\centering
@@ -190,34 +211,31 @@ The orientation of slip is changed because the crystallographically available sl
 	\end{figure}
 
 
-	
-The core of a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2[110] dislocation gliding in one $\gamma$ grain has to be converted in to a $[101]$ super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
-\begin{equation}
-u = sin(v)
-\end{equation}	
-Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamealla, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
-
-\subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
-
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{"img/dis-void2"}
-	\caption{Orowan process in $\alpha$-phase ($\alpha$ phase atoms have been removed)}
-	\label{fig:orowan}
+	\begin{minipage}{0.495\textwidth}
+		\includegraphics[width=1\linewidth]{img/temp}
+		\centering
+		\caption{Mobility of dislocation\\
+		}
+		\label{fig:temp}
+	\end{minipage}	
+	\hfill
+	\begin{minipage}{0.495\textwidth}		
+		\includegraphics[width=1\linewidth]{img/disum}
+		\centering
+		\caption{Strength of models}
+		\label{fig:disum}
+	\end{minipage}
 \end{figure}
 
-The role of void can be concluded as two main parts: source of dislocation and obstacles to dislocations.  Second-phase particles, precipitated within, as a consequence of a thermal treatment, or taken up, as a consequence of a material processing route, into a matrix of the first, dominant phase, disrupt, more or less (as possibly associated with the occurrence of incoherent or coherent interfaces;the long-range translation symmetry of the matrix. They may induce considerable misfit-stress fields and thus can influence material properties pronouncedly. Such stress fields surrounding the second-phase particles can be due to misfit between the volume occupied by the second-phase particle when unconstrained and the space (“hole”) put at its disposal by the matrix. Such misfit can arise due to specific volume differences induced by precipitation or by different thermal expansion or shrinkage upon heating or cooling the specimen. A possibly favorable effect of second-phase particles is a contribution to the enhancement of mechanical strength. Considering yielding of a material as related to glide of dislocations, any mechanism obstructing dislocation glide improves the mechanical strength. In the discussion of the Frank–Read source for dislocation (-line) production  it was made clear that second-phase particles can serve as obstacles for dislocation migration: the stress fields surrounding the second-phase particles can be of “antagonistic” nature and “block” propagation of the stress field of a migrating dislocation: the second-phase particle acts as “pinning point”. It was already indicated that in order that a dislocation can pass two pinning points a critical shear stress is needed that depends on the distance between the obstacles (which can be second-phase particles):
-\begin{equation} \label{eq:orowan} 
-\tau_0 = Gb/d
-\end{equation}
+	
+The core of a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2[110] dislocation gliding in one $\gamma$ grain has to be converted in to a $[101]$ super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
 
-where d represents the distance between A and B and thus reflects the dependence of the critical shear stress $\tau_0$ on the second-phase particle density and distribution. This mechanism for hardening is designated as the Orowan process (with $\tau_0$ as the Orowan
-(shear) stress ; sgitee also Sect. 11.14.4). As a result of the Orowan process, upon passage of the pinning points by a series of gliding dislocations, a system of concentric loops is formed around the second-phase particles (see Fig. 5.27). Consequently, the effective average distance between the second-phase particles has decreased to d which implies a necessary increase of the value of critical shear stress required for continuation of dislocation glide (cf. (5.10)).
-A step, of the width of a burgers vector, will be generated at both sidesof a crystal along the direction of the burgers vector after dislocation traversing the entire crystal, as is shown in \ref{fig:orowan}. A small tep will be formed at spherical void surface toward the void interiorafter dislocation absorption at spherical void surfaces. If a great number of dislocation slip along their respective systemstowards the spherical nano void in all directions, and are absorbed at fhe spherical void surfaces, the spherical nano void will eventually shrink from the dash circle to
+Dislocations crossing semi-coherent boundaries have to intersect the misfit dislocations, a process that involves elastic interaction, jog formation and the incorporation of gliding dislocations into the mismatch structure of the interface.When the slip is forced to cross $\alpha_2$ lamealla, pyramidal slip of the $\alpha_2$ phase is required, which needs an extremely high shear stress.
 
 
 \subsection{The effect of void on the strength of material}
-
 \begin{figure}[ht]
 	\centering
 	\begin{minipage}{0.495\textwidth}
@@ -236,7 +254,7 @@ A step, of the width of a burgers vector, will be generated at both sidesof a cr
 \end{figure}
 
 Void of R=10 \AA\ was placed at phase boundary, inside $\alpha_2$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best strength, while the void located inside $\alpha_2$ phase detracts the strength of the material most, and the void at phase boundary have less impact on the strength.
-	
+           
 The effect of size is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materials with geometry subtraction was applied to the model, and theoretical strength of the models was calculated by formulation \ref{eq:section}:
 	
 	\begin{equation} \label{eq:section} 
@@ -258,15 +276,36 @@ Engineering stress is calculated
 The rate of decrease of loading area are smaller comparing with the detraction of strength, so it can be assumed that the yield yield behavior and strength is much more related with local behaviour of grain boundaries and void.
 	
 Grain and phase boundaris are obstancles to deformation process, thus the stability of boundaries have great impact on the strength of materials. Interactive between grainboundary and void determins the fracture mode of the TiAl alloy.
-	
-According to Schmid's law:
-	$$\tau = \sigma*m$$
-where m is the Schmid factor :Science China MaterialsScience China Materials - Springer - Springer
-	$$ m = cos(\phi)cos(\lambda)$$
+
+\subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\linewidth]{"img/dis-void2"}
+	\caption{Orowan process in $\alpha$-phase ($\alpha$ phase atoms have been removed)}
+	\label{fig:orowan}
+\end{figure}
+
+
+The role of void can be concluded as two main parts: source of dislocation and obstacles to dislocations.  Second-phase particles, precipitated within, as a consequence of a thermal treatment, or taken up, as a consequence of a material processing route, into a matrix of the first, dominant phase, disrupt, more or less (as possibly associated with the occurrence of incoherent or coherent interfaces;the long-range translation symmetry of the matrix. They may induce considerable misfit-stress fields and thus can influence material properties pronouncedly. Such stress fields surrounding the second-phase particles can be due to misfit between the volume occupied by the second-phase particle when unconstrained and the space (“hole”) put at its disposal by the matrix. Such misfit can arise due to specific volume differences induced by precipitation or by different thermal expansion or shrinkage upon heating or cooling the specimen. A possibly favorable effect of second-phase particles is a contribution to the enhancement of mechanical strength. Considering yielding of a material as related to glide of dislocations, any mechanism obstructing dislocation glide improves the mechanical strength. In the discussion of the Frank–Read source for dislocation (-line) production  it was made clear that second-phase particles can serve as obstacles for dislocation migration: the stress fields surrounding the second-phase particles can be of “antagonistic” nature and “block” propagation of the stress field of a migrating dislocation: the second-phase particle acts as “pinning point”. It was already indicated that in order that a dislocation can pass two pinning points a critical shear stress is needed that depends on the distance between the obstacles (which can be second-phase particles):
+\begin{equation} \label{eq:orowan} 
+\tau_0 = Gb/d
+\end{equation}
+
+where d represents the distance between A and B and thus reflects the dependence of the critical shear stress $\tau_0$ on the second-phase particle density and distribution. This mechanism for hardening is designated as the Orowan process (with $\tau_0$ as the Orowan
+(shear) stress ; sgitee also Sect. 11.14.4). As a result of the Orowan process, upon passage of the pinning points by a series of gliding dislocations, a system of concentric loops is formed around the second-phase particles (see Fig. 5.27). Consequently, the effective average distance between the second-phase particles has decreased to d which implies a necessary increase of the value of critical shear stress required for continuation of dislocation glide (cf. (5.10)).
+A step, of the width of a burgers vector, will be generated at both sidesof a crystal along the direction of the burgers vector after dislocation traversing the entire crystal, as is shown in \ref{fig:orowan}. A small tep will be formed at spherical void surface toward the void interiorafter dislocation absorption at spherical void surfaces. If a great number of dislocation slip along their respective systemstowards the spherical nano void in all directions, and are absorbed at fhe spherical void surfaces, the spherical nano void will eventually shrink from the dash circle to
+\section{conclusion}
+In this paper, annealing processes of $\gamma$-TiAl alloy after introducing residual stress into prepressing are simulated, and the dynamic evolution process of microdefects and the distribution of residual stress before and after annealing are investigated. The conclusions are as follows:
+
+(1) In the cold defromation processs of two phase TiAl alloy, $\gamma$ phase is the major deforamtion components of the alloy. The typical deformation mechanism of the gamma phase in tial 
+
+(2)
 
 \reftitle{References}
 \bibliography{ref/VIOLET-ref.bib}
 \funding{This research was funded by the National Natural Science Foundation of China (No. 51665030) and the Program for Changjiang Scholars and Innovative Research Team in Universities of the Ministry of Education of China (No. IRT-15R30) and the Doctoral Research Foundation of Lanzhou University of Technology.}
+
 \end{document}
 
 
