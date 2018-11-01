@@ -53,6 +53,24 @@ Larsen, P.M.; Schmidt, J.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/24/5/055007}{\detokenize{10.1088/0965-0393/24/5/055007}}}.
 
+\bibitem[Groh \em{et~al.}(2009)Groh, Marin, Horstemeyer, and Zbib]{Groh2009}
+Groh, S.; Marin, E.B.; Horstemeyer, M.F.; Zbib, H.M.
+\newblock {Multiscale modeling of the plasticity in an aluminum single
+  crystal}.
+\newblock {\em International Journal of Plasticity} {\bf 2009}, {\em
+  25},~1456--1473.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2008.11.003}{\detokenize{10.1016/j.ijplas.2008.11.003}}}.
+
+\bibitem[Liu \em{et~al.}(2018)Liu, Sun, and Liew]{Liu2018}
+Liu, X.; Sun, W.K.; Liew, K.M.
+\newblock {Multiscale modeling of crystal plastic deformation of
+  polycrystalline titanium at high temperatures}.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering} {\bf
+  2018}, {\em 340},~932--955.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cma.2018.06.026}{\detokenize{10.1016/j.cma.2018.06.026}}}.
+
 \bibitem[Xu \em{et~al.}(2015)Xu, Tang, Xue, Yu, Zhu, and Rui]{Xu2015}
 Xu, X.T.; Tang, F.L.; Xue, H.T.; Yu, W.Y.; Zhu, L.; Rui, Z.Y.
 \newblock {Molecular dynamics simulations of void shrinkage in $\gamma$-TiAl
