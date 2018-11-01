@@ -51,7 +51,7 @@ $^{2}$ \quad State Key Laboratory of Advanced Processing and Recycling of Non-fe
 % Abstract (Do not insert blank lines, i.e. \\) 
 \abstract{Cold deformation behavior of polycrystalline metallic materia is affected by dislocation, nano void and other defects. Existing studies on two phase TiAl alloy covers about deformation behavior mainly on marco scale. This paper mainly concern about cold deforamtion mechanism of the two phase TiAl ally at atomic scale, and  the role of void defect in deformation process. Molecular dynamics simulation was performed to study the evolution of a spherical nano void in $\alpha_2$+$\gamma$ two-phase titanium-aluminium alloy under uniaxial tension. Simulation cases of model with different size and position of void were performed. The results show that i) $\gamma$ phase is the major deformation source of the two phase alloy; ii) Voids defect detracts the strength of the two phase alloy, however the position of void affect the degree of this substraction: voids located at the $\alpha_2$/$\gamma$ phase boundary have significant detract to strength.}
 % Keywords
-\keyword{$\alpha_2+\gamma$ two phase TiAl alloy; void; molecular dynamics}
+\keyword{two phase TiAl alloy; void; molecular dynamics}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -83,7 +83,7 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 \subsection{Model Creation of Crystalline}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{img/tial-cell}
+	\includegraphics[width=1\linewidth]{img/tial-cell2}
 	\caption{Unit cell of \rm{TiAl} (a) and $\rm{Ti_3Al}$ (b)}
 	\label{fig:tial-cell}
 \end{figure}
@@ -106,16 +106,11 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 
 $\gamma $ TiAl has a fcc-centered tetragonal with an $L1_0$ structure, and $\alpha_2 -\rm Ti_3Al$ has hcp structure, the two types of initial cells are shown in Fig. \ref{fig:tial-cell}, and the constructing parameters are givin by Table \ref{tab:lattice_parameter}. 
 In order to study the deformation mechanism of the two phase alloy and the effect of void defect, three types of models were created: Type-1.model without any void defect; Type-2. models with different size void inside $\alpha_2$ phase; Type-3. models with void at $\alpha_2-\gamma$ interface. 
-\ref{tab:lattice_parameter}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure \ref{fig:model-creation}. 
+\ref{tab:lattice_parameter}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure . 
 Periodic boundary conditions (PBC) are applied along all three directions, that makes poly crystal with periodic nanovoid structures. The initial dimension of simulation cell is $L_x =200$ \si{\angstrom}, $L_y = $180\si{\angstrom}, $L_z = 210$ \si{\angstrom}, and each model contains about 4.6 million atoms. The grain orientation and size were randomly created with Voronoi method with code ATOMSK \cite{Hirel2015}, and resulting in the arbitrary shape and orientation of the grains.
 Unixial load was applied to the model at a strain rate of $5\times10^8\ \rm{s}^{-1}$.
  
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=1\linewidth]{img/models}
-	\caption{ Model with no void defect (b), with void inside $\alpha_2$ phase (c) with void at $\alpha_2-\gamma$ interface (d)}
-	\label{fig:model-creation}
-\end{figure}
+
 	
 \subsection{Analysis method}
 In order to identify typical defects in the deformed model, a hybrid analysis method was used with free code ovito\cite{Stukowski2010a}.Dislocation is visualized by DXA method, and Centrossymmetry parameter(CSP) is used to tell grain boundary from  $\alpha_2$ phase and $\gamma$ phase. The definition of CSP is as following:
@@ -127,6 +122,15 @@ In order to identify typical defects in the deformed model, a hybrid analysis me
 where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centrosymmetry parameter(CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, the existence of dislocation atoms become visible. 
  
 \section{Results and Discussion}\label{section:RD}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\linewidth]{img/perfect-line2-2}
+	\caption{Deformation process of the model without void defect}
+	\label{fig:deformation-pf}
+\end{figure}
+
+
 %	/home/alex/Documents/violet/draft/img/perfect-line.pdf
 Deformation process of the model witout void defect is shown in Fig. \ref{fig:deformation-pf}. The streng of the model without void defect is 5.3 Gpa. According to stress response under constan rate of strain rate, the whole tensile process can be divided into four stages: 
 Stage - \uppercase\expandafter{\romannumeral1}: elasetic stage,ranging from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1;
@@ -152,12 +156,6 @@ Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discus
 \end{table}
 
  
-\begin{figure}[ht]
-	\centering
-	\includegraphics[width=1\linewidth]{img/perfect-line2-2}
-	\caption{Deformation process of the model without void defect}
-	\label{fig:deformation-pf}
-\end{figure}
 
 
 % Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
@@ -169,7 +167,7 @@ Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discus
 
 \begin{figure}[ht] 
 	\centering
-	\includegraphics[width=1\linewidth]{img/def}
+	\includegraphics[width=1\linewidth]{img/def2}
 	\caption{Microstrucutre evolution inside $\gamma$ phase(a), $\alpha_2$ phase(b) at key point 1 to 10}
 	\label{fig:Defect}
 \end{figure}
@@ -236,6 +234,25 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 
 
 \subsection{The effect of void on the strength of material}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\linewidth]{img/models}
+	\caption{ Model with no void defect (b), with void inside $\alpha_2$ phase (c) with void at $\alpha_2-\gamma$ interface (d)}
+	\label{fig:model-creation}
+\end{figure}
+
+
+Void of R=10 \AA\ was placed at phase boundary, inside $\alpha_2$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best strength, while the void located inside $\alpha_2$ phase detracts the strength of the material most, and the void at phase boundary have less impact on the strength.
+           
+The effect of size is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materials with geometry subtraction was applied to the model, and theoretical strength of the models was calculated by formulation \ref{eq:section}:
+	
+	\begin{equation} \label{eq:section} 
+	\sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
+	\end{equation}
+	
+where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = 36000 {AA}^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the results calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaviour of the materials, thus revolution of defects should be examined carefully.
+
 \begin{figure}[ht]
 	\centering
 	\begin{minipage}{0.495\textwidth}
@@ -253,15 +270,6 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 	\end{minipage}
 \end{figure}
 
-Void of R=10 \AA\ was placed at phase boundary, inside $\alpha_2$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materails with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best strength, while the void located inside $\alpha_2$ phase detracts the strength of the material most, and the void at phase boundary have less impact on the strength.
-           
-The effect of size is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materials with geometry subtraction was applied to the model, and theoretical strength of the models was calculated by formulation \ref{eq:section}:
-	
-	\begin{equation} \label{eq:section} 
-	\sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
-	\end{equation}
-	
-where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = 36000 {AA}^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the results calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behaviour of the materials, thus revolution of defects should be examined carefully.
 
 %%%	
 %\begin{figure}[ht]
@@ -292,15 +300,13 @@ The role of void can be concluded as two main parts: source of dislocation and o
 \tau_0 = Gb/d
 \end{equation}
 
-where d represents the distance between A and B and thus reflects the dependence of the critical shear stress $\tau_0$ on the second-phase particle density and distribution. This mechanism for hardening is designated as the Orowan process (with $\tau_0$ as the Orowan
-(shear) stress ; sgitee also Sect. 11.14.4). As a result of the Orowan process, upon passage of the pinning points by a series of gliding dislocations, a system of concentric loops is formed around the second-phase particles (see Fig. 5.27). Consequently, the effective average distance between the second-phase particles has decreased to d which implies a necessary increase of the value of critical shear stress required for continuation of dislocation glide (cf. (5.10)).
-A step, of the width of a burgers vector, will be generated at both sidesof a crystal along the direction of the burgers vector after dislocation traversing the entire crystal, as is shown in \ref{fig:orowan}. A small tep will be formed at spherical void surface toward the void interiorafter dislocation absorption at spherical void surfaces. If a great number of dislocation slip along their respective systemstowards the spherical nano void in all directions, and are absorbed at fhe spherical void surfaces, the spherical nano void will eventually shrink from the dash circle to
+where d represents the distance between A and B and thus reflects the dependence of the critical shear stress $\tau_0$ on the second-phase particle density and distribution. This mechanism for hardening is designated as the Orowan process (with $\tau_0$ as the Orowan (shear) stress. As a result of the Orowan process, upon passage of the pinning points by a series of gliding dislocations, a system of concentric loops is formed around the second-phase particles. Consequently, the effective average distance between the second-phase particles has decreased to d which implies a necessary increase of the value of critical shear stress required for continuation of dislocation glide. The width of a burgers vector, will be generated at both sidesof a crystal along the direction of the burgers vector after dislocation traversing the entire crystal, as is shown in \ref{fig:orowan}. A small tep will be formed at spherical void surface toward the void interiorafter dislocation absorption at spherical void surfaces. If a great number of dislocation slip along their respective systemstowards the spherical nano void in all directions, and are absorbed at fhe spherical void surfaces, the spherical nano void will eventually shrink from the dash circle 
 \section{conclusion}
 In this paper, annealing processes of $\gamma$-TiAl alloy after introducing residual stress into prepressing are simulated, and the dynamic evolution process of microdefects and the distribution of residual stress before and after annealing are investigated. The conclusions are as follows:
 
-(1) In the cold defromation processs of two phase TiAl alloy, $\gamma$ phase is the major deforamtion components of the alloy. The typical deformation mechanism of the gamma phase in tial 
+(1) .
 
-(2)
+(2) .
 
 \reftitle{References}
 \bibliography{ref/VIOLET-ref.bib}
