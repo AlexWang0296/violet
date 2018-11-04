@@ -1,10 +1,12 @@
 \begin{thebibliography}{-------}
 \providecommand{\natexlab}[1]{#1}
 
-\bibitem[Munz(2017)]{Munz2017}
-Munz, E.D.
-\newblock {Psychotherapie in der Psychiatrie}.
-\newblock {\em Nervenheilkunde} {\bf 2017}, {\em 36},~800--805,
+\bibitem[Mart{\'{i}}nkov{\'{a}} \em{et~al.}(2004)Mart{\'{i}}nkov{\'{a}},
+  Nov{\'{a}}, Sablina, Graphodatsky, and Zima]{Munz2017}
+Mart{\'{i}}nkov{\'{a}}, N.; Nov{\'{a}}, P.; Sablina, O.V.; Graphodatsky, A.S.;
+  Zima, J.
+\newblock {Karyotypic relationships of the Tatra vole (Microtus tatricus)}.
+\newblock {\em Folia Zoologica} {\bf 2004}, {\em 53},~279--284,
   \href{http://xxx.lanl.gov/abs/arXiv:1011.1669v3}{{\normalfont
   [arXiv:1011.1669v3]}}.
 \newblock
@@ -25,27 +27,17 @@ Xu, X.T.; Tang, F.L.; Xue, H.T.; Yu, W.Y.; Zhu, L.; Rui, Z.Y.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2015.05.007}{\detokenize{10.1016/j.commatsci.2015.05.007}}}.
 
-\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
-  Dilger]{Hempel2017a}
-Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
-\newblock {Study on the residual stress relaxation in girth-welded steel pipes
-  under bending load using diffraction methods}.
-\newblock {\em Materials Science and Engineering A} {\bf 2017}, {\em
-  688},~289--300.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
-
 \bibitem[Kim(1995)]{Kim1995}
 Kim, Y.W.
 \newblock {Effects of microstructure on the deformation and fracture of
   $\gamma$-TiAl alloys}.
-\newblock {\em Materials Science and Engineering: A} {\bf 1995}, {\em
+\newblock {\em Materials Science and Engineering A} {\bf 1995}, {\em
   192-193},~519--533.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
 
-\bibitem[Larsen and Schmidt(2016)]{Larsen2016}
-Larsen, P.M.; Schmidt, J.
+\bibitem[Larsen \em{et~al.}(2016)Larsen, Schmidt, and Schi{\O}tz]{Larsen2016}
+Larsen, P.M.; Schmidt, S.; Schi{\O}tz, J.
 \newblock {Robust structural identification via polyhedral template matching}.
 \newblock {\em Modelling and Simulation in Materials Science and Engineering}
   {\bf 2016}, {\em 24},~055007,
@@ -71,13 +63,24 @@ Liu, X.; Sun, W.K.; Liew, K.M.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cma.2018.06.026}{\detokenize{10.1016/j.cma.2018.06.026}}}.
 
-\bibitem[Xu \em{et~al.}(2015)Xu, Tang, Xue, Yu, Zhu, and Rui]{Xu2015}
-Xu, X.T.; Tang, F.L.; Xue, H.T.; Yu, W.Y.; Zhu, L.; Rui, Z.Y.
-\newblock {Molecular dynamics simulations of void shrinkage in $\gamma$-TiAl
-  single crystal}.
-\newblock {\em Computational Materials Science} {\bf 2015}, {\em 107},~58--65.
+\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
+  Dilger]{Hempel2017a}
+Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
+\newblock {Study on the residual stress relaxation in girth-welded steel pipes
+  under bending load using diffraction methods}.
+\newblock {\em Materials Science and Engineering A} {\bf 2017}, {\em
+  688},~289--300.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2015.05.007}{\detokenize{10.1016/j.commatsci.2015.05.007}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
+
+\bibitem[Xu \em{et~al.}(2011)Xu, Hao, Su, Yu, Wan, and Hu]{Xu2011}
+Xu, S.Z.; Hao, Z.M.; Su, Y.Q.; Yu, Y.; Wan, Q.; Hu, W.J.
+\newblock {An analysis on nanovoid growth in body-centered cubic single
+  crystalline vanadium}.
+\newblock {\em Computational Materials Science} {\bf 2011}, {\em
+  50},~2411--2421.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.commatsci.2011.03.019}{\detokenize{10.1016/j.commatsci.2011.03.019}}}.
 
 \bibitem[Jing \em{et~al.}(2018)Jing, Yuan, Shivpuri, Xu, Zhang, Shan, and
   Guo]{Jing2018a}
@@ -106,11 +109,44 @@ Xiong, L.; Xu, S.; McDowell, D.L.; Chen, Y.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2014.08.002}{\detokenize{10.1016/j.ijplas.2014.08.002}}}.
 
+\bibitem[Kiener \em{et~al.}(2011)Kiener, Hosemann, Maloy, and
+  Minor]{Kiener2011}
+Kiener, D.; Hosemann, P.; Maloy, S.A.; Minor, A.M.
+\newblock {In situ nanocompression testing of irradiated copper}.
+\newblock {\em Nature Materials} {\bf 2011}, {\em 10},~608--613.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1038/nmat3055}{\detokenize{10.1038/nmat3055}}}.
+
+\bibitem[Yang and Baker(1998)]{Yang1998}
+Yang, Y.; Baker, I.
+\newblock {The influence of vacancy concentration on the mechanical behavior of
+  Fe-40Al}.
+\newblock {\em Intermetallics} {\bf 1998}, {\em 6},~167--175.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S0966-9795(97)00062-9}{\detokenize{10.1016/S0966-9795(97)00062-9}}}.
+
+\bibitem[Nazmy \em{et~al.}(2001)Nazmy, Staubli, Onofrio, and Lupinc]{Nazmy2001}
+Nazmy, M.; Staubli, M.; Onofrio, G.; Lupinc, V.
+\newblock {Surface defect tolerance of a cast TiAl alloy in fatigue}.
+\newblock {\em Scripta Materialia} {\bf 2001}, {\em 45},~787--792.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S1359-6462(01)01097-1}{\detokenize{10.1016/S1359-6462(01)01097-1}}}.
+
+\bibitem[Wu \em{et~al.}(2016)Wu, Xu, Wang, and Yang]{Wu2016}
+Wu, H.N.; Xu, D.S.; Wang, H.; Yang, R.
+\newblock {Molecular Dynamics Simulation of Tensile Deformation and Fracture of
+  $\gamma$-TiAl with and without Surface Defects}.
+\newblock {\em Journal of Materials Science and Technology} {\bf 2016}, {\em
+  32},~1033--1042.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jmst.2015.12.001}{\detokenize{10.1016/j.jmst.2015.12.001}}}.
+
 \bibitem[Ko \em{et~al.}(2015)Ko, Grabowski, and Neugebauer]{Ko2015}
 Ko, W.S.; Grabowski, B.; Neugebauer, J.
 \newblock {Development and application of a Ni-Ti interatomic potential with
   high predictive accuracy of the martensitic phase transition}.
-\newblock {\em Physical Review B} {\bf 2015}, {\em 92},~134107.
+\newblock {\em Physical Review B - Condensed Matter and Materials Physics} {\bf
+  2015}, {\em 92},~134107.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevB.92.134107}{\detokenize{10.1103/PhysRevB.92.134107}}}.
 
@@ -156,7 +192,7 @@ Stukowski, A.
 Escaig, B.
 \newblock {L'activation thermique des d{\'{e}}viations sous faibles contraintes
   dans les structures h.c. et c.c. Par}.
-\newblock {\em Physica Status Solidi (b)} {\bf 1968}, {\em 28},~463--474.
+\newblock {\em Physica Status Solidi (B)} {\bf 1968}, {\em 28},~463--474.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/pssb.19680280203}{\detokenize{10.1002/pssb.19680280203}}}.
 

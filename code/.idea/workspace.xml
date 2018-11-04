@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a34d0a4-1500-4cd9-9275-1e131c5a5366" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SigLinePlt.py" beforeDir="false" afterPath="$PROJECT_DIR$/SigLinePlt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agline.py" beforeDir="false" afterPath="$PROJECT_DIR$/agline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ialine.py" beforeDir="false" afterPath="$PROJECT_DIR$/ialine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surf_div.py" beforeDir="false" afterPath="$PROJECT_DIR$/surf_div.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.bbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.blg" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.log" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/AE.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/AE.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/APCFS2018.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/APCFS2018.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/BOOKS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/BOOKS.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/Falcon.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/Falcon.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/IBIS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/IBIS.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/MultiScaleMethod.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/MultiScaleMethod.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/TeamWork.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/TeamWork.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET-background.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET-background.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET-fracture.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET-fracture.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET-ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET-ref.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/app.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/app.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/battery.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/battery.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/xiangtan.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/xiangtan.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目-所有参考文献.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目-所有参考文献.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目-精读.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目-精读.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/汇报.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/汇报.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/程序教程-Processing Methods.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/程序教程-Processing Methods.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/ref/程序教程.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/程序教程.bib" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,14 +98,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="883543135">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ialine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="60">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -88,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/maplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -100,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SigLinePlt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="105">
               <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -109,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/surf_div.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -121,8 +164,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="75">
+              <caret line="9" column="13" selection-start-line="9" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/size/filelist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -193,6 +254,12 @@
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="size" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +271,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -250,6 +317,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -269,6 +339,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -288,6 +361,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -307,6 +383,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -326,6 +405,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -401,10 +483,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20518358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,11 +501,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15334773" side_tool="true" weight="0.4792833" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32922733" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.84665227" visible="true" weight="0.40425533" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.84665227" visible="true" weight="0.15973742" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9322314" visible="true" weight="0.2737581" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9322314" visible="true" weight="0.27374598" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.067768596" side_tool="true" weight="0.38282937" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49917355" weight="0.32991362" />
     </layout>
@@ -486,20 +568,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/matplotlib/font_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1468" column="22" lean-forward="true" selection-start-line="1468" selection-start-column="22" selection-end-line="1468" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="4375" selection-start-line="4375" selection-end-line="4375" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/matplotlib/font_manager.py" />
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.5/site-packages/pandas/core/generic.py" />
     <entry file="file://$PROJECT_DIR$/surfidt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -521,37 +591,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/size/filelist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/findfont.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
+    <entry file="file://$PROJECT_DIR$/SigLinePlt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/findfont.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SigLinePlt.py">
+    <entry file="file://$PROJECT_DIR$/maplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -560,22 +616,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ialine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-end-line="10" />
+        <state relative-caret-position="60">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/surf_div.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/size/filelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
