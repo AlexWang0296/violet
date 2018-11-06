@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  4 NOV 2018 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  6 NOV 2018 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1963,11 +1963,11 @@ Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: E599945786F3D6EA90BE817D47ABCFA7;2339.
  ) 
 Here is how much of TeX's memory you used:
- 36391 strings out of 492982
- 678628 string characters out of 6134895
+ 36394 strings out of 492982
+ 678655 string characters out of 6134895
  727368 words of memory out of 5000000
  39127 multiletter control sequences out of 15000+600000
- 582945 words of font info for 266 fonts, out of 8000000 for 9000
+ 583094 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,56p,10379b,904s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1979,7 +1979,7 @@ ublic/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/math
 pazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 7168993 bytes).
+Output written on alexpub.pdf (10 pages, 7168917 bytes).
 PDF statistics:
  662 PDF objects out of 1000 (max. 8388607)
  373 compressed objects within 4 object streams
