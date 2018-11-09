@@ -174,42 +174,30 @@ Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discus
 	\label{fig:Defect}
 \end{figure}
 
-Deformation process of model without void under uniaxial load is shown by stress-strain curve Fig. \ref{fig:deformation-pf} and snapshots of atom configuration at the 10 key points in Fig. \ref{fig:Defect}.  Atoms with ordered orientation  of $\gamma$ phase grains have been removed in Fig.\ref{fig:Defect}a,\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Fig. \ref{fig:Defect}b, the defects of $\alpha_2$ phase have been left.  
+Deformation process of model without void under uniaxial load is shown by stress-strain curve Fig. \ref{fig:deformation-pf} and snapshots of atom configuration at the 10 key points in Fig. \ref{fig:Defect}.  Atoms with ordered configuration  of $\gamma$ phase grains have been removed in Fig.\ref{fig:Defect}a,\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Fig. \ref{fig:Defect}b, the defects of $\alpha_2$ phase have been left.  
 
 
-The results show that, at elastic stage(stage\uppercase\expandafter{\romannumeral1}), the structure of model have little change but the size of simulation box enlarged due to the loading, the deformation of the two phase are compatible. Emission of dislocation and evolution of defects initiated at the end of elastic stage (key point 2). A  great number of dislocation emitted inside $\gamma$ phase stage 2, however, the dislocation inside $\gamma$ phase was emitted after key point 6 in Fig. \ref{fig:Defect}b. The deformation of $\alpha_2$ phase is even more earlier than $\gamma$ phase during yield stage, thus local displacement of two phase are incompatible during yield stage.  $\gamma$ phase (TiAl) deforms by octahedral glide of ordinary dislocations with the Burgers vector b=1/2[110] and super dislocations with the Burgers vectors $b=[101]$ and $b=1/2[11\overline{2}]$. The other potential deformation mode is mechanical twinning have been reported along $1/6[11\overline{2}]{111}$, have not been observed in the simulation because of room temperature cannot offer enough energy for dislocation nucleation.
-
+The results show that, at stage \uppercase\expandafter{\romannumeral1}, the structure of the model is under typical elastic deformation and the size of simulation box enlarged due to the loading, the deformation of the two phase are compatible. Emission of dislocation and evolution of defects initiated at the end of stage \uppercase\expandafter{\romannumeral1}. A  great number of dislocation emitted inside $\gamma$ phase at stage 2, however, the dislocation inside $\gamma$ phase was emitted after key point 6 shown by Fig. \ref{fig:Defect}b. The deformation of $\alpha_2$ phase is even more earlier than $\gamma$ phase during yield stage, thus local displacement of two phase are incompatible during yield stage.  $\gamma$ phase (TiAl) deforms by octahedral glide of ordinary dislocations with the Burgers vector b=1/2[110] and super dislocations with the Burgers vectors $b=[101]$ and $b=1/2[11\overline{2}]$. 
+% The other potential deformation mode is mechanical twinning have been reported along $1/6[11\overline{2}]{111}$, have not been observed in the simulation because of room temperature cannot offer enough energy for dislocation nucleation.
 
 \begin{equation}\label{eq:dis1}
 	[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]
 \end{equation}
-The velocity of a screw dislocation can be estimated by Escaig's elastic model \cite{Escaig1968}, it can be written as 
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=1\linewidth]{"img/disl-gamma"}
+	\caption{Dislocation in $\gamma$}
+	\label{fig:dis-alpha_2}
+\end{figure}
+
+The mobility of dislocation is affected by structure of crystal, loading condition and temperature, and experiments have shown that the velocity of dislocation motion is sensitive to stress and temperature\cite{Stein1960}. The brittleness of the two phase Ti-Al alloy attributed to the poor mobility of dislocation at room temperature. The velocity of a screw dislocation can be estimated by Escaig's elastic model \cite{Escaig1968}, it can be written as 
 
 \begin{equation}\label{eq:temp-dis}
 v = v_0 \exp(-\Delta H(\tau^*)/kT)
 \end{equation}
 
-where the pre factor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be obtained under different loading conditions, thus  $\Delta H(\tau^*)$ are different. We choose cases with different loading condition$\Delta H(\tau^*)$  , normalized velocity can be  case 1 to case 3  in a increase order of $\Delta H(\tau^*)$. 
-
-
-The orientation of slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1}_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}. From Fig. \ref{fig:Defect}, of the two constituents of ($\alpha_2$+$\gamma$) alloys, the $\alpha_2$ phase is more difficult to deform. A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$ phase is certainly the strong plastic anisotropy of the $\alpha_2$ phase. TEM examinations performed on tensile tested lamellar alloys have revealed that the limited plasticity of the $\alpha_2$ phase is mainly carried by local slip of [a]-type dislocations with the Burgers vector $b=1/3[11\overline{2}0]$ prism planes\ref{fig:Defect}, which is by far the easiest slip system in $\alpha_2$ single crystals. 
-
-
-
-%\begin{figure}[ht]
-%	\centering
-%	\includegraphics[width=1\linewidth]{img/plane}
-%	\caption{close packed plane of $\gamma\ \rm{phase}\ (\rm{TiAl})$ and $\alpha (\rm{Ti_3Al})$ phase }
-%	\label{fig:unit-cell}
-%\end{figure}
-
-	\begin{figure}[ht]
-		\centering
-		\includegraphics[width=1\linewidth]{"img/disl-gamma"}
-		\caption{Dislocation in $\gamma$}
-		\label{fig:dis-alpha_2}
-	\end{figure}
-
+where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be obtained under different loading conditions, we chose  $$\Delta H(\tau_1^*) > \Delta H(\tau_2^*) > \Delta H(\tau_3^*)$$, thus  $\Delta H(\tau^*)$ are different. We choose cases with different loading condition$\Delta H(\tau^*)$  , normalized velocity can be  case 1 to case 3  in a increase order of $\Delta H(\tau^*)$. 
 
 \begin{figure}[ht]
 	\centering
@@ -228,6 +216,22 @@ The orientation of slip is changed because the crystallographically available sl
 		\label{fig:disum}
 	\end{minipage}
 \end{figure}
+
+
+The orientation of slip is changed because the crystallographically available slip and directions are not continuous across the interface. This may significantly reduce the Schmid factor and thus impede slip transfer. At the $\gamma/\gamma$ interfaces the orientation of the slip plan could change through a relevantly large angle of about 90 degree. Reorientation of slip is always required at the $\alpha_{2}/\gamma$ interface; the smallest angle between the corresponding slip planes ${1 1 1}_{\gamma}$ and ${ 1 0 -1 0}_{\alpha_2}$ is about 19 degree \cite{}. From Fig. \ref{fig:Defect}, of the two constituents of ($\alpha_2$+$\gamma$) alloys, the $\alpha_2$ phase is more difficult to deform. A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$ phase is certainly the strong plastic anisotropy of the $\alpha_2$ phase. TEM examinations performed on tensile tested lamellar alloys have revealed that the limited plasticity of the $\alpha_2$ phase is mainly carried by local slip of [a]-type dislocations with the Burgers vector $b=1/3[11\overline{2}0]$ prism planes\ref{fig:Defect}, which is by far the easiest slip system in $\alpha_2$ single crystals. 
+
+
+
+%\begin{figure}[ht]
+%	\centering
+%	\includegraphics[width=1\linewidth]{img/plane}
+%	\caption{close packed plane of $\gamma\ \rm{phase}\ (\rm{TiAl})$ and $\alpha (\rm{Ti_3Al})$ phase }
+%	\label{fig:unit-cell}
+%\end{figure}
+
+
+
+
 
 	
 The core of a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2[110] dislocation gliding in one $\gamma$ grain has to be converted in to a $[101]$ super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.

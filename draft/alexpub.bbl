@@ -188,6 +188,13 @@ Stukowski, A.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/18/1/015012}{\detokenize{10.1088/0965-0393/18/1/015012}}}.
 
+\bibitem[Stein and Low(1960)]{Stein1960}
+Stein, D.F.; Low, J.R.
+\newblock {Mobility of edge dislocations in silicon-iron crystals}.
+\newblock {\em Journal of Applied Physics} {\bf 1960}, {\em 31},~362--369.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1063/1.1735574}{\detokenize{10.1063/1.1735574}}}.
+
 \bibitem[Escaig(1968)]{Escaig1968}
 Escaig, B.
 \newblock {L'activation thermique des d{\'{e}}viations sous faibles contraintes
