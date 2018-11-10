@@ -3,7 +3,9 @@ import os.path
 
 #plt.rcParams["font.family"] = 'Times New Roman'
 import matplotlib.pyplot as plt
-plt.rcParams.update({'font.size': 12})
+plt.rcParams.update({'font.size': 14})
+from matplotlib import rc
+rc('text', usetex=True)
 #csfont = {'fontname':'Times New Roman'}
 #plt.rcParams["font.family"] = "Times New Roman"
 WDIR = os.path.dirname(__file__)
@@ -22,11 +24,14 @@ w = 20*np.e**(-450/T)/20
 plt.xlabel('Temperature / K')
 plt.ylabel('Mobility of Dislocation')
 plt.ylim(ymax=1)
-plt.plot(key1,key2)
-plt.plot(T,u,label='Case 1')
-plt.plot(T,v,label='Case 2')
-plt.plot(T,w,label='Case 3')
-plt.legend(frameon=False)
+plt.plot(T,u)
+plt.plot(T,v)
+plt.plot(T,w)
+plt.legend([r'$\Delta H(\tau_1^*)$', r'$\Delta H(\tau_2^*)$',r'$\Delta H(\tau_3^*)$'], frameon=False,loc='best')
+plt.text(450,0.85,r'$\Delta H(\tau_1^*) > \Delta H(\tau_2^*) > \Delta H(\tau_3^*)$')
+plt.annotate('298 K',xy=(290,0.35),xytext=(80,0.45),arrowprops=dict(arrowstyle="->",connectionstyle="arc3"))
+plt.plot(key1,key2,linestyle='--',color='black')
+
 plt.savefig(os.path.join(writepath, 'temp.pdf'))
 
 plt.show()

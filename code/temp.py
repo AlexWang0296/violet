@@ -1,5 +1,8 @@
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+WDIR = os.path.dirname(__file__)
+# loadpath = os.path.join(WDIR,'data','stress_strain')
+writepath = os.path.join(WDIR,'..','draft','img')
 T = np.linspace(0,1000,1500)
 key = 20*np.e**(-150/298)/20
 key1=[298,298]

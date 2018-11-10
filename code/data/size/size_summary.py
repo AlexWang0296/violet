@@ -17,7 +17,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit as fit
-plt.rcParams.update({'font.size': 12})
+plt.rcParams.update({'font.size': 14})
+from matplotlib import rc
+rc('text', usetex=True)
+
 # plt.rcParams["font.family"] = 'Times New Roman'
 
 WDIR = os.path.dirname(__file__)
@@ -30,16 +33,18 @@ fac = (1-(np.pi*(size/2)**2)/(210*180))*iamax[0]
 # pia = fit.gaussian(size,iamax)
 plt.plot(size, iamax,marker='s',color='G')
 plt.plot(size, agmax, marker='^',color='B')
-plt.plot(size, fac, marker='o',linestyle='--',color='black')
+plt.plot(size, fac, marker='o',linestyle='--',color='orange')
 # color='darkorange'
 # color='steelblue'
-plt.legend(['ia', 'ag','Calculated'], frameon=False)
+plt.legend([r'void inside $\alpha$ phase', r'void at \textbf{$\alpha$-$\gamma$} phase boundary','calculated value'], frameon=False)
 plt.ylim(4.8,5.35)
-plt.xlabel('Radius of Void/A')
+plt.xlabel(r'Radius of Void/ \AA')
 plt.ylabel('Strength/GPa')
 plt.savefig(os.path.join(writepath,'effect_of_vol.pdf'))
 plt.show()
 
+# import matplotlib as plt
+# print(plt.get_cachedir())
 # comments
 
 '''
