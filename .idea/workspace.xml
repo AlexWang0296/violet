@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0439c09c-e7fa-490b-89db-f90e7af4bc7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/draft/.~out.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/alexpub.blg" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.blg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/allline.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/allline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/data/size/size_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data/size/size_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/alexpub.aux" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.aux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.log" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/alexpub.tex" beforeDir="false" afterPath="$PROJECT_DIR$/draft/alexpub.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/AE.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/AE.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/APCFS2018.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/APCFS2018.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/IBIS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/IBIS.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/MultiScaleMethod.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/MultiScaleMethod.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-background.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET-ref.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/VIOLET.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/VIOLET.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/app.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/app.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/battery.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/battery.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/xiangtan.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/xiangtan.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-所有参考文献.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目-精读.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/残余应力项目.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/汇报.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/汇报.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程-Processing Methods.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/ref/程序教程.bib" beforeDir="false" afterPath="$PROJECT_DIR$/draft/ref/程序教程.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/img/allline.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/allline.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/draft/img/effect_of_vol.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,19 +62,20 @@
     <session id="-1946684030">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,12 +95,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="133" />
-          <entry key="py" value="2076" />
+          <entry key="py" value="2128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2209" />
+          <entry key="Python" value="2261" />
         </counts>
       </usages-collector>
     </session>
@@ -119,58 +108,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/ialine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/allline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="326">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/dissum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/Temp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="286">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="e#173#182#0" expanded="true" />
               </folding>
@@ -233,14 +183,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/code/data/size/filelist.py" />
-        <option value="$PROJECT_DIR$/code/allline.py" />
         <option value="$PROJECT_DIR$/code/surf_div.py" />
         <option value="$PROJECT_DIR$/code/ialine.py" />
         <option value="$PROJECT_DIR$/code/SigLinePlt.py" />
-        <option value="$PROJECT_DIR$/code/data/size/size_summary.py" />
         <option value="$PROJECT_DIR$/code/pict/pfctline.py" />
         <option value="$PROJECT_DIR$/code/Temp.py" />
         <option value="$PROJECT_DIR$/code/dissum.py" />
+        <option value="$PROJECT_DIR$/code/allline.py" />
+        <option value="$PROJECT_DIR$/code/data/size/size_summary.py" />
       </list>
     </option>
   </component>
@@ -263,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +225,24 @@
               <item name="violet" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="violet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="violet" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="violet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="violet" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="size" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,29 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dissum">
-    <configuration name="SigLinePlt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="violet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/SigLinePlt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.size_summary">
     <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,9 +319,6 @@
       <module name="violet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -440,20 +378,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="size_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="violet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/data/size" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/data/size/size_summary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.SigLinePlt" />
       <item itemvalue="Python.pfctline" />
       <item itemvalue="Python.Temp" />
       <item itemvalue="Python.allline" />
       <item itemvalue="Python.dissum" />
+      <item itemvalue="Python.size_summary" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dissum" />
-        <item itemvalue="Python.dissum" />
-        <item itemvalue="Python.dissum" />
+        <item itemvalue="Python.size_summary" />
         <item itemvalue="Python.allline" />
-        <item itemvalue="Python.Temp" />
+        <item itemvalue="Python.dissum" />
+        <item itemvalue="Python.dissum" />
+        <item itemvalue="Python.dissum" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +430,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24514039" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -488,11 +445,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.343785" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3449048" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.28239742" />
+      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.9255499" visible="true" weight="0.28239742" />
       <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.07445008" side_tool="true" visible="true" weight="0.3477322" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -577,27 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/ialine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/allline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/Temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -608,13 +544,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
+    <entry file="file://$PROJECT_DIR$/code/dissum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="e#173#182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/ialine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/pict/pfctline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/allline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/agline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -628,19 +589,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/agline.py">
+    <entry file="file://$PROJECT_DIR$/code/data/size/size_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/dissum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="286">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding>
-            <element signature="e#150#168#0" expanded="true" />
+            <element signature="e#173#182#0" expanded="true" />
           </folding>
         </state>
       </provider>

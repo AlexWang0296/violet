@@ -19,7 +19,7 @@ import os.path
 from os import listdir
 import matplotlib.pyplot as plt
 import pandas as pd
-plt.rcParams["font.family"] = 'Times New Roman'
+# plt.rcParams["font.family"] = 'Times New Roman'
 import matplotlib.pyplot as plt
 plt.rcParams.update({'font.size': 12})
 #csfont = {'fontname':'Times New Roman'}
@@ -41,9 +41,9 @@ px4=ds4.step/fct
 
 # plot lines
 #p1 = plt.plot(ds1.step, ds1.stress, label='aa')
-p2 = plt.plot(px2, ds2.stress, label='ag')
-p3 = plt.plot(px3, ds3.stress, label='pf')
-p4 = plt.plot(px4, ds4.stress, label='ia')
+p2 = plt.plot(px2, ds2.stress, label='ia', color = 'G')
+p3 = plt.plot(px3, ds3.stress, label='pf', color = 'R')
+p4 = plt.plot(px4, ds4.stress, label='ag', color = 'B')
 # config title and label
 
 #plt.title('stress-strain curve')

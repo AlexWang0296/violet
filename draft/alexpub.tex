@@ -58,7 +58,7 @@ $^{2}$ \quad State Key Laboratory of Advanced Processing and Recycling of Non-fe
 
 \section{Introduction}
 % and brittle rapture failure 
-Poor Ductility at room temperature in Ti-Al alloy strongly affects the safety of fracture of structure like turbo of aircraft engine and combustion generator \cite{Munz2017}. Deformation phenomena of TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance.  Much of the work has been performed on single phase $\gamma$ alloys and PST crystals\cite{Appel2016}. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions \cite{Tang2014}. 
+Poor Ductility at room temperature in Ti-Al alloy strongly affects the safety of fracture of structures like turbo of aircraft engine and combustion generator \cite{Munz2017}. Deformation phenomena of TiAl alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance.  Much of the work has been performed on single phase $\gamma$ alloys and PST crystals\cite{Appel2016}. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale cracks are initially easily formed at defects in the casting process, such as voids and inclusions \cite{Tang2014}. 
 
 A great number of literature covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{Kim1995}. Due to difficulties in observing the dynamic process during deformation wit experiments, MD simulation has become a effective method to investigate micro deformation mechanism. Defects such as grain boundary, void and segregation plays an significant role in the process of fracture \cite{Larsen2016}. Multiscale method have been applied to study deformation behavior polycrystal with single aluminum element \cite{Groh2009} and single titanium element \cite{Liu2018}. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale. 
 
@@ -197,22 +197,21 @@ The mobility of dislocation is affected by structure of crystal, loading conditi
 v = v_0 \exp(-\Delta H(\tau^*)/kT)
 \end{equation}
 
-where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be obtained under different loading conditions, we chose  $$\Delta H(\tau_1^*) > \Delta H(\tau_2^*) > \Delta H(\tau_3^*)$$, thus  $\Delta H(\tau^*)$ are different. We choose cases with different loading condition$\Delta H(\tau^*)$  , normalized velocity can be  case 1 to case 3  in a increase order of $\Delta H(\tau^*)$. 
+where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be evaluated under different loading conditions, thus we chose  $\Delta H(\tau_1^*) > \Delta H(\tau_2^*) > \Delta H(\tau_3^*)$ in formula \ref{eq:temp-dis}, normalized velocity is shown in fig \ref{fig:temp}. The relative velocity  of dislocation rise along with increase of  stress, the speed of dislocation 
 
 \begin{figure}[ht]
 	\centering
 	\begin{minipage}{0.495\textwidth}
 		\includegraphics[width=1\linewidth]{img/temp}
 		\centering
-		\caption{Mobility of dislocation\\
-		}
+		\caption{Mobility of dislocation}
 		\label{fig:temp}
 	\end{minipage}	
 	\hfill
 	\begin{minipage}{0.495\textwidth}		
 		\includegraphics[width=1\linewidth]{img/disum}
 		\centering
-		\caption{Strength of models}
+		\caption{Dislocation length during different stages}
 		\label{fig:disum}
 	\end{minipage}
 \end{figure}
@@ -229,10 +228,6 @@ The orientation of slip is changed because the crystallographically available sl
 %	\label{fig:unit-cell}
 %\end{figure}
 
-
-
-
-
 	
 The core of a dislocation intersecting an interface often needs to be transformed. For example, an ordinary 1/2[110] dislocation gliding in one $\gamma$ grain has to be converted in to a $[101]$ super dislocation with the double Burgers vector gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface the dislocations existing in the $D0_{19}$ structure have to be transformed into dislocations consistent with the $L1_0$structure. These core transformations are associated with a change of the dislocation line energy because the lengths of the Burgers vectors and the shear module are different.
 
@@ -248,8 +243,7 @@ Dislocations crossing semi-coherent boundaries have to intersect the misfit disl
 	\label{fig:model-creation}
 \end{figure}
 
-
-Void of R=10 \AA\ was placed at phase boundary, inside $\alpha_2$ phase grain respectively. Effect of void at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materials with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The results show that the model without void defect has best strength, while the void located inside $\alpha_2$ phase detracts the strength of the material most, and the void at phase boundary have less impact on the strength.
+Void with different sizes was placed at $\alpha_2-\gamma$ phase boundary, inside $\gamma$ phase respectively. Effect of void on the strength at different position under uniaxial tension is shown in Fig.\ref{fig:stress&strain}. The strength of materials with void in different size and at different position is shown in Fig.\ref{fig:stress&strain}. The existence of void have little impact on the elastic properties of the material, and the model without void defect has best strength 5.3 GPa, the yield stress of model with void is smaller. located inside $\alpha_2$ phase detracts the strength of the material most, and the void at phase boundary have less impact on the strength.
            
 The effect of size is expectable that the greater voids detracts the strength of the materials more, however, it has been observed in the simulation that there is a critical value about 15A for voids at different position. The voids larger than 15 A have dramatic detraction to the strength of the material. Conventional definition of strength of materials with geometry subtraction was applied to the model, and theoretical strength of the models was calculated by formulation \ref{eq:section}:
 	
@@ -257,7 +251,7 @@ The effect of size is expectable that the greater voids detracts the strength of
 	\sigma^* = \sigma_0 \cdot \frac{A^*}{A_0}
 	\end{equation}
 	
-where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = 36000 {AA}^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the results calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behavior of the materials, thus revolution of defects should be examined carefully.
+where $\sigma_0$ is the strength of the model without void defects 5.26 Gpa, and $A_0$ is initial section area, $ A = 36000 {AA}^2$, $A^* $ is section area in consider of the subsection that results from the voids. Comparing with the strength determined by molecular dynamics simulation and the result4s calculated with formulation \ref{eq:section}, it can be assumed that the main factor that affects the strength of materials can be attributed to local behavior of the materials, thus revolution of defects should be examined carefully.
 
 \begin{figure}[ht]
 	\centering
