@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  10 NOV 2018 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  12 NOV 2018 02:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1753,11 +1753,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 57.
 
 Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
-(epstopdf)                    date: 2018-10-30 11:52:19
+(epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 736786 bytes
 (epstopdf)             Output file: <Definitions/logo-mdpi-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-10-30 11:52:19
+(epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 43968 bytes
 (epstopdf)             Command: <repstopdf --outfile=Definitions/logo-mdpi-eps-
 converted-to.pdf Definitions/logo-mdpi.eps>
@@ -1816,11 +1816,11 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 57.
 Package epstopdf Info: Source file: <Definitions/logo-orcid.eps>
-(epstopdf)                    date: 2018-10-30 11:52:19
+(epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 284378 bytes
 (epstopdf)             Output file: <Definitions/logo-orcid-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-10-30 11:52:19
+(epstopdf)                    date: 2018-10-03 17:57:51
 (epstopdf)                    size: 12254 bytes
 (epstopdf)             Command: <repstopdf --outfile=Definitions/logo-orcid-eps
 -converted-to.pdf Definitions/logo-orcid.eps>
@@ -1857,73 +1857,77 @@ s-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>] [2]
 <img/tial-cell2.pdf, id=126, 597.65012pt x 158.96555pt>
 File: img/tial-cell2.pdf Graphic file (type pdf)
 <use img/tial-cell2.pdf>
-Package pdftex.def Info: img/tial-cell2.pdf  used on input line 88.
+Package pdftex.def Info: img/tial-cell2.pdf  used on input line 84.
 (pdftex.def)             Requested size: 443.86319pt x 118.0644pt.
 <img/perfect-line2-2.pdf, id=131, 614.26657pt x 198.71405pt>
 File: img/perfect-line2-2.pdf Graphic file (type pdf)
 <use img/perfect-line2-2.pdf>
-Package pdftex.def Info: img/perfect-line2-2.pdf  used on input line 125.
+Package pdftex.def Info: img/perfect-line2-2.pdf  used on input line 120.
 (pdftex.def)             Requested size: 443.86319pt x 143.58946pt.
  [3 <./img/tial-cell2.pdf>]
-<img/temp.pdf, id=210, 462.52798pt x 346.89601pt>
-File: img/temp.pdf Graphic file (type pdf)
-<use img/temp.pdf>
-Package pdftex.def Info: img/temp.pdf  used on input line 173.
-(pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/disum.pdf, id=211, 462.52798pt x 346.89601pt>
-File: img/disum.pdf Graphic file (type pdf)
-<use img/disum.pdf>
-Package pdftex.def Info: img/disum.pdf  used on input line 180.
-(pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
- [4 <./img/perfect-line2-2.pdf>]
-<"img/disl-gamma".pdf, id=269, 578.13158pt x 162.57904pt>
-File: "img/disl-gamma".pdf Graphic file (type pdf)
-<use "img/disl-gamma".pdf>
-Package pdftex.def Info: "img/disl-gamma".pdf  used on input line 203.
-(pdftex.def)             Requested size: 443.86319pt x 124.82158pt.
-<img/def2.pdf, id=274, 592.58554pt x 216.78154pt>
+<img/def2.pdf, id=211, 592.58554pt x 216.78154pt>
 File: img/def2.pdf Graphic file (type pdf)
 <use img/def2.pdf>
-Package pdftex.def Info: img/def2.pdf  used on input line 215.
+Package pdftex.def Info: img/def2.pdf  used on input line 161.
 (pdftex.def)             Requested size: 443.86319pt x 162.38066pt.
- [5 <./img/temp.pdf> <./img/disum.pdf
+<img/temp.pdf, id=216, 462.52798pt x 346.89601pt>
+File: img/temp.pdf Graphic file (type pdf)
+<use img/temp.pdf>
+Package pdftex.def Info: img/temp.pdf  used on input line 176.
+(pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
+<img/disum.pdf, id=217, 462.52798pt x 346.89601pt>
+File: img/disum.pdf Graphic file (type pdf)
+<use img/disum.pdf>
+Package pdftex.def Info: img/disum.pdf  used on input line 183.
+(pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
+ [4 <./img/perfect-line2-2.pdf>]
+Underfull \hbox (badness 2165) in paragraph at lines 202--204
+\T1/ppl/m/n/10 (+20) Interaction be-tween dis-lo-ca-tion with Burg-ers vec-tor 
+of $\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m
+/n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $\
+OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m/n/10
+ [\OT1/ppl/m/n/10 (+20) 11[]\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) fol-lows t
+he
+ []
+
+[5 <./img/def2.pdf> <./img/temp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/temp.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./img/disum.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/disum.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
-> <./img/disl-gamma.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./img/disl-gamma.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
 >]
-<img/models.pdf, id=350, 578.13158pt x 144.51154pt>
+<img/models.pdf, id=361, 578.13158pt x 144.51154pt>
 File: img/models.pdf Graphic file (type pdf)
 <use img/models.pdf>
-Package pdftex.def Info: img/models.pdf  used on input line 231.
+Package pdftex.def Info: img/models.pdf  used on input line 216.
 (pdftex.def)             Requested size: 443.86319pt x 110.95007pt.
- [6 <./img/def2.pdf> <./img/models.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./img/models.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->]
-<img/allline.pdf, id=431, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=365, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
-Package pdftex.def Info: img/allline.pdf  used on input line 249.
+Package pdftex.def Info: img/allline.pdf  used on input line 235.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=432, 462.52798pt x 346.89601pt>
+<img/effect_of_vol.pdf, id=366, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
-Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 256.
+Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 242.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<"img/dis-void2".pdf, id=435, 597.65012pt x 299.89206pt>
+ [6 <./img/models.pdf>]
+<"img/dis-void2".pdf, id=404, 597.65012pt x 299.89206pt>
 File: "img/dis-void2".pdf Graphic file (type pdf)
 <use "img/dis-void2".pdf>
-Package pdftex.def Info: "img/dis-void2".pdf  used on input line 277.
+Package pdftex.def Info: "img/dis-void2".pdf  used on input line 263.
 (pdftex.def)             Requested size: 443.86319pt x 222.73116pt.
  [7 <./img/allline.pdf> <./img/effect_of_vol.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
+> <./img/dis-void2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/dis-void2.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
 >] (./alexpub.bbl
 Underfull \hbox (badness 1742) in paragraph at lines 6--14
 \T1/ppl/m/n/9 (+20) of the Tatra vole (Mi-cro-tus tatri-cus).  \T1/ppl/m/it/9 (
@@ -1931,7 +1935,7 @@ Underfull \hbox (badness 1742) in paragraph at lines 6--14
  (+20) 53\T1/ppl/m/n/9 (+20) , 279--284, [][][arXiv:1011.1669v3][][].
  []
 
-[8 <./img/dis-void2.pdf>]
+
 Underfull \hbox (badness 1436) in paragraph at lines 23--29
 \T1/ppl/m/n/9 (+20) of void shrink-age in $\OML/zplm/m/it/9 ^^M$\T1/ppl/m/n/9 (
 +20) -TiAl sin-gle crys-tal.  \T1/ppl/m/it/9 (+20) Com-pu-ta-tional Ma-te-ri-al
@@ -1939,40 +1943,40 @@ s Sci-ence \T1/ppl/b/n/9 2015\T1/ppl/m/n/9 (+20) , \T1/ppl/m/it/9 (+20) 107\T1/
 ppl/m/n/9 (+20) , 58--65.
  []
 
-
+[8]
 Underfull \hbox (badness 1735) in paragraph at lines 154--162
 []\T1/ppl/m/n/9 (+20) Zope, R.R.; Mishin, Y.  In-ter-atomic po-ten-tials for at
 om-istic sim-u-la-tions of the Ti-Al sys-tem.
  []
 
-[9])
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 303.
+)
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 289.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 289.
 
 
 AED: lastpage setting LastPage
-[10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
+[9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
  (./alexpub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: E599945786F3D6EA90BE817D47ABCFA7;2339.
  ) 
 Here is how much of TeX's memory you used:
- 36422 strings out of 492982
- 678986 string characters out of 6134895
- 727368 words of memory out of 5000000
- 39134 multiletter control sequences out of 15000+600000
- 584034 words of font info for 280 fonts, out of 8000000 for 9000
+ 36414 strings out of 492982
+ 678818 string characters out of 6134895
+ 727661 words of memory out of 5000000
+ 39130 multiletter control sequences out of 15000+600000
+ 583885 words of font info for 278 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10379b,906s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10379b,874s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1987,10 +1991,10 @@ share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 5504399 bytes).
+Output written on alexpub.pdf (10 pages, 5157343 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 430 compressed objects within 5 object streams
+ 570 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
  62 named destinations out of 1000 (max. 500000)
- 47777 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47772 words of extra memory for PDF output out of 51595 (max. 10000000)
 
