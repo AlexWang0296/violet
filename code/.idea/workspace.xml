@@ -4,11 +4,18 @@
     <list default="true" id="9a34d0a4-1500-4cd9-9275-1e131c5a5366" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allline.py" beforeDir="false" afterPath="$PROJECT_DIR$/allline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/size/size_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/size/size_summary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dissum.py" beforeDir="false" afterPath="$PROJECT_DIR$/dissum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.log" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/alexpub.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/disl-gamma.odg" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/disl-gamma.odg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/disl-gamma.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/disl-gamma.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/disum.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/disum.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/img/effect_of_vol.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/effect_of_vol.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/temp.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/temp.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,12 +85,14 @@
     <session id="883543135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -98,23 +107,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="731" />
+          <entry key="py" value="1025" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="731" />
+          <entry key="Python" value="1025" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+            <state relative-caret-position="248">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="e#173#182#0" expanded="true" />
               </folding>
@@ -125,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dissum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="473">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -134,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="129">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -149,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/allline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-201">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="-172">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="e#192#201#0" expanded="true" />
               </folding>
@@ -172,8 +181,9 @@
       <find>node=</find>
       <find>over</find>
       <find>node</find>
-      <find>time</find>
       <find>GPA</find>
+      <find>room</find>
+      <find>time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,11 +201,11 @@
         <option value="$PROJECT_DIR$/maplot.py" />
         <option value="$PROJECT_DIR$/SigLinePlt.py" />
         <option value="$PROJECT_DIR$/surf_div.py" />
-        <option value="$PROJECT_DIR$/data/size/size_summary.py" />
         <option value="$PROJECT_DIR$/allline.py" />
         <option value="$PROJECT_DIR$/temp.py" />
-        <option value="$PROJECT_DIR$/dissum.py" />
         <option value="$PROJECT_DIR$/Temp.py" />
+        <option value="$PROJECT_DIR$/dissum.py" />
+        <option value="$PROJECT_DIR$/data/size/size_summary.py" />
       </list>
     </option>
   </component>
@@ -205,7 +215,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="width" value="1697" />
     <option name="height" value="930" />
@@ -216,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,6 +248,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Temp">
+  <component name="RunManager" selected="Python.size_summary">
     <configuration name="Temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,6 +321,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -395,11 +408,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Temp" />
-        <item itemvalue="Python.Temp" />
-        <item itemvalue="Python.Temp" />
+        <item itemvalue="Python.size_summary" />
         <item itemvalue="Python.dissum" />
-        <item itemvalue="Python.allline" />
+        <item itemvalue="Python.Temp" />
+        <item itemvalue="Python.Temp" />
+        <item itemvalue="Python.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +461,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2139808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22091782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -527,6 +540,11 @@
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dissum.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -571,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,16 +624,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="e#192#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dissum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="473">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
           </folding>
@@ -630,30 +659,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+        <state relative-caret-position="248">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="e#173#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#192#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

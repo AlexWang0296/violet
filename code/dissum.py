@@ -34,26 +34,27 @@ opacity = 0.8
 
 rects1 = plt.bar(index, pf, bar_width,
                  alpha=opacity,
-                # color='b',
+                 color='R',
                  label='Perfect')
 
 rects2 = plt.bar(index + bar_width, shockley, bar_width,
                  alpha=opacity,
-                 #color='g',
+                 color='B',
                  label='Shockley')
 
 rects3 = plt.bar(index + 2*bar_width, stair_rode, bar_width,
                  alpha=opacity,
-                 #color='b',
+                 color='G',
                  label='Stair-rod')
 
 rects4 = plt.bar(index + 3*bar_width, frank, bar_width,
                  alpha=opacity,
-                 #color='g',
+                 color='black',
                  label='Frank')
 
 plt.xlabel('Stage')
 plt.ylabel(r'Dislocation length / \AA')
+plt.ylim(ymax=5000)
 # plt.title('Scores by person')
 plt.xticks(index + bar_width, ('Initial', 'Before yield', 'After yield', 'Cracked'))
 plt.legend(frameon = False)

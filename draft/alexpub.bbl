@@ -203,4 +203,12 @@ Escaig, B.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/pssb.19680280203}{\detokenize{10.1002/pssb.19680280203}}}.
 
+\bibitem[Microstructures(2011)]{intro-structure}
+Microstructures, L.
+\newblock {Deformation Behavior of Two-Phase $\alpha$2(Ti3Al) + $\gamma$(TiAl)
+  Alloys}.
+\newblock {\em Gamma Titanium Aluminide Alloys} {\bf 2011}, {\em 2},~125--248.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/9783527636204.ch6}{\detokenize{10.1002/9783527636204.ch6}}}.
+
 \end{thebibliography}
