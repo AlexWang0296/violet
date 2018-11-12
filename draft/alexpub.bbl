@@ -1,6 +1,20 @@
 \begin{thebibliography}{-------}
 \providecommand{\natexlab}[1]{#1}
 
+\bibitem[Clemens and Mayer(2016)]{Clemens2016}
+Clemens, H.; Mayer, S.
+\newblock {Advanced Intermetallic TiAl Alloys}.
+\newblock {\em Materials Science Forum} {\bf 2016}, {\em 879},~113--118.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.4028/www.scientific.net/MSF.879.113}{\detokenize{10.4028/www.scientific.net/MSF.879.113}}}.
+
+\bibitem[Bewlay \em{et~al.}(2016)Bewlay, Nag, Suzuki, and Weimer]{Bewlay2016}
+Bewlay, B.P.; Nag, S.; Suzuki, A.; Weimer, M.J.
+\newblock {TiAl alloys in commercial aircraft engines}.
+\newblock {\em Materials at High Temperatures} {\bf 2016}, {\em 33},~549--559.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1080/09603409.2016.1183068}{\detokenize{10.1080/09603409.2016.1183068}}}.
+
 \bibitem[Mart{\'{i}}nkov{\'{a}} \em{et~al.}(2004)Mart{\'{i}}nkov{\'{a}},
   Nov{\'{a}}, Sablina, Graphodatsky, and Zima]{Munz2017}
 Mart{\'{i}}nkov{\'{a}}, N.; Nov{\'{a}}, P.; Sablina, O.V.; Graphodatsky, A.S.;
