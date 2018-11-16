@@ -59,7 +59,7 @@ plt.ylim(ymax=5000)
 plt.xticks(index + bar_width, ('Initial', 'Before yield', 'After yield', 'Cracked'))
 plt.legend(frameon = False)
 
-plt.savefig(os.path.join(writepath, 'disum.pdf'))
+plt.savefig(os.path.join(writepath, 'dis-summary.pdf'))
 
 #plt.tight_layout()
 plt.show()

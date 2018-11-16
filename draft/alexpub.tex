@@ -17,7 +17,7 @@
  
 % Full title of the paper (Capitalized)
 % \Title{Effect of Nanovoid on Fracture Process of Two-Phase $\gamma$($\rm TiAl$)+$\alpha_2$($\rm Ti_3Al$) Alloy}
-\Title{Micromechanism of  Cold Deformation of Two Phase Polycrystalline Ti-Al Alloy with and without Void Defect}
+\Title{Micromechanism of  Cold Deformation of Two Phase Polycrystalline Ti-Al Alloy with Void Defect}
 % Author Orchid ID: enter ID or remove command
 \newcommand{\orcidauthorA}{0000-0001-8385-4439} % Add \orcidA{} behind the author's name
 \newcommand{\orcidauthorB}{0000-0002-9582-6301} % Add \orcidB{} behind the author's name
@@ -49,30 +49,30 @@ $^{2}$ \quad State Key Laboratory of Advanced Processing and Recycling of Non-fe
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\) 
-\abstract{Cold deformation behavior of poly crystalline metallic material is affected intrinsic defects such as dislocation, etc.  Existing studies on $\alpha_2(\rm{Ti_3Al})$+$\gamma(\rm{TiAl})$  two phase Ti-Al alloy covers about deformation behavior mainly on macro scale. This paper focus on the cold deformation mechanism of two phase Ti-Al alloy at micro scale, and  the role of void defect in deformation process. Molecular dynamics simulations were performed to study the evolution of micro structure in the model under uniaxial tension. Interaction between spherical nano void with different size and position was also examined in the simulation. The results show that i) $\gamma$ phase is the major deformation source of the two phase alloy; ii) Voids defect detracts the strength of the two phase alloy, however the position of void affect the degree of this subtraction: voids located at the $\alpha_2$/$\gamma$ phase boundary have significant detraction to strength.}
+\abstract{Cold deformation behavior of poly crystalline metallic material is affected by intrinsic defects such as dislocation, etc.  Existing studies on $\alpha_2(\rm{Ti_3Al})$+$\gamma(\rm{TiAl})$  two phase Ti-Al alloy covers about deformation behavior mainly on macro scale. This paper focus on the cold deformation mechanism of two phase Ti-Al alloy at micro scale, and  the role of void defect in deformation process. Molecular dynamics simulations were performed to study the evolution of micro structure in the material under uniaxial tension. Interaction between spherical nano void with different size and position was also examined in the simulation. The results show that i) $\gamma$ phase is the major deformation source of the two phase alloy; ii) Voids defect detracts the strength of the two phase alloy, however the position of void affect the degree of this subtraction, voids located at the $\alpha_2$/$\gamma$ phase boundary have significant detraction to strength.}
 % Keywords
-\keyword{two phase Ti-Al alloy; void defect; molecular dynamics}
+\keyword{two phase Ti-Al alloy, void, molecular dynamics, cold deformation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 \section{Introduction}
 % and brittle rapture failure 
-The titanium  aluminum based intermetallic alloys are promising high temperature structural materials because of their great corrosion resistance at high temperature. Comparing with nickle based alloy,  alloys have lower density and are pron to be utilized in combustion engine, turbine, and other components work at high temperature ranging from 500 \si{\degreeCelsius} to 900 \si{\degreeCelsius} \cite{Clemens2016}. The performance of inner combustion engine with components made of Ti-6Al-4V was improved  20\% because the weight of components decreased 30\%~40\% \cite{Bewlay2016}. With the advancement of non-ferrous metallurgy, Ti-Al based components has better economic efficiency than ever before. Thus, Ti-Al based alloys have good prospects for applications in aerospace and automobile industry. 
-Poor ductility of Ti-Al alloy  at room temperature strongly affects the safety structures like turbo of aircraft engine and combustion generator \cite{Munz2017}. Deformation phenomena of Ti-Al alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance.  Much of the work has been performed on single phase $\gamma$ alloys and polysynthetically twinned crystals\cite{Appel2016}. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale defects are initially easily formed in the casting process, such as voids and inclusions \cite{Tang2014}. A great number of literature covers a wide range of parameters such as alloy composition, microstructure and deformation temperature. Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{Kim1995}. Due to difficulties in observing the dynamic process during deformation wit experiments, MD simulation has become an effective method to investigate micro deformation mechanism. Defects such as grain boundary, void and segregation plays a significant role in the process of fracture \cite{Larsen2016}. Multiscale method have been applied to study deformation behavior polycrystal with single aluminum \cite{Groh2009} and titanium element \cite{Liu2018}. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale. 
+The titanium  aluminum based intermetallic alloys are promising high temperature structural materials because of their great corrosion resistance at high temperature. Comparing with nickle based alloy,  alloys have lower density and are pron to be utilized in combustion engine, turbine, and other components work at high temperature ranging from 500 \si{\degreeCelsius} to 900 \si{\degreeCelsius} \cite{Clemens2016}. The performance of inner combustion engine with components made of Ti-6Al-4V was improved  20\% because the weight of components decreased from 30\% to 40\% \cite{Bewlay2016}. With the advancement of non-ferrous metallurgy, Ti-Al based components has better economic efficiency than ever before. Thus, Ti-Al based alloys have good prospects for applications in aerospace and automobile industry. 
+Poor ductility of Ti-Al alloy  at room temperature strongly affects the safety structures like turbo of aircraft engine and combustion generator \cite{Munz2017}. Deformation phenomena of Ti-Al alloys have been widely studied in order to overcome the problems associated with the limited ductility and damage tolerance.  Much of the work has been performed on single phase $\gamma$ alloys and polysynthetically twinned crystals\cite{Appel2016}. Rapture failure at the macroscopic scale can be attributed to nucleation, growth and propagation of cracks, but at the microscopic scale defects are initially easily formed in the casting process, such as voids and inclusions \cite{Tang2014}. A great number of literature covers a wide range of factors such as alloy composition, microstructure and deformation temperature. Two-phase titanium aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\gamma$($\rm Ti_3Al$) alloy \cite{Kim1995}. Due to difficulties in observing the dynamic process during deformation wit experiments, MD simulation has become an effective method to investigate micro deformation mechanism. Defects such as grain boundary, void and segregation play a significant role in the process of fracture \cite{Larsen2016}. Multiscale method have been applied to study deformation behavior of polycrystal with single aluminum \cite{Groh2009} and titanium element respectively \cite{Liu2018}. It's necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale. 
 
-The initiation of crack at microscopic scale is a dynamic process, which resulting in difficulties on study of detailed mechanisms of deformation and cracking, these defects are known to play a fundamental role in the deformation of materials. It has been known that nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important \cite{Hempel2017a}. Therefore, it is necessary to study the deformation response of intermetallics structural materials with the consideration of microstructure evolution. The effect of void defect is another great concern about properties of deformation mechanism about of TiAl alloy. A previous study on void growth in $\gamma$-TiAl single crystal has reveals that void with high volume fraction detracts yield strength, and emission of dislocation \cite{Tang2014, Xu2011}. Evolution of void in ductile polycrystalline was studied in nanoscale with molecular dynamics(MD) simulations \cite{Jing2018a,Elkhateeb2018}. The deformation and fracture mechanisms in the duplex microstructure are plasticity induced grain boundary decohesion and cleavage, while those in the lamellar micro-structure are interface delamination and cracking across the lamellar \cite{Tang2014}. It reveals that existence of voids alone may contribute to strain hardening because they are barriers to dislocation movement \cite{Xiong2015}. However, few literature covers about deformation mechanism of two phase Ti-Al alloy and the role of void in atomic scale. Defects are inevitable as micro-pores and loosen from casting, and in the actual work environment with radiation. A lot of work carried out on the  effect of various defects on the behavior of different materials, show that point defects may affect the properties of materials greatly. The mechanical performance of irradiated copper is affected by the interaction between irradiation and dislocation \cite{Kiener2011}. Vacancy concentration in single crystal and polycrystal Fe–40 at. Al bulk results in an increase of strength \cite{Yang1998}. Ti-Al alloy is a type of typical brittle material, thus it can be assumed that its properties are sensitive to the existence of void defect. Surface defects such as small notches can caused lower high cycle fatigue strength of the Ti–47Al–2W–0.5Si alloy \cite{Nazmy2001}, and the strength of single crystal $\gamma$  TiAl is also lowered by point defect \cite{Wu2016}. The resistance of Ti–6Al–4V alloy, which was processed for typical fan blade applications, to high-cycle fatigue in the presence of foreign- object damage was markedly reduced due to earlier crack initiation.  The nucleation and subsequent near-threshold growth of crack was primarily affected by the stress concentration associated with the foreign-object damage and the presence of small micro-cracks in the damaged zone.This paper focus on the evolution of microstructure, tend to find out it connection to cold deformation behavior of two phase TiAl alloy. MD simulation including model creation and analysis method is given in Section \ref{section:method}; Results and discussion are in Section \ref{section:RD}.
+The initiation of crack at microscopic scale is a dynamic process, which resulting in difficulties on study about  mechanisms of deformation and cracking, these defects are known to play a fundamental role in the deformation of materials. It has been known that nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which void growth is particularly important \cite{Hempel2017a}. Therefore, it is necessary to study the deformation response of intermetallics structural materials with the consideration of microstructure evolution. The effect of void defect is another great concern about properties and deformation mechanism  of TiAl alloy. A previous study on void growth in single crystal $\gamma$-TiAl reveals that void with high volume fraction detracts yield strength, and emission of dislocation \cite{Tang2014, Xu2011}. Evolution of void in ductile polycrystalline was studied in nanoscale with molecular dynamics(MD) simulations \cite{Jing2018a,Elkhateeb2018}. The deformation and fracture mechanisms in the duplex microstructure are plasticity induced grain boundary decohesion and cleavage, while those in the lamellar micro-structure are interface delamination and cracking across the lamellar \cite{Tang2014}. It reveals that existence of voids alone may contribute to strain hardening because they are barriers to dislocation movement \cite{Xiong2015}. However, few literature covers about deformation mechanism of two phase Ti-Al alloy and the role of void in atomic scale. Defects are inevitable as micro-pores and loosen from casting, and in the actual work environment with radiation. A lot of work carried out on the  effect of various defects on the behavior of different materials, show that point defects may affect the properties of materials greatly. The mechanical performance of irradiated copper is affected by the interaction between irradiation and dislocation \cite{Kiener2011}. Vacancy concentration in single crystal and polycrystal Fe–40 at. Al bulk results in an increase of strength \cite{Yang1998}. Ti-Al alloy is a type of typical brittle material, thus it can be assumed that its properties are sensitive to the existence of void defect. Surface defects such as small notches can caused low and high cycle fatigue strength of the Ti–47Al–2W–0.5Si alloy \cite{Nazmy2001}, and the strength of single crystal $\gamma$  TiAl is also lowered by point defect \cite{Wu2016}. The resistance of Ti–6Al–4V alloy, which was processed for typical fan blade applications, to high-cycle fatigue in the presence of foreign- object damage was markedly reduced due to earlier crack initiation.  The nucleation and subsequent near-threshold growth of crack was primarily affected by the stress concentration associated with the foreign-object damage and the presence of small micro-cracks in the damaged zone.This paper focus on the evolution of microstructure, tend to find out its connection to cold deformation behavior of two phase TiAl alloy. MD simulation including model creation and analysis method is given in Section \ref{section:method}, Results and discussion are in Section \ref{section:RD}.
 
 \section{Molecular Dynamics Simulation }\label{section:method}
 \subsection{Atomic Potential}
 
-The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to is better accuracy in metal lattice compare with F-S and L/J \cite{Ko2015}. The embedded atom method (MEAM) potential developed by Zope and Mishin \cite{Zope2003} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{Plimpton1995}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation. The definition of potential is as following:
+The interaction of particle in the material is determined by interatomic potential. Many reported examples of crack propagation in metal materials were performed with embedded atomic method due to its better accuracy in metal lattice compare with F-S and L/J \cite{Ko2015}. The embedded atom method (MEAM) potential developed by Zope and Mishin \cite{Zope2003} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{Plimpton1995}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation. The definition of potential is as following:
 	
 \begin{equation} \label{eq:eam} 
 E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
 \end{equation}
 	
-where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ is the energy for embedding atom $i$ into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ is the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities.
+where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ represents the energy for embedding atom $i$ into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ give the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities.
 	
 %	\begin{equation} \label{eq:eam} 
 %	\rho_{h,i}=\sum_{j(\neq1)} \rho_i(R_{ij})
@@ -81,7 +81,7 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 \subsection{Model Creation of Crystalline}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{img/tial-cell2}
+	\includegraphics[width=1\linewidth]{img/modeling}
 	\caption{Unit cell of \rm{TiAl} (a) and $\rm{Ti_3Al}$ (b)}
 	\label{fig:tial-cell}
 \end{figure}
@@ -117,7 +117,7 @@ where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{img/perfect-line2-2}
+	\includegraphics[width=1\linewidth]{img/tens}
 	\caption{Deformation process of the model without void defect}
 	\label{fig:deformation-pf}
 \end{figure}
@@ -158,7 +158,7 @@ Snapshots of atom configuration at the 5 of 10 key points are shown by Fig. \ref
 
 \begin{figure}[ht] 
 	\centering
-	\includegraphics[width=1\linewidth]{img/def2}
+	\includegraphics[width=1\linewidth]{img/def-box}
 	\caption{Microstructure evolution inside $\gamma$ phase(a), $\alpha_2$ phase(b) during yield stage}
 	\label{fig:Defect}
 \end{figure}
@@ -180,7 +180,7 @@ where the prefactor $v_0$ gives the velocity that would be obtained for each pot
 	\end{minipage}	
 	\hfill
 	\begin{minipage}{0.495\textwidth}		
-		\includegraphics[width=1\linewidth]{img/disum}
+		\includegraphics[width=1\linewidth]{img/dis-summary}
 		\centering
 		\caption{Dislocation length at different stage }
 		\label{fig:disum}
@@ -188,7 +188,7 @@ where the prefactor $v_0$ gives the velocity that would be obtained for each pot
 \end{figure}
 
 
-In Fig. \ref{fig:disum}, length of different type dislocation are given at four stages. Dislocations are recognized and identified using the dislocation analysis (DXA) of OVITO. The length of Shorckley dislocation with Burgers vector $1/6[1 1 2]$ increase sharply during yield stage of the deformation process in Fig. \ref{fig:disum}, but the length of perfect dislocation fluctuate at a low level. Decomposition of the perfect  dislocations split into Shockley partial dislocations as formulation \ref{eq:dis-1} and \ref{eq:dis-2}. The structure spontaneously transform into intrinsic stacking fault (ISF), it can be observed in Fig. \ref{fig:Defect}a. 
+In Fig. \ref{fig:disum}, length of different type dislocation are given at four stages. Dislocations are recognized and identified using the dislocation analysis (DXA) of OVITO. The length of Shorckley dislocation with Burgers vector $1/6[1 1 2]$ increase sharply during yield stage of the deformation process in Fig. \ref{fig:dis-summary}, but the length of perfect dislocation fluctuate at a low level. Decomposition of the perfect  dislocations split into Shockley partial dislocations as formulation \ref{eq:dis-1} and \ref{eq:dis-2}. The structure spontaneously transform into intrinsic stacking fault (ISF), it can be observed in Fig. \ref{fig:Defect}a. 
 
 %\begin{equation}\label{eq:dis-1}
 %[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]\\
@@ -215,7 +215,7 @@ A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{img/models}
+	\includegraphics[width=1\linewidth]{img/slice-view}
 	\caption{ Model with no void defect (b), with void inside $\alpha_2$ phase (c) with void at $\alpha_2-\gamma$ interface (d)}
 	\label{fig:model-creation}
 \end{figure}
@@ -258,7 +258,7 @@ In Fig. \ref{fig:strength} It has been observed that voids detracts the strength
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[width=1\linewidth]{"img/dis-void2"}
+	\includegraphics[width=1\linewidth]{"img/orowan"}
 	\caption{Orowan process in $\alpha$-phase ($\alpha$ phase atoms have been removed)}
 	\label{fig:orowan}
 \end{figure}
