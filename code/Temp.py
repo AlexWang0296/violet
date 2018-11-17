@@ -7,7 +7,7 @@ plt.rcParams.update({'font.size': 14})
 from matplotlib import rc
 rc('text', usetex=True)
 #csfont = {'fontname':'Times New Roman'}
-#plt.rcParams["font.family"] = "Times New Roman"
+plt.rcParams["font.family"] = "Times New Roman"
 WDIR = os.path.dirname(__file__)
 # loadpath = os.path.join(WDIR,'data','stress_strain')
 writepath = os.path.join(WDIR,'..','draft','img')

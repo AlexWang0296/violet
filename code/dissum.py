@@ -6,8 +6,7 @@ import os.path
 import matplotlib.pyplot as plt
 
 #csfont = {'fontname':'Times New Roman'}
-#plt.rcParams["font.family"] = "Times New Roman"
-
+plt.rcParams["font.family"] = 'Times New Roman'
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import rc
