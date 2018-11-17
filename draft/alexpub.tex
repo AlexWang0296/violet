@@ -72,7 +72,7 @@ The interaction of particle in the material is determined by interatomic potenti
 E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
 \end{equation}
 	
-where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ represents the energy for embedding atom $i$ into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ give the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities.
+where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system,$F_i(\rho)$ represents the energy for embedding atom $i$ into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ gives the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$. The electron density is, as stated above, approximated by the superposition of atomic densities.
 	
 %	\begin{equation} \label{eq:eam} 
 %	\rho_{h,i}=\sum_{j(\neq1)} \rho_i(R_{ij})
@@ -82,7 +82,7 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{img/modeling}
-	\caption{Unit cell of \rm{TiAl} (a) and $\rm{Ti_3Al}$ (b)}
+	\caption{Unit cell of \rm{TiAl} (a), $\rm{Ti_3Al}$ (b) and two phase Ti-Al model (c)}
 	\label{fig:tial-cell}
 \end{figure}
 
@@ -125,9 +125,9 @@ where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six
 
 %	/home/alex/Documents/violet/draft/img/perfect-line.pdf
 Deformation process of the model without void defect is shown in Fig. \ref{fig:deformation-pf}. The strength of the model without void defect is 5.3 GPa. According to stress response under constant rate of strain rate, the whole tensile process can be divided into four stages: 
-Stage - \uppercase\expandafter{\romannumeral1}: elastic stage,ranging from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1;
-Stage - \uppercase\expandafter{\romannumeral2}: yield stage, ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6;
-Stage - \uppercase\expandafter{\romannumeral3}: cracking stage, ranging from $\epsilon = 0.101$ to $\epsilon = 0.112$, including key pint 7 to 10;
+Stage - \uppercase\expandafter{\romannumeral1}: elastic stage,ranging from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1,
+Stage - \uppercase\expandafter{\romannumeral2}: yield stage, ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6,
+Stage - \uppercase\expandafter{\romannumeral3}: cracking stage, ranging from $\epsilon = 0.101$ to $\epsilon = 0.112$, including key pint 7 to 10,
 Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discussion concentrates on deformation phenomena that rely on the elastro-plastic codeformation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurring in two phase alloys. 
 
 \begin{table}[ht]
@@ -141,7 +141,7 @@ Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discus
 		\midrule
 		% Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.Fu = sin20 & 0.21 & 0.22 & 0.23 \\
 		% \midule
-		\textbf{Strain}	& 0.05 &  0.092 & 0.092 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112 \\
+		\textbf{Strain}	& 0.05 &  0.088 & 0.092 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112 \\
 		\bottomrule
 	\end{tabular} 
 	\label{tab:key-point}
@@ -152,7 +152,7 @@ Stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discus
 
 % Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
 \subsection{Deformation Mechanism of Two Phase TiAl Alloy without Void Defects}
-Snapshots of atom configuration at the 5 of 10 key points are shown by Fig. \ref{fig:Defect}.  Atoms with ordered configuration  of $\gamma$ phase grains have been removed in Fig.\ref{fig:Defect}a,\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Fig. \ref{fig:Defect}b, the defects of $\alpha_2$ phase have been left.  The results show that, at stage \uppercase\expandafter{\romannumeral1}, the structure of the model is under typical elastic deformation and the size of simulation box enlarged due to the loading, deformation of the two phase are compatible. Emission of dislocation and evolution of defects initiated at the end of stage \uppercase\expandafter{\romannumeral1}. A  great number of dislocation emitted inside $\gamma$ phase at stage 2, however, the dislocation inside $\gamma$ phase was emitted after key point 5 shown by Fig. \ref{fig:Defect}b. The deformation of $\alpha_2$ phase is earlier than $\gamma$ phase during yield stage, thus local displacement of two phase are incompatible during yield stage.  
+Snapshots of atom configuration at the 5 of 10 key points are shown by Fig. \ref{fig:Defect}.  Atoms with ordered configuration  of $\gamma$ phase grains have been removed in Fig. \ref{fig:Defect}(a),\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Fig. \ref{fig:Defect}(b), the defects of $\alpha_2$ phase have been left.  The results show that, at stage \uppercase\expandafter{\romannumeral1}, the structure of the model is under typical elastic deformation and the size of simulation box enlarged due to the loading, deformation of the two phase are compatible. Emission of dislocation and evolution of defects initiated at the end of stage \uppercase\expandafter{\romannumeral1}. A  great number of dislocation emitted inside $\gamma$ phase at stage \uppercase\expandafter{\romannumeral2}, however, the dislocation inside $\gamma$ phase was emitted after key point 5 shown by Fig. \ref{fig:Defect}(b). The deformation of $\alpha_2$ phase is earlier than $\gamma$ phase during yield stage, thus local displacement of two phase are incompatible during yield stage.  
 
 
 
@@ -167,7 +167,7 @@ The mobility of dislocation is affected by structure of crystal, loading conditi
 \begin{equation}\label{eq:temp-dis}
 v = v_0 \exp(-\Delta H(\tau^*)/kT)
 \end{equation}
-where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ is the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be evaluated under different loading conditions, thus we chose  $\tau_1^*>\tau_2^*>\tau_3^*$ in formulation \ref{eq:temp-dis}, normalized velocity is shown in Fig \ref{fig:temp}. The  velocity  of dislocation movement rise along with increase of  stress, the speed of dislocation is relatively low at 298 K, and it is more sensitive to temperature than shear stress. 
+where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ represents the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be evaluated under different loading conditions, thus we chose  $\tau_1^*>\tau_2^*>\tau_3^*$ in formulation (\ref{eq:temp-dis}), normalized velocity is shown in Fig. \ref{fig:temp}. The  velocity  of dislocation movement rise along with increase of  stress, the speed of dislocation is relatively low at 298 K, and it is more sensitive to temperature than shear stress. 
 
 
 \begin{figure}[ht]
@@ -188,7 +188,7 @@ where the prefactor $v_0$ gives the velocity that would be obtained for each pot
 \end{figure}
 
 
-In Fig. \ref{fig:disum}, length of different type dislocation are given at four stages. Dislocations are recognized and identified using the dislocation analysis (DXA) of OVITO. The length of Shorckley dislocation with Burgers vector $1/6[1 1 2]$ increase sharply during yield stage of the deformation process in Fig. \ref{fig:dis-summary}, but the length of perfect dislocation fluctuate at a low level. Decomposition of the perfect  dislocations split into Shockley partial dislocations as formulation \ref{eq:dis-1} and \ref{eq:dis-2}. The structure spontaneously transform into intrinsic stacking fault (ISF), it can be observed in Fig. \ref{fig:Defect}a. 
+In Fig. \ref{fig:disum}, length of different type dislocation are given at four stages. Dislocations are recognized and identified using the dislocation analysis (DXA) of OVITO. The length of Shorckley dislocation with Burgers vector $1/6[1 1 2]$ increase sharply during yield stage of the deformation process in Fig. \ref{fig:dis-summary}, but the length of perfect dislocation fluctuate at a low level. Decomposition of the perfect  dislocations split into Shockley partial dislocations as formulation (\ref{eq:dis-1}) and (\ref{eq:dis-2}). The structure spontaneously transform into intrinsic stacking fault (ISF), it can be observed in Fig. \ref{fig:Defect}(a). 
 
 %\begin{equation}\label{eq:dis-1}
 %[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]\\
@@ -214,7 +214,7 @@ A reason for the unequal strain partitioning between the $\alpha_2$ and $\gamma$
 \subsection{The effect of void on the strength of material}
 
 \begin{figure}[ht]
-	\centering
+	\centeringz
 	\includegraphics[width=1\linewidth]{img/slice-view}
 	\caption{ Model with no void defect (b), with void inside $\alpha_2$ phase (c) with void at $\alpha_2-\gamma$ interface (d)}
 	\label{fig:model-creation}
@@ -254,7 +254,7 @@ where $\sigma_0$ is the strength of model without void defects 5.26 Gpa, and $A_
 	
 In Fig. \ref{fig:strength} It has been observed that voids detracts the strengths of  material. The max stress  of the simulation cell decreases as the volume of voids are larger. From Fig \ref{fig:stress&strain}, there is a critical value of void radius about 15 \AA, the void greater than 15 \AA cause serious detraction of strength of material.  The decrease rate of loading area are smaller comparing with the detraction of strength, so it can be assumed that the  yield behavior and strength is much more related with local behavior of grain boundaries and void. Grain and phase boundaries are obstacles to deformation process, thus the stability of boundaries have great impact on the strength of materials. Interactive between grain boundary and void determines the fracture mode of the TiAl alloy.
 
-\subsection{Evolution of spherical void in the simulation with intragranular spherical voids}
+\subsection{Evolution of spherical void}
 
 \begin{figure}[ht]
 	\centering

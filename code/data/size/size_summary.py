@@ -21,7 +21,7 @@ plt.rcParams.update({'font.size': 14})
 from matplotlib import rc
 rc('text', usetex=True)
 
-# plt.rcParams["font.family"] = 'Times New Roman'
+plt.rcParams["font.family"] = 'TimesNewRoman'
 
 WDIR = os.path.dirname(__file__)
 writepath = os.path.join(WDIR,'..','..','..','draft','img')
@@ -31,9 +31,10 @@ iamax = np.array([5.3, 5.26, 5.25, 5.22, 5.19, 4.96])
 agmax = np.array([5.3, 5.25, 5.17, 5.11, 5.09, 4.87])
 fac = (1-(np.pi*(size/2)**2)/(210*180))*iamax[0]
 # pia = fit.gaussian(size,iamax)
+plt.plot(size, fac, marker='o',linestyle='--',color='R')
 plt.plot(size, iamax,marker='s',color='G')
 plt.plot(size, agmax, marker='^',color='B')
-plt.plot(size, fac, marker='o',linestyle='--',color='R')
+
 # color='darkorange'
 # color='steelblue'
 plt.legend([r'void inside $\alpha$ phase', r'void at \textbf{$\alpha$-$\gamma$} phase boundary','calculated value'], frameon=False)

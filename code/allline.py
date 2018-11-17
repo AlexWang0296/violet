@@ -19,7 +19,7 @@ import os.path
 from os import listdir
 import matplotlib.pyplot as plt
 import pandas as pd
-# plt.rcParams["font.family"] = 'Times New Roman'
+plt.rcParams["font.family"] = 'Times New Roman'
 import matplotlib.pyplot as plt
 plt.rcParams.update({'font.size': 14})
 from matplotlib import rc
