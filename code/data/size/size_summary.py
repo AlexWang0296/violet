@@ -20,8 +20,7 @@ from scipy.optimize import curve_fit as fit
 plt.rcParams.update({'font.size': 14})
 from matplotlib import rc
 rc('text', usetex=True)
-
-plt.rcParams["font.family"] = 'TimesNewRoman'
+plt.rcParams["font.family"] = 'Times New Roman'
 
 WDIR = os.path.dirname(__file__)
 writepath = os.path.join(WDIR,'..','..','..','draft','img')
@@ -37,7 +36,7 @@ plt.plot(size, agmax, marker='^',color='B')
 
 # color='darkorange'
 # color='steelblue'
-plt.legend([r'void inside $\alpha$ phase', r'void at \textbf{$\alpha$-$\gamma$} phase boundary','calculated value'], frameon=False)
+plt.legend(['calculated value',r'void inside $\alpha$ phase', r'void at \textbf{$\alpha$-$\gamma$} phase boundary'], frameon=False)
 plt.ylim(4.8,5.5)
 plt.xlabel(r'Radius of Void/ \AA')
 plt.ylabel('Strength/GPa')

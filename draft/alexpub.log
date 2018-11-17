@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  17 NOV 2018 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  17 NOV 2018 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1988,11 +1988,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 36424 strings out of 492982
- 678971 string characters out of 6134895
+ 36421 strings out of 492982
+ 678941 string characters out of 6134895
  727833 words of memory out of 5000000
  39137 multiletter control sequences out of 15000+600000
- 583891 words of font info for 278 fonts, out of 8000000 for 9000
+ 583732 words of font info for 276 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,56p,10379b,878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2008,7 +2008,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 2757355 bytes).
+Output written on alexpub.pdf (10 pages, 2754912 bytes).
 PDF statistics:
  556 PDF objects out of 1000 (max. 8388607)
  404 compressed objects within 5 object streams
