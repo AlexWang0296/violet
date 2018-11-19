@@ -25,7 +25,7 @@ u = 20*np.e**(-350/T)/20
 v = 20*np.e**(-400/T)/20
 w = 20*np.e**(-450/T)/20
 plt.xlabel('Temperature / K')
-plt.ylabel('Mobility of Dislocation')
+plt.ylabel('Normalized velocity of dislocation motion')
 plt.ylim(ymax=1)
 plt.plot(T,u, color='R')
 plt.plot(T,v, color='G')

@@ -51,12 +51,12 @@ rects4 = plt.bar(index + 3*bar_width, frank, bar_width,
                  color='black',
                  label='Frank')
 
-plt.xlabel('Stage')
+plt.xlabel('Strain')
 plt.ylabel(r'Dislocation length / \AA')
 plt.ylim(ymax=5000)
 # plt.title('Scores by person')
-plt.xticks(index + bar_width, ('Initial', 'Before yield', 'After yield', 'Cracked'))
-plt.legend(frameon = False)
+plt.xticks(index + bar_width, ('0.005','0.092','0.101','0.112'))
+plt.legend(frameon = False,title='Type of dislocation')
 
 plt.savefig(os.path.join(writepath, 'dis-summary.pdf'))
 

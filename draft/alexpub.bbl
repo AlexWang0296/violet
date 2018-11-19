@@ -202,6 +202,13 @@ Stukowski, A.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/18/1/015012}{\detokenize{10.1088/0965-0393/18/1/015012}}}.
 
+\bibitem[Zhu \em{et~al.}(2012)Zhu, Liao, and Wu]{Zhu2012}
+Zhu, Y.; Liao, X.; Wu, X.
+\newblock {Deformation twinning in nanocrystalline materials}.
+\newblock {\em Progress in Materials Science} {\bf 2012}, {\em 57},~1--62.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2011.05.001}{\detokenize{10.1016/j.pmatsci.2011.05.001}}}.
+
 \bibitem[Stein and Low(1960)]{Stein1960}
 Stein, D.F.; Low, J.R.
 \newblock {Mobility of edge dislocations in silicon-iron crystals}.
@@ -224,5 +231,13 @@ Microstructures, L.
 \newblock {\em Gamma Titanium Aluminide Alloys} {\bf 2011}, {\em 2},~125--248.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/9783527636204.ch6}{\detokenize{10.1002/9783527636204.ch6}}}.
+
+\bibitem[Zghal \em{et~al.}(1998)Zghal, Menand, and Couret]{Zghal1998}
+Zghal, S.; Menand, A.; Couret, A.
+\newblock {Pinning points anchoring ordinary and shockley dislocations in TiAl
+  alloys}.
+\newblock {\em Acta Materialia} {\bf 1998}, {\em 46},~5899--5905.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/S1359-6454(98)00233-X}{\detokenize{10.1016/S1359-6454(98)00233-X}}}.
 
 \end{thebibliography}

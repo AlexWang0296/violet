@@ -39,7 +39,7 @@ plt.plot(size, agmax, marker='^',color='B')
 plt.legend(['calculated value',r'void inside $\alpha$ phase', r'void at \textbf{$\alpha$-$\gamma$} phase boundary'], frameon=False)
 plt.ylim(4.8,5.5)
 plt.xlabel(r'Radius of Void/ \AA')
-plt.ylabel('Strength/GPa')
+plt.ylabel('Yield strength/GPa')
 plt.savefig(os.path.join(writepath,'effect_of_vol.pdf'))
 plt.show()
 

@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: alexpub.aux
 The style file: Definitions/mdpi.bst
 Database file #1: ref/VIOLET-ref.bib.bib
-You've used 26 entries,
+You've used 28 entries,
             2865 wiz_defined-function locations,
-            825 strings with 11239 characters,
-and the built_in function-call counts, 10749 in all, are:
-= -- 938
-> -- 552
+            843 strings with 11735 characters,
+and the built_in function-call counts, 11564 in all, are:
+= -- 1011
+> -- 594
 < -- 11
-+ -- 214
-- -- 162
-* -- 1138
-:= -- 1689
-add.period$ -- 104
-call.type$ -- 26
-change.case$ -- 26
-chr.to.int$ -- 26
-cite$ -- 26
-duplicate$ -- 468
-empty$ -- 905
-format.name$ -- 198
-if$ -- 2174
++ -- 230
+- -- 174
+* -- 1223
+:= -- 1816
+add.period$ -- 112
+call.type$ -- 28
+change.case$ -- 28
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 504
+empty$ -- 974
+format.name$ -- 212
+if$ -- 2340
 int.to.chr$ -- 1
-int.to.str$ -- 26
-missing$ -- 26
-newline$ -- 160
-num.names$ -- 78
-pop$ -- 125
+int.to.str$ -- 28
+missing$ -- 28
+newline$ -- 172
+num.names$ -- 84
+pop$ -- 135
 preamble$ -- 0
-purify$ -- 26
+purify$ -- 28
 quote$ -- 0
-skip$ -- 224
+skip$ -- 240
 stack$ -- 0
-substring$ -- 668
-swap$ -- 104
+substring$ -- 719
+swap$ -- 112
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 182
+type$ -- 196
 warning$ -- 0
-while$ -- 100
+while$ -- 108
 width$ -- 0
-write$ -- 372
+write$ -- 400
