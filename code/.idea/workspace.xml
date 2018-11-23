@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a34d0a4-1500-4cd9-9275-1e131c5a5366" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allline.py" beforeDir="false" afterPath="$PROJECT_DIR$/allline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/size/size_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/size/size_summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dissum.py" beforeDir="false" afterPath="$PROJECT_DIR$/dissum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/alexpub.aux" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/alexpub.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/alexpub.blg" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.blg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/alexpub.log" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/alexpub.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.synctex.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../draft/alexpub.tex" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/alexpub.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/AE.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/AE.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/APCFS2018.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/APCFS2018.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/Falcon.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/Falcon.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/IBIS.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/IBIS.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/MultiScaleMethod.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/MultiScaleMethod.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/Surf-void-wave.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/Surf-void-wave.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/Surf.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/Surf.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/TeamWork.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/TeamWork.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET-background.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET-background.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET-ref.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET-ref.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/VIOLET.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/VIOLET.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/XFEM.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/XFEM.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/app.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/app.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/battery.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/battery.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/xiangtan.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/xiangtan.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目-所有参考文献.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目-所有参考文献.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目-精读.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目-精读.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/残余应力项目.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/残余应力项目.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/汇报.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/汇报.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/程序教程-Processing Methods.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/程序教程-Processing Methods.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../draft/ref/程序教程.bib" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/ref/程序教程.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/slice-view.odg" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/slice-view.odg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draft/img/slice-view.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../draft/img/slice-view.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="585">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
                 <element signature="e#173#182#0" expanded="true" />
               </folding>
@@ -76,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dissum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+            <state relative-caret-position="780">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
               <folding>
                 <element signature="e#1#10#0" expanded="true" />
               </folding>
@@ -89,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/Temp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/allline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="825">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
               <folding>
                 <element signature="e#192#201#0" expanded="true" />
               </folding>
@@ -154,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="29" />
     <option name="width" value="1920" />
     <option name="height" value="1051" />
@@ -219,6 +193,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -260,6 +237,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -279,6 +259,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -298,6 +281,9 @@
       <module name="code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/size" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -365,6 +351,7 @@
       <workItem from="1542856306735" duration="342000" />
       <workItem from="1542857442461" duration="929000" />
       <workItem from="1542873833006" duration="1976000" />
+      <workItem from="1542981601628" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="add path">
       <created>1535200425806</created>
@@ -398,13 +385,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3247000" />
+    <option name="totallyTimeSpent" value="3260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,12 +405,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15334773" side_tool="true" weight="0.4792833" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32822758" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.84665227" visible="true" weight="0.3402399" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.84665227" visible="true" weight="0.3402399" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" sideWeight="0.91239667" visible="true" weight="0.25667024" />
-      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.08760331" side_tool="true" visible="true" weight="0.25667024" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.9107438" visible="true" weight="0.25667024" />
+      <window_info anchor="right" x="0" y="0" width="430" height="880" id="Documentation" order="4" sideWeight="0.0892562" side_tool="true" visible="true" weight="0.25667024" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49917355" weight="0.32991362" />
     </layout>
     <layout-to-restore>
@@ -523,20 +509,10 @@
     <entry file="file://$PROJECT_DIR$/maplot.py" />
     <entry file="file://$PROJECT_DIR$/ialine.py" />
     <entry file="file://$PROJECT_DIR$/temp.py" />
-    <entry file="file://$PROJECT_DIR$/allline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding>
-            <element signature="e#192#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/size/size_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="585">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
             <element signature="e#173#182#0" expanded="true" />
           </folding>
@@ -545,10 +521,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dissum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        <state relative-caret-position="780">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
             <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="e#192#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,7 +542,7 @@
     <entry file="file://$PROJECT_DIR$/Temp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
