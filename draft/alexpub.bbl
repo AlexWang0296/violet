@@ -220,21 +220,6 @@ Stukowski, A.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/18/1/015012}{\detokenize{10.1088/0965-0393/18/1/015012}}}.
 
-\bibitem[Zhu \em{et~al.}(2012)Zhu, Liao, and Wu]{Zhu2012}
-Zhu, Y.; Liao, X.; Wu, X.
-\newblock {Deformation twinning in nanocrystalline materials}.
-\newblock {\em Progress in Materials Science} {\bf 2012}, {\em 57},~1--62.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2011.05.001}{\detokenize{10.1016/j.pmatsci.2011.05.001}}}.
-
-\bibitem[Liu \em{et~al.}(2007)Liu, Liu, Wang, and Ye]{Liu2007}
-Liu, Y.L.; Liu, L.M.; Wang, S.Q.; Ye, H.Q.
-\newblock {First-principles study of shear deformation in TiAl alloys}.
-\newblock {\em Journal of Alloys and Compounds} {\bf 2007}, {\em
-  440},~287--294.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jallcom.2006.09.027}{\detokenize{10.1016/j.jallcom.2006.09.027}}}.
-
 \bibitem[Stein and Low(1960)]{Stein1960}
 Stein, D.F.; Low, J.R.
 \newblock {Mobility of edge dislocations in silicon-iron crystals}.
@@ -250,13 +235,20 @@ Escaig, B.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/pssb.19680280203}{\detokenize{10.1002/pssb.19680280203}}}.
 
-\bibitem[Microstructures(2011)]{intro-structure}
-Microstructures, L.
-\newblock {Deformation Behavior of Two-Phase $\alpha$2(Ti3Al) + $\gamma$(TiAl)
-  Alloys}.
-\newblock {\em Gamma Titanium Aluminide Alloys} {\bf 2011}, {\em 2},~125--248.
+\bibitem[Liu \em{et~al.}(2007)Liu, Liu, Wang, and Ye]{Liu2007}
+Liu, Y.L.; Liu, L.M.; Wang, S.Q.; Ye, H.Q.
+\newblock {First-principles study of shear deformation in TiAl alloys}.
+\newblock {\em Journal of Alloys and Compounds} {\bf 2007}, {\em
+  440},~287--294.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1002/9783527636204.ch6}{\detokenize{10.1002/9783527636204.ch6}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jallcom.2006.09.027}{\detokenize{10.1016/j.jallcom.2006.09.027}}}.
+
+\bibitem[Zhu \em{et~al.}(2012)Zhu, Liao, and Wu]{Zhu2012}
+Zhu, Y.; Liao, X.; Wu, X.
+\newblock {Deformation twinning in nanocrystalline materials}.
+\newblock {\em Progress in Materials Science} {\bf 2012}, {\em 57},~1--62.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2011.05.001}{\detokenize{10.1016/j.pmatsci.2011.05.001}}}.
 
 \bibitem[Zghal \em{et~al.}(1998)Zghal, Menand, and Couret]{Zghal1998}
 Zghal, S.; Menand, A.; Couret, A.

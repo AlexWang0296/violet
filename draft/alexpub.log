@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  22 NOV 2018 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1885,17 +1885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []\T1/ppl/b/n/9 Figure 5. |\T1/ppl/m/n/9 (+20) Dis-lo-ca-tion length un-der
  []
 
-[4 <./img/tens.pdf>]
-Underfull \hbox (badness 2165) in paragraph at lines 189--191
-\T1/ppl/m/n/10 (+20) Interaction be-tween dis-lo-ca-tion with Burg-ers vec-tor 
-of $\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m
-/n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $\
-OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m/n/10
- [\OT1/ppl/m/n/10 (+20) 11[]\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) fol-lows t
-he
- []
-
-[5 <./img/def-box.pdf> <./img/temp.pdf
+[4 <./img/tens.pdf>] [5 <./img/def-box.pdf> <./img/temp.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/temp.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
@@ -1904,12 +1894,21 @@ e pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./img/dis-summary.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 1609) in paragraph at lines 189--191
+\T1/ppl/m/n/10 (+20) Interaction be-tween dis-lo-ca-tions with Burg-ers vec-tor
+ of $\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/
+m/n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $
+\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m/n/1
+0 [\OT1/ppl/m/n/10 (+20) 11[]\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) fol-lows 
+the
+ []
+
 <img/slice-view.pdf, id=408, 578.13158pt x 111.99005pt>
 File: img/slice-view.pdf Graphic file (type pdf)
 <use img/slice-view.pdf>
 Package pdftex.def Info: img/slice-view.pdf  used on input line 203.
 (pdftex.def)             Requested size: 443.86319pt x 85.98138pt.
- [6 <./img/slice-view.pdf>]
+[6 <./img/slice-view.pdf>]
 <img/allline.pdf, id=444, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
@@ -1992,13 +1991,13 @@ Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: 2FE59A2891E4FCF47A7164968CFE5C0F;2053.
  ) 
 Here is how much of TeX's memory you used:
- 36456 strings out of 492982
- 679486 string characters out of 6134895
- 732885 words of memory out of 5000000
- 39157 multiletter control sequences out of 15000+600000
- 584554 words of font info for 282 fonts, out of 8000000 for 9000
+ 36455 strings out of 492982
+ 679427 string characters out of 6134895
+ 732402 words of memory out of 5000000
+ 39154 multiletter control sequences out of 15000+600000
+ 584713 words of font info for 284 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10379b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10379b,892s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2012,10 +2011,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 4447334 bytes).
+Output written on alexpub.pdf (10 pages, 4446535 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 461 compressed objects within 5 object streams
+ 69 named destinations out of 1000 (max. 500000)
  47777 words of extra memory for PDF output out of 51595 (max. 10000000)
 
