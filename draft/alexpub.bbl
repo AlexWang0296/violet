@@ -50,14 +50,15 @@ Kim, Y.W.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/0921-5093(94)03271-8}{\detokenize{10.1016/0921-5093(94)03271-8}}}.
 
-\bibitem[Larsen \em{et~al.}(2016)Larsen, Schmidt, and Schi{\O}tz]{Larsen2016}
-Larsen, P.M.; Schmidt, S.; Schi{\O}tz, J.
-\newblock {Robust structural identification via polyhedral template matching}.
-\newblock {\em Modelling and Simulation in Materials Science and Engineering}
-  {\bf 2016}, {\em 24},~055007,
-  \href{http://xxx.lanl.gov/abs/1603.05143}{{\normalfont [1603.05143]}}.
+\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
+  Dilger]{Hempel2017a}
+Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
+\newblock {Study on the residual stress relaxation in girth-welded steel pipes
+  under bending load using diffraction methods}.
+\newblock {\em Materials Science and Engineering A} {\bf 2017}, {\em
+  688},~289--300.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/24/5/055007}{\detokenize{10.1088/0965-0393/24/5/055007}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
 
 \bibitem[Groh \em{et~al.}(2009)Groh, Marin, Horstemeyer, and Zbib]{Groh2009}
 Groh, S.; Marin, E.B.; Horstemeyer, M.F.; Zbib, H.M.
@@ -76,16 +77,6 @@ Liu, X.; Sun, W.K.; Liew, K.M.
   2018}, {\em 340},~932--955.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cma.2018.06.026}{\detokenize{10.1016/j.cma.2018.06.026}}}.
-
-\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
-  Dilger]{Hempel2017a}
-Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
-\newblock {Study on the residual stress relaxation in girth-welded steel pipes
-  under bending load using diffraction methods}.
-\newblock {\em Materials Science and Engineering A} {\bf 2017}, {\em
-  688},~289--300.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.msea.2017.02.005}{\detokenize{10.1016/j.msea.2017.02.005}}}.
 
 \bibitem[Xu \em{et~al.}(2011)Xu, Hao, Su, Yu, Wan, and Hu]{Xu2011}
 Xu, S.Z.; Hao, Z.M.; Su, Y.Q.; Yu, Y.; Wan, Q.; Hu, W.J.
@@ -155,6 +146,15 @@ Wu, H.N.; Xu, D.S.; Wang, H.; Yang, R.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jmst.2015.12.001}{\detokenize{10.1016/j.jmst.2015.12.001}}}.
 
+\bibitem[Larsen \em{et~al.}(2016)Larsen, Schmidt, and Schi{\O}tz]{Larsen2016}
+Larsen, P.M.; Schmidt, S.; Schi{\O}tz, J.
+\newblock {Robust structural identification via polyhedral template matching}.
+\newblock {\em Modelling and Simulation in Materials Science and Engineering}
+  {\bf 2016}, {\em 24},~055007,
+  \href{http://xxx.lanl.gov/abs/1603.05143}{{\normalfont [1603.05143]}}.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1088/0965-0393/24/5/055007}{\detokenize{10.1088/0965-0393/24/5/055007}}}.
+
 \bibitem[Ko \em{et~al.}(2015)Ko, Grabowski, and Neugebauer]{Ko2015}
 Ko, W.S.; Grabowski, B.; Neugebauer, J.
 \newblock {Development and application of a Ni-Ti interatomic potential with
@@ -163,6 +163,24 @@ Ko, W.S.; Grabowski, B.; Neugebauer, J.
   2015}, {\em 92},~134107.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1103/PhysRevB.92.134107}{\detokenize{10.1103/PhysRevB.92.134107}}}.
+
+\bibitem[Zepeda-Ruiz \em{et~al.}(2017)Zepeda-Ruiz, Stukowski, Oppelstrup, and
+  Bulatov]{Zepeda-Ruiz2017}
+Zepeda-Ruiz, L.A.; Stukowski, A.; Oppelstrup, T.; Bulatov, V.V.
+\newblock {Probing the limits of metal plasticity with molecular dynamics
+  simulations}.
+\newblock {\em Nature} {\bf 2017}, {\em 550},~492--495.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1038/nature23472}{\detokenize{10.1038/nature23472}}}.
+
+\bibitem[Fan \em{et~al.}(2018)Fan, Zhu, El-Awady, and Raabe]{Fan2018a}
+Fan, H.; Zhu, Y.; El-Awady, J.A.; Raabe, D.
+\newblock {Precipitation hardening effects on extension twinning in magnesium
+  alloys}.
+\newblock {\em International Journal of Plasticity} {\bf 2018}, {\em
+  106},~186--202.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.ijplas.2018.03.008}{\detokenize{10.1016/j.ijplas.2018.03.008}}}.
 
 \bibitem[Zope and Mishin(2003)]{Zope2003}
 Zope, R.R.; Mishin, Y.
@@ -208,6 +226,14 @@ Zhu, Y.; Liao, X.; Wu, X.
 \newblock {\em Progress in Materials Science} {\bf 2012}, {\em 57},~1--62.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.pmatsci.2011.05.001}{\detokenize{10.1016/j.pmatsci.2011.05.001}}}.
+
+\bibitem[Liu \em{et~al.}(2007)Liu, Liu, Wang, and Ye]{Liu2007}
+Liu, Y.L.; Liu, L.M.; Wang, S.Q.; Ye, H.Q.
+\newblock {First-principles study of shear deformation in TiAl alloys}.
+\newblock {\em Journal of Alloys and Compounds} {\bf 2007}, {\em
+  440},~287--294.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jallcom.2006.09.027}{\detokenize{10.1016/j.jallcom.2006.09.027}}}.
 
 \bibitem[Stein and Low(1960)]{Stein1960}
 Stein, D.F.; Low, J.R.

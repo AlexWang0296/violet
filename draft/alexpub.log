@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  19 NOV 2018 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  22 NOV 2018 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1857,37 +1857,36 @@ s-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>] [2]
 <img/modeling.pdf, id=130, 597.65012pt x 158.96555pt>
 File: img/modeling.pdf Graphic file (type pdf)
 <use img/modeling.pdf>
-Package pdftex.def Info: img/modeling.pdf  used on input line 84.
+Package pdftex.def Info: img/modeling.pdf  used on input line 78.
 (pdftex.def)             Requested size: 443.86319pt x 118.0644pt.
-<img/tens.pdf, id=135, 614.26657pt x 227.62204pt>
+ [3 <./img/modeling.pdf>]
+<img/tens.pdf, id=210, 614.26657pt x 227.62204pt>
 File: img/tens.pdf Graphic file (type pdf)
 <use img/tens.pdf>
-Package pdftex.def Info: img/tens.pdf  used on input line 120.
+Package pdftex.def Info: img/tens.pdf  used on input line 114.
 (pdftex.def)             Requested size: 443.86319pt x 164.47818pt.
- [3 <./img/modeling.pdf>]
-<img/def-box.pdf, id=215, 592.58554pt x 245.68954pt>
+<img/def-box.pdf, id=216, 592.58554pt x 245.68954pt>
 File: img/def-box.pdf Graphic file (type pdf)
 <use img/def-box.pdf>
-Package pdftex.def Info: img/def-box.pdf  used on input line 158.
+Package pdftex.def Info: img/def-box.pdf  used on input line 152.
 (pdftex.def)             Requested size: 443.86319pt x 184.03426pt.
- [4 <./img/tens.pdf>]
-<img/temp.pdf, id=269, 462.52798pt x 346.89601pt>
+<img/temp.pdf, id=222, 462.52798pt x 346.89601pt>
 File: img/temp.pdf Graphic file (type pdf)
 <use img/temp.pdf>
-Package pdftex.def Info: img/temp.pdf  used on input line 172.
+Package pdftex.def Info: img/temp.pdf  used on input line 164.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/dis-summary.pdf, id=270, 462.52798pt x 346.89601pt>
+<img/dis-summary.pdf, id=223, 462.52798pt x 346.89601pt>
 File: img/dis-summary.pdf Graphic file (type pdf)
 <use img/dis-summary.pdf>
-Package pdftex.def Info: img/dis-summary.pdf  used on input line 179.
+Package pdftex.def Info: img/dis-summary.pdf  used on input line 171.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []\T1/ppl/b/n/9 Figure 5. |\T1/ppl/m/n/9 (+20) Dis-lo-ca-tion length un-der
  []
 
-
-Underfull \hbox (badness 2165) in paragraph at lines 198--200
+[4 <./img/tens.pdf>]
+Underfull \hbox (badness 2165) in paragraph at lines 189--191
 \T1/ppl/m/n/10 (+20) Interaction be-tween dis-lo-ca-tion with Burg-ers vec-tor 
 of $\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/m
 /n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $\
@@ -1905,50 +1904,42 @@ e pdfs with page group included in a single page
 pdfTeX warning: /usr/bin/pdflatex (file ./img/dis-summary.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-! Undefined control sequence.
-l.211 	\centeringz
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<img/slice-view.pdf, id=409, 578.13158pt x 144.51154pt>
+<img/slice-view.pdf, id=408, 578.13158pt x 111.99005pt>
 File: img/slice-view.pdf Graphic file (type pdf)
 <use img/slice-view.pdf>
-Package pdftex.def Info: img/slice-view.pdf  used on input line 212.
-(pdftex.def)             Requested size: 443.86319pt x 110.95007pt.
-[6 <./img/slice-view.pdf>]
-<img/allline.pdf, id=449, 462.52798pt x 346.89601pt>
+Package pdftex.def Info: img/slice-view.pdf  used on input line 203.
+(pdftex.def)             Requested size: 443.86319pt x 85.98138pt.
+ [6 <./img/slice-view.pdf>]
+<img/allline.pdf, id=444, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
-Package pdftex.def Info: img/allline.pdf  used on input line 227.
+Package pdftex.def Info: img/allline.pdf  used on input line 218.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=450, 462.52798pt x 346.89601pt>
+<img/effect_of_vol.pdf, id=445, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
-Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 234.
+Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 225.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<"img/void-gb".pdf, id=453, 614.26657pt x 289.05154pt>
-File: "img/void-gb".pdf Graphic file (type pdf)
-<use "img/void-gb".pdf>
-Package pdftex.def Info: "img/void-gb".pdf  used on input line 257.
-(pdftex.def)             Requested size: 443.86319pt x 208.86673pt.
-<"img/orowan".pdf, id=455, 597.65012pt x 231.23555pt>
+<"img/orowan".pdf, id=448, 597.65012pt x 231.23555pt>
 File: "img/orowan".pdf Graphic file (type pdf)
 <use "img/orowan".pdf>
-Package pdftex.def Info: "img/orowan".pdf  used on input line 268.
+Package pdftex.def Info: "img/orowan".pdf  used on input line 250.
 (pdftex.def)             Requested size: 443.86319pt x 171.73967pt.
  [7 <./img/allline.pdf> <./img/effect_of_vol.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [8 <./img/void-gb.pdf> <./img/orowan.pdf
+> <./img/orowan.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/orowan.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
->] (./alexpub.bbl
+>]
+<"img/void-gb".pdf, id=515, 614.26657pt x 289.05154pt>
+File: "img/void-gb".pdf Graphic file (type pdf)
+<use "img/void-gb".pdf>
+Package pdftex.def Info: "img/void-gb".pdf  used on input line 262.
+(pdftex.def)             Requested size: 443.86319pt x 208.86673pt.
+ [8 <./img/void-gb.pdf>] (./alexpub.bbl
 Underfull \hbox (badness 1742) in paragraph at lines 20--28
 \T1/ppl/m/n/9 (+20) of the Tatra vole (Mi-cro-tus tatri-cus).  \T1/ppl/m/it/9 (
 +20) Fo-lia Zo-o-log-ica \T1/ppl/b/n/9 2004\T1/ppl/m/n/9 (+20) , \T1/ppl/m/it/9
@@ -1964,27 +1955,27 @@ ppl/m/n/9 (+20) , 58--65.
  []
 
 [9]
-Underfull \hbox (badness 1735) in paragraph at lines 168--176
+Underfull \hbox (badness 1735) in paragraph at lines 186--194
 []\T1/ppl/m/n/9 (+20) Zope, R.R.; Mishin, Y.  In-ter-atomic po-ten-tials for at
 om-istic sim-u-la-tions of the Ti-Al sys-tem.
  []
 
 )
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 294.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 276.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 276.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
   [] \T1/ppl/m/n/9 (+20) 2018 by the au-thors. Sub-mit-ted to \T1/ppl/m/it/9 (+
 20) Jour-nal Not Spec-i-fied \T1/ppl/m/n/9 (+20) for pos-si-ble open ac-cess
  []
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 294--294
+Underfull \hbox (badness 2165) in paragraph at lines 276--276
 \T1/ppl/m/n/9 (+20) pub-li-ca-tion un-der the terms and con-di-tions of the Cre
 -ative Com-mons At-tri-bu-tion (CC BY) li-cense
  []
@@ -1992,22 +1983,22 @@ Underfull \hbox (badness 2165) in paragraph at lines 294--294
 
 AED: lastpage setting LastPage
 [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
  (./alexpub.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: 2FE59A2891E4FCF47A7164968CFE5C0F;2053.
  ) 
 Here is how much of TeX's memory you used:
- 36442 strings out of 492982
- 679262 string characters out of 6134895
- 726402 words of memory out of 5000000
- 39148 multiletter control sequences out of 15000+600000
- 584050 words of font info for 280 fonts, out of 8000000 for 9000
+ 36456 strings out of 492982
+ 679486 string characters out of 6134895
+ 732885 words of memory out of 5000000
+ 39157 multiletter control sequences out of 15000+600000
+ 584554 words of font info for 282 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10379b,896s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10379b,890s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2021,10 +2012,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 4660057 bytes).
+Output written on alexpub.pdf (10 pages, 4447334 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 450 compressed objects within 5 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 666 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 70 named destinations out of 1000 (max. 500000)
  47777 words of extra memory for PDF output out of 51595 (max. 10000000)
 

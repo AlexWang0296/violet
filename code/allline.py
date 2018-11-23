@@ -53,7 +53,7 @@ p3 = plt.plot((ds3.strain-0.015)*1.2, ds3.stress, color = 'R')
 p2 = plt.plot((ds2.strain-0.015)*1.2, ds2.stress, color = 'G')
 p4 = plt.plot((ds4.strain-0.015)*1.2, ds4.stress, color = 'B')
 
-plt.legend([ 'no void',r'void inside $\alpha$ phase',r'void at \textbf{$\alpha$-$\gamma$} phase boundary'], frameon=False)
+plt.legend([ 'no void',r'void inside $\alpha_2$ phase',r'void at \textbf{$\alpha_2$/$\gamma$} phase boundary'], frameon=False)
 
 # config title and label
 

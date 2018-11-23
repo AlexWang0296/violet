@@ -3,7 +3,7 @@ import os.path
 
 #plt.rcParams["font.family"] = 'Times New Roman'
 import matplotlib.pyplot as plt
-plt.rcParams.update({'font.size': 14})
+plt.rcParams.update({'font.size': 16})
 from matplotlib import rc
 rc('text', usetex=True)
 #csfont = {'fontname':'Times New Roman'}

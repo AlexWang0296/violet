@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import rc
 rc('text', usetex=True)
-plt.rcParams.update({'font.size': 14})
+plt.rcParams.update({'font.size': 16})
 WDIR = os.path.dirname(__file__)
 # loadpath = os.path.join(WDIR,'data','stress_strain')
 writepath = os.path.join(WDIR,'..','draft','img')
