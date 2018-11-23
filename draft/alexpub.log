@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 21:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1854,46 +1854,33 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Definitions/logo-mdpi-ep
 s-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>] [2]
-<img/modeling.pdf, id=130, 597.65012pt x 158.96555pt>
+<img/modeling.pdf, id=132, 597.65012pt x 158.96555pt>
 File: img/modeling.pdf Graphic file (type pdf)
 <use img/modeling.pdf>
 Package pdftex.def Info: img/modeling.pdf  used on input line 78.
 (pdftex.def)             Requested size: 443.86319pt x 118.0644pt.
- [3 <./img/modeling.pdf>]
-<img/tens.pdf, id=210, 614.26657pt x 227.62204pt>
+<img/tens.pdf, id=136, 614.26657pt x 227.62204pt>
 File: img/tens.pdf Graphic file (type pdf)
 <use img/tens.pdf>
 Package pdftex.def Info: img/tens.pdf  used on input line 114.
 (pdftex.def)             Requested size: 443.86319pt x 164.47818pt.
-<img/def-box.pdf, id=216, 592.58554pt x 245.68954pt>
+ [3 <./img/modeling.pdf>]
+<img/def-box.pdf, id=214, 592.58554pt x 245.68954pt>
 File: img/def-box.pdf Graphic file (type pdf)
 <use img/def-box.pdf>
 Package pdftex.def Info: img/def-box.pdf  used on input line 152.
 (pdftex.def)             Requested size: 443.86319pt x 184.03426pt.
-<img/temp.pdf, id=222, 462.52798pt x 346.89601pt>
+<img/temp.pdf, id=220, 462.52798pt x 346.89601pt>
 File: img/temp.pdf Graphic file (type pdf)
 <use img/temp.pdf>
 Package pdftex.def Info: img/temp.pdf  used on input line 164.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/dis-summary.pdf, id=223, 462.52798pt x 346.89601pt>
+<img/dis-summary.pdf, id=221, 462.52798pt x 346.89601pt>
 File: img/dis-summary.pdf Graphic file (type pdf)
 <use img/dis-summary.pdf>
 Package pdftex.def Info: img/dis-summary.pdf  used on input line 171.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]\T1/ppl/b/n/9 Figure 5. |\T1/ppl/m/n/9 (+20) Dis-lo-ca-tion length un-der
- []
-
-[4 <./img/tens.pdf>] [5 <./img/def-box.pdf> <./img/temp.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./img/temp.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./img/dis-summary.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./img/dis-summary.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
->]
+ [4 <./img/tens.pdf>]
 Underfull \hbox (badness 1609) in paragraph at lines 189--191
 \T1/ppl/m/n/10 (+20) Interaction be-tween dis-lo-ca-tions with Burg-ers vec-tor
  of $\OT1/ppl/m/n/10 (+20) 1\OT1/zplm/m/n/10 /\OT1/ppl/m/n/10 (+20) 6\OT1/zplm/
@@ -1903,23 +1890,37 @@ m/n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $
 the
  []
 
-<img/slice-view.pdf, id=408, 578.13158pt x 111.99005pt>
+[5 <./img/def-box.pdf> <./img/temp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/temp.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./img/dis-summary.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./img/dis-summary.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+<img/slice-view.pdf, id=406, 578.13158pt x 111.99005pt>
 File: img/slice-view.pdf Graphic file (type pdf)
 <use img/slice-view.pdf>
 Package pdftex.def Info: img/slice-view.pdf  used on input line 203.
 (pdftex.def)             Requested size: 443.86319pt x 85.98138pt.
-[6 <./img/slice-view.pdf>]
-<img/allline.pdf, id=444, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=410, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
 Package pdftex.def Info: img/allline.pdf  used on input line 218.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=445, 462.52798pt x 346.89601pt>
+
+Underfull \hbox (badness 1990) in paragraph at lines 220--220
+[]\T1/ppl/b/n/9 Figure 7. |\T1/ppl/m/n/9 (+20) Stress-strain re-sponse of the
+ []
+
+<img/effect_of_vol.pdf, id=411, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
 Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 225.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<"img/orowan".pdf, id=448, 597.65012pt x 231.23555pt>
+[6 <./img/slice-view.pdf>]
+<"img/orowan".pdf, id=446, 597.65012pt x 231.23555pt>
 File: "img/orowan".pdf Graphic file (type pdf)
 <use "img/orowan".pdf>
 Package pdftex.def Info: "img/orowan".pdf  used on input line 250.
@@ -1933,7 +1934,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion
 pdfTeX warning: /usr/bin/pdflatex (file ./img/orowan.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-<"img/void-gb".pdf, id=515, 614.26657pt x 289.05154pt>
+<"img/void-gb".pdf, id=513, 614.26657pt x 289.05154pt>
 File: "img/void-gb".pdf Graphic file (type pdf)
 <use "img/void-gb".pdf>
 Package pdftex.def Info: "img/void-gb".pdf  used on input line 262.
@@ -1991,13 +1992,13 @@ Package rerunfilecheck Info: File `alexpub.out' has not changed.
 (rerunfilecheck)             Checksum: FFA8A5BBA44DDC859340A3C5393EAEAF;2015.
  ) 
 Here is how much of TeX's memory you used:
- 36443 strings out of 492982
- 679316 string characters out of 6134895
+ 36448 strings out of 492982
+ 679361 string characters out of 6134895
  731402 words of memory out of 5000000
  39154 multiletter control sequences out of 15000+600000
- 584077 words of font info for 276 fonts, out of 8000000 for 9000
+ 584138 words of font info for 279 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10379b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10379b,896s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2011,10 +2012,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 4446218 bytes).
+Output written on alexpub.pdf (10 pages, 4446263 bytes).
 PDF statistics:
- 664 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
+ 663 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
  69 named destinations out of 1000 (max. 500000)
  47777 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -1,4 +1,4 @@
- %=================================================================
+%=================================================================
 \documentclass[Unknown,article,submit,moreauthors,pdftex,10pt,a4paper]{Definitions/mdpi} 
 \usepackage{siunitx}
 \usepackage{multirow}
@@ -49,9 +49,9 @@ $^{2}$ \quad State Key Laboratory of Advanced Processing and Recycling of Non-fe
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\) 
-\abstract{Cold deformation behavior of poly crystalline metallic material is affected by intrinsic defects such as dislocation, void, inclusion etc.  Existing studies on $\alpha_2(\rm{Ti_3Al})$+$\gamma(\rm{TiAl})$  two phase Ti-Al alloy cover about deformation behavior mainly on macro scale. This paper focuses on the cold deformation mechanism of two phase Ti-Al alloy at micro scale, and  the role of void  in deformation process. Molecular dynamics simulations were performed to study the evolution of micro structure of material under uniaxial tension. Interaction between spherical nano void with different size and position was also examined in the simulation. The results show that (1) $\gamma$ phase is the major deformation source of the two phase alloy; (2) void detracts the strength of the two phase alloy, while the position of void affect the degree of this subtraction, voids located at the boundary of $\alpha_2$/$\gamma$ phase have significant detraction to strength.}
+\abstract{Cold deformation behavior of poly crystalline metallic material is affected by intrinsic defects such as dislocation, void, inclusion etc.  Existing studies on $\alpha_2(\rm{Ti_3Al})$+$\gamma(\rm{TiAl})$  two phase Ti-Al alloy cover about deformation behavior mainly on macro scale. This paper focuses on the cold deformation mechanism of two phase Ti-Al alloy at micro scale, and  the role of void  in deformation process. Molecular dynamics simulations were performed to study the evolution of micro structure of material under uniaxial tension. Interaction between spherical nano void with different size and position was also examined in the simulation. The results show that (1) $\gamma$ phase is the major deformation source of the two phase alloy. (2) void detracts the strength of the two phase alloy, while the position of void affect the degree of this subtraction, voids located at the boundary of $\alpha_2$/$\gamma$ phase have significant detraction to strength.}
 % Keywords
-\keyword{two phase Ti-Al alloy, void, molecular dynamics, cold deformation}
+\keyword{two phase Ti-Al alloy; void; molecular dynamics; cold deformation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
@@ -65,7 +65,7 @@ void can be arose due to specific volume differences induced by precipitation, d
 \section{Molecular Dynamics Simulation }\label{section:method}
 \subsection{Atomic Potential}
 
-The interaction of particle in the material is determined by interatomic potential. Many reported simulation cases of deform and crack propagation in metal materials were performed with embedded atomic method due to its better accuracy in metal lattice compare with F-S and L/J \cite{Ko2015,Zepeda-Ruiz2017,Fan2018a}. Embedded atom method (MEAM) potential developed by Zope and Mishin \cite{Zope2003} was used in the study. The simulation is submitted by MD simulations with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{Plimpton1995}. We performed constant-pressure and constant-temperature (NPT) molecular dynamics simulation at room temperature (298K). The definition of potential is as following:
+The interaction of particles in the material is determined by interatomic potential. Many reported simulation cases of deform and crack propagation in metal materials were performed with embedded atomic method due to its better accuracy in metal lattice compare with F-S and L/J \cite{Ko2015,Zepeda-Ruiz2017,Fan2018a}. Embedded atom method (MEAM) potential developed by Zope and Mishin \cite{Zope2003} was used in the study. The simulation is performed  with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{Plimpton1995}. We performed constant-pressure and constant-temperature (NPT) MD simulation at room temperature (298K). Definition of the potential is as following:
 	
 \begin{equation} \label{eq:eam} 
 E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
@@ -96,10 +96,10 @@ where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host e
 	\label{tab:lattice_parameter}
 \end{table} 
 
-Two phase Ti-Al alloy is composed of $\gamma $-TiAl and $\alpha_2$-$\rm Ti_3Al$ has a fcc type cell with an $L1_0$ structure, and $\alpha_2$-$\rm Ti_3Al$ has a hcp structure, these two types of initial cells are shown in Fig. \ref{fig:tial-cell}, constructing parameters of the two type of unit cell are given by table \ref{tab:lattice_parameter}. Periodic boundary conditions (PBC) are applied along three directions, which makes polycrystal with periodic nanovoid structures. The initial dimension of simulation cell is $L_x =200$ \si{\angstrom}, $L_y = $180\si{\angstrom}, $L_z = 210$ \si{\angstrom}, and each model contains about 460,000 atoms. The grain orientation and size were randomly created with Voronoi method by code ATOMSK \cite{Hirel2015}, and resulting in the arbitrary shape and orientation of the grains. Uniaxial load was applied to the model at a strain rate of $5\times10^8\ \rm{s}^{-1}$. 
+Two phase Ti-Al alloy is composed of $\gamma $-TiAl and $\alpha_2$-$\rm Ti_3Al$ has a fcc type cell with an $L1_0$ structure, and $\alpha_2$-$\rm Ti_3Al$ has a hcp structure, these two types of initial cells are shown in Fig. \ref{fig:tial-cell}, constructing parameters of the two type of unit cell are given by table \ref{tab:lattice_parameter}. Periodic boundary conditions (PBC) are applied along three directions, which makes polycrystal with periodic nanovoid structures. The initial dimension of simulation cell is $L_x =200$ \si{\angstrom}, $L_y = $180\si{\angstrom}, $L_z = 210$ \si{\angstrom}, and each model contains about 460,000 atoms. The model contains 6 grains, with random shape and orientation were created with Voronoi method. Uniaxial load was applied to the model at a strain rate of $5\times10^8\ \rm{s}^{-1}$. 
 % In order to study the deformation mechanism of the two phase alloy and the effect of void, three types of models were created: Type-1.model without any void; Type-2. models with different size void inside $\alpha_2$ phase; Type-3. models with void at $\alpha_2-\gamma$ interface. \ref{tab:lattice_parameter}. The simulation cells of two phase polycrystalline with an initially spherical void at different position are shown in figure .
 \subsection{Analysis method}
-In order to identify typical defects in the deformed model, a hybrid analysis method was used with free code ovito\cite{Stukowski2010a}.Dislocation is visualized by DXA method, and Centro-symmetry parameter(CSP) is used to tell grain boundary from  $\alpha_2$ phase and $\gamma$ phase. The definition of CSP is as following:
+In order to identify typical defects in the deformed model, a hybrid analysis method was used with free code ovito\cite{Stukowski2010a}.Dislocation is visualized by DXA method, and centro-symmetry parameter(CSP) is used to deffer grain boundaries from  $\alpha_2$ phase and $\gamma$ phase. The definition of CSP is as following:
 
 	\begin{equation} \label{eq:csp} 
 	P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+{\vec{R}}_{i+6}|^2
@@ -122,7 +122,7 @@ Deformation process of the model without void is shown in Fig. \ref{fig:deformat
 stage - \uppercase\expandafter{\romannumeral1}: elastic stage, from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1,
 stage - \uppercase\expandafter{\romannumeral2}: yield stage, ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6,
 stage - \uppercase\expandafter{\romannumeral3}: cracking stage, ranging from $\epsilon = 0.101$ to $\epsilon = 0.112$, including key point 7 to 10,
-stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discussion concentrates on deformation phenomena that rely on the elastro-plastic codeformation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurring in two phase alloys. 
+stage - \uppercase\expandafter{\romannumeral4}: fracture stage. Following discussion concentrates on deformation phenomena that rely on the elastro-plastic codeformation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurred in two phase alloys. 
 
 \begin{table}[ht]
 	\caption{Key points during tensile process}
@@ -170,7 +170,7 @@ where the prefactor $v_0$ gives the velocity that would be obtained for each pot
 	\begin{minipage}{0.495\textwidth}		
 		\includegraphics[width=1\linewidth]{img/dis-summary}
 		\centering
-		\caption{Dislocation length under differentstrain }
+		\caption{Summary of didderent types of dislocation under different strain }
 		\label{fig:disum}
 	\end{minipage}
 \end{figure}
@@ -201,7 +201,7 @@ Main reason for the unequal strain partitioning between the $\alpha_2$ and $\gam
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{img/slice-view}
-	\caption{ Model with no void (b), with void inside $\alpha_2$ phase (c) with void at $\alpha_2-\gamma$ interface (d)}
+	\caption{Model of the simulation(a) and sliced view of the model with no void(b), with void inside $\alpha_2$ phase(c) with void at $\alpha_2 / \gamma$ interface(d)}
 	\label{fig:model-creation}
 \end{figure}
 
@@ -217,14 +217,14 @@ where $\sigma_0$ is the strength of model without voids of 5.3 Gpa, and $A_0$ re
 	\begin{minipage}{0.495\textwidth}
 		\includegraphics[width=1\linewidth]{img/allline}
 		\centering
-		\caption{Stress-strain response of models}
+		\caption{Stress-strain response of the materials under tensile loading}
 		\label{fig:stress&strain}
 	\end{minipage}	
 	\hfill
 	\begin{minipage}{0.495\textwidth}		
 		\includegraphics[width=1\linewidth]{img/effect_of_vol}
 		\centering
-		\caption{Yield strength of material with void}
+		\caption{Yield strength of the materials with different size void}
 		\label{fig:strength}
 	\end{minipage}
 \end{figure}
@@ -248,7 +248,7 @@ The role of void can be concluded as two main parts: source of dislocations and 
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/orowan"}
-	\caption{Orowan process in $\alpha_2$-phase (atoms with regular arrangement have been removed)}
+	\caption{Orowan process occurred inside $\alpha_2$ phase grain (removed atoms with regular arrangement)}
 	\label{fig:orowan}
 \end{figure}
 Void inside $\alpha_2$ phase induced considerable misfit-stress fields and thus can influence material properties pronouncedly. Such stress fields surrounding the second-phase particles can be due to misfit between $\alpha_2$ phase atoms and surface atoms surounding the void. That's a possibly favorable effect of second-phase particles that void contribution to the enhancement of mechanical strength. The strengthening effect of the particle inside single phase TiAl alloy has been verified by experiment \cite{Zghal1998}. Considering yielding of a material as related to glide of dislocations, any mechanism obstructing dislocation glide improves the mechanical strength. The defect evolution neighboring the void during yield stage is shown in Fig. \ref{fig:orowan}(a), the role of void is similar to second-phase particles. It servers as obstacles for dislocation migration which is shown by Fig. \ref{fig:orowan}(b): the stress fields surrounding the second-phase particles block migrating dislocation, the void particle acts as pinning point. The dislocation can pass two pinning points under shear  stress , and the critic value depends on the distance between  obstacles, it is be given by \cite{Xiong2015}:
@@ -260,7 +260,7 @@ where $d$ represents the distance between two obstacles A and B in Fig. \ref{fig
 \begin{figure}[ht]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/void-gb"}
-	\caption{(a) Fracture mode of two types of model  (b)Evolution of void at  phase boundary}
+	\caption{(a) Fracture mode of two types of model  (b)Evolution of void at $\alpha_2 / \gamma$ phase boundary}
 	\label{fig:void-gb}
 \end{figure}
 Effect of voids at different positions on the crack mode of the material are shown by Fig. \ref{fig:void-gb}(a). The model with void fractured cross the grain, and the model with void at $\alpha_2 / \gamma$ boundary resulted a large crack along the boundary under tensile loading. The difference of crack mode can attribute to the position of void and the evolution of the defect. Nucleation, emission of Shockley partial dislocation affect the evolution of the void at boundary greatly due to the anisotropy of two phases on the both sides of the phase boundary. The void weaken the strength of the grain it locates,  $\alpha_2$ phase grain is easy to deformed under shear stress, thus that caused the crack initiated inside grain and finally caused fracture across the grain. Deformation mechanism of the model with void at boundary can be  more complex due to the interaction between void and phase boundary. In elastic stage, the system composed of $\alpha_2$ phase, $\gamma$ phase and void is in equilibrium, internal stress are balanced under compatible deformation as is shown by the first subfigure of Fig. \ref{fig:void-gb}(b). In the middle moment of yield stage, partial dislocation with Burgers vector $1/6[\overline{2}\ \overline{1}\ 1]$ emitted from surface of void in Fig. \ref{fig:void-gb}(b)-2. The micro crack initialed from the zone neighbor  the interface between void and boundary, that quickly caused abrupt decohension of phase boundary. That accounts for the reason that material with void at $\alpha_2 / \gamma$ phase boundary is weaker than other cases. 
