@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1988,16 +1988,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `alexpub.out' has not changed.
-(rerunfilecheck)             Checksum: 2FE59A2891E4FCF47A7164968CFE5C0F;2053.
+(rerunfilecheck)             Checksum: FFA8A5BBA44DDC859340A3C5393EAEAF;2015.
  ) 
 Here is how much of TeX's memory you used:
- 36455 strings out of 492982
- 679427 string characters out of 6134895
- 732402 words of memory out of 5000000
+ 36443 strings out of 492982
+ 679316 string characters out of 6134895
+ 731402 words of memory out of 5000000
  39154 multiletter control sequences out of 15000+600000
- 584713 words of font info for 284 fonts, out of 8000000 for 9000
+ 584077 words of font info for 276 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10379b,892s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10379b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2011,7 +2011,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on alexpub.pdf (10 pages, 4446535 bytes).
+Output written on alexpub.pdf (10 pages, 4446218 bytes).
 PDF statistics:
  664 PDF objects out of 1000 (max. 8388607)
  461 compressed objects within 5 object streams
