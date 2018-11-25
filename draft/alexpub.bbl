@@ -201,14 +201,6 @@ Plimpton, S.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1006/jcph.1995.1039}{\detokenize{10.1006/jcph.1995.1039}}}.
 
-\bibitem[Hirel(2015)]{Hirel2015}
-Hirel, P.
-\newblock {Atomsk: A tool for manipulating and converting atomic data files}.
-\newblock {\em Computer Physics Communications} {\bf 2015}, {\em
-  197},~212--219.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.cpc.2015.07.012}{\detokenize{10.1016/j.cpc.2015.07.012}}}.
-
 \bibitem[Stukowski(2010)]{Stukowski2010a}
 Stukowski, A.
 \newblock {Visualization and analysis of atomistic simulation data with

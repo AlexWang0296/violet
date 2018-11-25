@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  23 NOV 2018 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.18)  24 NOV 2018 08:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,26 +6,7 @@ entering extended mode
 (./wmm2.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ï
-     »¿ %=================================================================
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no ï in font nullfont!
-Missing character: There is no » in font nullfont!
-Missing character: There is no ¿ in font nullfont!
 (./Definitions/mdpi.cls
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--20
-[] 
- []
-
 
 LaTeX Warning: You have requested document class `Definitions/mdpi',
                but the document class provides `mdpi'.
@@ -47,7 +28,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+)
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -1782,7 +1763,7 @@ Package epstopdf Info: Source file: <Definitions/logo-mdpi.eps>
 converted-to.pdf Definitions/logo-mdpi.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<Definitions/logo-mdpi-eps-converted-to.pdf, id=52, 88.33pt x 58.2175pt>
+<Definitions/logo-mdpi-eps-converted-to.pdf, id=51, 88.33pt x 58.2175pt>
 File: Definitions/logo-mdpi-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-mdpi-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-mdpi-eps-converted-to.pdf  used on in
@@ -1845,7 +1826,7 @@ f>
 -converted-to.pdf Definitions/logo-orcid.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<Definitions/logo-orcid-eps-converted-to.pdf, id=54, 102.3825pt x 102.3825pt>
+<Definitions/logo-orcid-eps-converted-to.pdf, id=53, 102.3825pt x 102.3825pt>
 File: Definitions/logo-orcid-eps-converted-to.pdf Graphic file (type pdf)
 <use Definitions/logo-orcid-eps-converted-to.pdf>
 Package pdftex.def Info: Definitions/logo-orcid-eps-converted-to.pdf  used on i
@@ -1869,152 +1850,32 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+ [1
 
-
-Package natbib Warning: Citation `Clemens2016' on page 1 undefined on input lin
-e 61.
-
-
-Package natbib Warning: Citation `Bewlay2016' on page 1 undefined on input line
- 61.
-
-
-Package natbib Warning: Citation `Munz2017' on page 1 undefined on input line 6
-2.
-
-
-Package natbib Warning: Citation `Appel2016' on page 1 undefined on input line 
-62.
-
-
-Package natbib Warning: Citation `Tang2014' on page 1 undefined on input line 6
-2.
-
-
-Package natbib Warning: Citation `Kim1995' on page 1 undefined on input line 62
-.
-
-
-Package natbib Warning: Citation `Hempel2017a' on page 1 undefined on input lin
-e 63.
-
-
-Package natbib Warning: Citation `Groh2009' on page 1 undefined on input line 6
-3.
-
-
-Package natbib Warning: Citation `Liu2018' on page 1 undefined on input line 63
-.
-
-
-Package natbib Warning: Citation `Tang2014' on page 1 undefined on input line 6
-3.
-
-
-Package natbib Warning: Citation `Xu2011' on page 1 undefined on input line 63.
-
-
-
-Package natbib Warning: Citation `Jing2018a' on page 1 undefined on input line 
-63.
-
-
-Package natbib Warning: Citation `Elkhateeb2018' on page 1 undefined on input l
-ine 63.
-
-
-Package natbib Warning: Citation `Tang2014' on page 1 undefined on input line 6
-3.
-
-
-Package natbib Warning: Citation `Xiong2015' on page 1 undefined on input line 
-63.
-
-
-Package natbib Warning: Citation `Kiener2011' on page 1 undefined on input line
- 63.
-
-
-Package natbib Warning: Citation `Yang1998' on page 1 undefined on input line 6
-3.
-
-
-Package natbib Warning: Citation `Nazmy2001' on page 1 undefined on input line 
-63.
-
-
-Package natbib Warning: Citation `Wu2016' on page 1 undefined on input line 63.
-
-
-
-Package natbib Warning: Citation `Larsen2016' on page 1 undefined on input line
- 63.
-
-[1
-
- <./Definitions/logo-mdpi-eps-converted-to.pdf> <./Definitions/logo-orcid-eps-c
-onverted-to.pdf>]
-
-Package natbib Warning: Citation `Ko2015' on page 2 undefined on input line 68.
-
-
-
-Package natbib Warning: Citation `Zepeda-Ruiz2017' on page 2 undefined on input
- line 68.
-
-
-Package natbib Warning: Citation `Fan2018a' on page 2 undefined on input line 6
-8.
-
-
-Package natbib Warning: Citation `Zope2003' on page 2 undefined on input line 6
-8.
-
-
-Package natbib Warning: Citation `Plimpton1995' on page 2 undefined on input li
-ne 68.
-
-[2]
-<img/modeling.pdf, id=84, 597.65012pt x 158.96555pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Definitions/logo-mdpi-ep
+s-converted-to.pdf> <./Definitions/logo-orcid-eps-converted-to.pdf>] [2]
+<img/modeling.pdf, id=130, 597.65012pt x 158.96555pt>
 File: img/modeling.pdf Graphic file (type pdf)
 <use img/modeling.pdf>
 Package pdftex.def Info: img/modeling.pdf  used on input line 78.
 (pdftex.def)             Requested size: 443.86319pt x 118.0644pt.
-
-
-Package natbib Warning: Citation `Hirel2015' on page 3 undefined on input line 
-99.
-
-
-Package natbib Warning: Citation `Stukowski2010a' on page 3 undefined on input 
-line 102.
-
-[3 <./img/modeling.pdf>]
-<img/tens.pdf, id=159, 614.26657pt x 227.62204pt>
+ [3 <./img/modeling.pdf>]
+<img/tens.pdf, id=210, 614.26657pt x 227.62204pt>
 File: img/tens.pdf Graphic file (type pdf)
 <use img/tens.pdf>
 Package pdftex.def Info: img/tens.pdf  used on input line 114.
 (pdftex.def)             Requested size: 443.86319pt x 164.47818pt.
-<img/def-box.pdf, id=165, 592.58554pt x 245.68954pt>
+<img/def-box.pdf, id=216, 592.58554pt x 245.68954pt>
 File: img/def-box.pdf Graphic file (type pdf)
 <use img/def-box.pdf>
 Package pdftex.def Info: img/def-box.pdf  used on input line 152.
 (pdftex.def)             Requested size: 443.86319pt x 184.03426pt.
-
-
-Package natbib Warning: Citation `Stein1960' on page 4 undefined on input line 
-156.
-
-
-Package natbib Warning: Citation `Escaig1968' on page 4 undefined on input line
- 156.
-
-<img/temp.pdf, id=169, 462.52798pt x 346.89601pt>
+<img/temp.pdf, id=222, 462.52798pt x 346.89601pt>
 File: img/temp.pdf Graphic file (type pdf)
 <use img/temp.pdf>
 Package pdftex.def Info: img/temp.pdf  used on input line 164.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/dis-summary.pdf, id=170, 462.52798pt x 346.89601pt>
+<img/dis-summary.pdf, id=223, 462.52798pt x 346.89601pt>
 File: img/dis-summary.pdf Graphic file (type pdf)
 <use img/dis-summary.pdf>
 Package pdftex.def Info: img/dis-summary.pdf  used on input line 171.
@@ -2042,45 +1903,28 @@ m/n/10 [\OT1/ppl/m/n/10 (+20) 112\OT1/zplm/m/n/10 ]$ \T1/ppl/m/n/10 (+20) and $
 the
  []
 
-
-Package natbib Warning: Citation `Liu2007' on page 6 undefined on input line 19
-4.
-
-
-Package natbib Warning: Citation `Zhu2012' on page 6 undefined on input line 19
-4.
-
-<img/slice-view.pdf, id=351, 578.13158pt x 111.99005pt>
+<img/slice-view.pdf, id=408, 578.13158pt x 111.99005pt>
 File: img/slice-view.pdf Graphic file (type pdf)
 <use img/slice-view.pdf>
 Package pdftex.def Info: img/slice-view.pdf  used on input line 203.
 (pdftex.def)             Requested size: 443.86319pt x 85.98138pt.
 [6 <./img/slice-view.pdf>]
-<img/allline.pdf, id=387, 462.52798pt x 346.89601pt>
+<img/allline.pdf, id=444, 462.52798pt x 346.89601pt>
 File: img/allline.pdf Graphic file (type pdf)
 <use img/allline.pdf>
 Package pdftex.def Info: img/allline.pdf  used on input line 218.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<img/effect_of_vol.pdf, id=388, 462.52798pt x 346.89601pt>
+<img/effect_of_vol.pdf, id=445, 462.52798pt x 346.89601pt>
 File: img/effect_of_vol.pdf Graphic file (type pdf)
 <use img/effect_of_vol.pdf>
 Package pdftex.def Info: img/effect_of_vol.pdf  used on input line 225.
 (pdftex.def)             Requested size: 219.7101pt x 164.78261pt.
-<"img/orowan".pdf, id=391, 597.65012pt x 231.23555pt>
+<"img/orowan".pdf, id=448, 597.65012pt x 231.23555pt>
 File: "img/orowan".pdf Graphic file (type pdf)
 <use "img/orowan".pdf>
 Package pdftex.def Info: "img/orowan".pdf  used on input line 250.
 (pdftex.def)             Requested size: 443.86319pt x 171.73967pt.
-
-
-Package natbib Warning: Citation `Zghal1998' on page 7 undefined on input line 
-254.
-
-
-Package natbib Warning: Citation `Xiong2015' on page 7 undefined on input line 
-254.
-
-[7 <./img/allline.pdf> <./img/effect_of_vol.pdf
+ [7 <./img/allline.pdf> <./img/effect_of_vol.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -2089,16 +1933,36 @@ pdfTeX warning: /usr/bin/pdflatex (file ./img/effect_of_vol.pdf): PDF inclusion
 pdfTeX warning: /usr/bin/pdflatex (file ./img/orowan.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-<"img/void-gb".pdf, id=455, 614.26657pt x 289.05154pt>
+<"img/void-gb".pdf, id=515, 614.26657pt x 289.05154pt>
 File: "img/void-gb".pdf Graphic file (type pdf)
 <use "img/void-gb".pdf>
 Package pdftex.def Info: "img/void-gb".pdf  used on input line 262.
 (pdftex.def)             Requested size: 443.86319pt x 208.86673pt.
- [8 <./img/void-gb.pdf>]
-No file wmm2.bbl.
+ [8 <./img/void-gb.pdf>] (./wmm2.bbl
+Underfull \hbox (badness 1742) in paragraph at lines 20--28
+\T1/ppl/m/n/9 (+20) of the Tatra vole (Mi-cro-tus tatri-cus).  \T1/ppl/m/it/9 (
++20) Fo-lia Zo-o-log-ica \T1/ppl/b/n/9 2004\T1/ppl/m/n/9 (+20) , \T1/ppl/m/it/9
+ (+20) 53\T1/ppl/m/n/9 (+20) , 279--284, [][][arXiv:1011.1669v3][][].
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 37--43
+\T1/ppl/m/n/9 (+20) of void shrink-age in $\OML/zplm/m/it/9 ^^M$\T1/ppl/m/n/9 (
++20) -TiAl sin-gle crys-tal.  \T1/ppl/m/it/9 (+20) Com-pu-ta-tional Ma-te-ri-al
+s Sci-ence \T1/ppl/b/n/9 2015\T1/ppl/m/n/9 (+20) , \T1/ppl/m/it/9 (+20) 107\T1/
+ppl/m/n/9 (+20) , 58--65.
+ []
+
+[9]
+Underfull \hbox (badness 1735) in paragraph at lines 186--194
+[]\T1/ppl/m/n/9 (+20) Zope, R.R.; Mishin, Y.  In-ter-atomic po-ten-tials for at
+om-istic sim-u-la-tions of the Ti-Al sys-tem.
+ []
+
+)
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 276.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
@@ -2117,26 +1981,23 @@ Underfull \hbox (badness 2165) in paragraph at lines 276--276
 
 
 AED: lastpage setting LastPage
-[9]
-
-Package natbib Warning: There were undefined citations.
-
+[10]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
-(./wmm2.aux)
+ (./wmm2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 Package rerunfilecheck Info: File `wmm2.out' has not changed.
-(rerunfilecheck)             Checksum: B32A80CE9DFAE6AD8B503FF7B8531FA6;1922.
+(rerunfilecheck)             Checksum: FFA8A5BBA44DDC859340A3C5393EAEAF;2015.
  ) 
 Here is how much of TeX's memory you used:
- 36301 strings out of 492982
- 677178 string characters out of 6134895
- 731383 words of memory out of 5000000
- 39094 multiletter control sequences out of 15000+600000
- 581479 words of font info for 243 fonts, out of 8000000 for 9000
+ 36458 strings out of 492982
+ 679403 string characters out of 6134895
+ 732393 words of memory out of 5000000
+ 39154 multiletter control sequences out of 15000+600000
+ 584862 words of font info for 286 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,56p,10376b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,56p,10376b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -2150,10 +2011,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/palatino/uplri8a.pfb>
-Output written on wmm2.pdf (10 pages, 4432887 bytes).
+Output written on wmm2.pdf (10 pages, 4446236 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 38 named destinations out of 1000 (max. 500000)
- 47769 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 461 compressed objects within 5 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 47777 words of extra memory for PDF output out of 51595 (max. 10000000)
 
