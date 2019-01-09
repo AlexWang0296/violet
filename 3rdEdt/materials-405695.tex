@@ -1,0 +1,614 @@
+%=================================================================
+\documentclass[materials,article,accept,moreauthors,pdftex,10pt,a4paper]{Definitions/mdpi}
+\usepackage{siunitx}
+\usepackage{multirow}
+%\preto{\abstractkeywords}{\nolinenumbers}
+\firstpage{1}
+\makeatletter
+\setcounter{page}{\@firstpage}
+\makeatother
+\pubvolume{12}
+\issuenum{1}
+\articlenumber{184}
+\pubyear{2019}
+\copyrightyear{2019}
+%\externaleditor{Academic Editor: name}
+\history{Received: 27 November 2018; Accepted: 3 January 2019; Published: 7 January 2019}
+
+% Full title of the paper (Capitalized)
+
+\Title{Micromechanism of  Cold Deformation of Two-Phase Polycrystalline Ti--Al Alloy with Void}
+% Author Orchid ID: enter ID or remove command
+\newcommand{\orcidauthorA}{0000-0001-8385-4439} % Add \orcidA{} behind the author's name
+\newcommand{\orcidauthorB}{0000-0002-9582-6301} % Add \orcidB{} behind the author's name
+
+% Authors, for the paper (add full first names)
+%\Author{Author \href{https://orcid.org/0000-0001-8385-4439}{\orcidicon}}
+\Author{{Ruicheng Feng} $^{1,2}$\orcidA{}, Maomao Wang $^{1,*}$\orcidB{}, Haiyan Li $^{1,*}$,  Yongnian Qi $^{1}$, Qi Wang $^{1}$ and Zhiyuan~Rui~$^{1,2}$} % Please carefully check the accuracy of names and affiliations. Changes will not be possible after proofreading.
+
+% Authors, for metadata in PDF
+%\AuthorNames{ }
+% frcly@163.com(R.F.);15620864891@163.com(M.W.); y5217@163.com(H.L.);13893591491@163.com(Y.Q.);18350122524@163.com(Q.W);zhiy_rui@163.com(Z.R)
+% Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
+\address{%
+%$^{1}$ \quad School of Mechanical and Electronical Engineering, Lanzhou University of Technology, Lanzhou 730050, China; frcly@163.com (R.F.); 15620864891@163.com (M.W.)\\
+$^{1}$ \quad School of Mechanical and Electronical Engineering, Lanzhou University of Technology, Lanzhou 730050, China; frcly@163.com (R.F.); 13893591491@163.com (Y.Q.); 18350122524@163.com (Q.W.); zhiy\_rui@163.com~(Z.R.)\\
+% $^{2}$ \quad Key Laboratory of Digital Manufacturing Technology and Application, Ministry of Education, Lanzhou University of Technology, Lanzhou 730050, China
+%*; e-mail@e-mail.com}
+$^{2}$ \quad State Key Laboratory of Advanced Processing and Recycling of Non-ferrous Metals, \mbox{Lanzhou University of Technology}, Lanzhou 730050, China}
+% Contact information of the corresponding author
+\corres{Correspondence: 15620864891@163.com (M.W.); y5217@163.com (H.L.)}
+
+% Current address and/or shared authorship
+%\firstnote{Current address: Affiliation 3}
+%\secondnote{These authors contributed equally to this work.}
+% The commands \thirdnote{} till \eighthnote{} are available for further notes
+
+%\simplesumm{} % Simple summary
+
+%\conference{} % An extended version of a conference paper
+
+% Abstract (Do not insert blank lines, i.e. \\)
+\abstract{Cold deformation behavior of polycrystalline metallic material is affected by intrinsic defects such as dislocations, voids, inclusions etc.  Existing studies on $\alpha_2(\rm{Ti_3Al})$ + $\gamma(\rm{TiAl})$  two-phase Ti--Al alloy cover about deformation behavior mainly on macro scale. This paper focuses on the cold deformation mechanism of two-phase Ti--Al alloy at micro scale, and  the role of voids  in deformation process. Molecular dynamics simulations were performed to study the evolution of micro structure of material under uniaxial tension. Interaction between spherical nano voids with different size and position was also examined in the simulation. The results show that (1) In elastic stage, deformation of the two-phase is coordinated, but $\rm{Ti_3Al}$ is more deformable; (2) In plastic stage, $\gamma$ phase is the major dislocation  source in two-phase alloy; (3) voids detracts the strength of the two-phase alloy, while the position of void affect the degree of this subtraction, voids located at the boundary of $\alpha_2$/$\gamma$ phase have significant detraction to strength.}
+% Keywords
+\keyword{two-phase Ti--Al alloy; void; molecular dynamics; cold deformation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\section{Introduction}
+% and brittle rapture failure
+Titanium--aluminum-based intermetallic alloys are promising high temperature structural materials because of their great corrosion resistance and strength at high temperature. Compared with nickel-based alloy,  Ti--Al-based alloys have lower density, it can be used in combustion engine, turbine, and other components working at high temperatures from 500 \si{\degreeCelsius} to 900 \si{\degreeCelsius} \cite{Clemens2016}. The performance of inner combustion engine with components made of Ti-6Al-4V was improved  20\% because the weight of components decreased from 30\% to 40\% \cite{Bewlay2016}. With the advancement of non-ferrous metallurgy, Ti--Al-based alloy components have better economic efficiency than ever before. Ti--Al-based alloys have good prospects for applications in aerospace and automobile industry.
+Poor ductility of Ti--Al alloy  at room temperature strongly affects the safety of structures like turbo of aircraft engine and combustion generator \cite{Munz2017}.
+
+Deformation phenomena of Ti--Al alloys have been widely studied in order to overcome the problems associated with the poor ductility and damage tolerance.  Much of the work has been performed on single-phase $\gamma$-TiAl, $\rm{Ti_3Al}$ alloys, and polysynthetically twinned crystals (PTC) \cite{Appel2016}. Experiments reveals that  the dominant deformation mode in $\rm{Ti_3Al}$ at low temperature is slip activity without any twinning, and the fracture type is cleavage \cite{sastry1980plastic}. Around  the1990s, experimental studies on the two-phase lamellae Ti--Al alloys showed that  mechanical twin and glide of  dislocation are major sources of deformation \cite{Farenc1993,Appel2005,Appel1998a}. Rapture failure at the macroscopic scale can be attributed to abrupt nucleation, growth and propagation of cracks, but at the microscopic scale, defects are initially formed in the casting process, such as voids and inclusions \cite{Tang2014}. Mess research  covers a wide range of factors such as alloy composition, microstructure and deformation temperature, some reports come up with the idea that two-phase Titanium--aluminum alloys with proper phase distribution and grain size exhibit better mechanical performance compared with monolithic constituents $\gamma$(TiAl) and $\alpha_2$($\rm Ti_3Al$) alloy \cite{Kim1995}. In situ experiments have shown that Ti--Al and $\rm{Ti_3Al}$ in two-phase alloy exhibit different properties comparing in single-phase alloys \cite{Singh2006}. voids can be arose due to specific volume differences induced by precipitation, different thermal expansion or shrinkage upon heating or cooling the specimen. It has been known that nucleation, growth and coalescence of voids are deemed as the primary mechanism of ductile material fracture, in which voids growth is particularly important \cite{Hempel2017a}. The initiation of crack at microscopic scale is a dynamic process, which results in difficulties on study of  mechanism about deformation and cracking, these defects are known playing a fundamental role in the deformation of materials. Multiscale method has been applied to study deformation behavior of polycrystal with single aluminum \cite{Groh2009} and titanium element respectively \cite{Liu2018}. It is necessary to carefully examine the revolution of defects and its influence on the fracture process at atomic scale.
+
+The effect of voids is another great concern of properties and deformation mechanism  of Ti--Al alloys.  Therefore, it is necessary to study the deformation response of intermetallics structural materials with the consideration of microstructure evolution. Previous study on voids growth in single crystal $\gamma$-TiAl reveals that voids with high volume fraction detracts yield strength \cite{Tang2014, Xu2011}. Evolution of voids in ductile polycrystalline was studied in nanoscale with molecular dynamics(MD) simulations, \cite{Jing2018a,Elkhateeb2018}, voids inside material are sources of dislocation and affects the properties of materials differently because of differences in size and position.  The deformation and fracture mechanisms in the duplex microstructure are plasticity induced grain boundary decohesion and cleavage, while those in the lamellar micro-structure are interface delamination and cracking across the lamellar \cite{Tang2014}. It reveals that existence of voids alone may contribute to strain hardening because they are barriers to dislocation movement in ductile fcc structure metal \cite{Xiong2015}. However, few studies deal with the deformation mechanism of two-phase Ti--Al alloys and the role of voids in atomic scale. Defects are inevitable as micro-pores and loosen from casting, and in the actual work environment with radiation. A lot of work carried out on the  effect of various defects on the behavior of different materials, showing that point defects may affect the properties of materials greatly. The mechanical performance of irradiated copper is affected by the interaction between irradiation and dislocation \cite{Kiener2011b}. Vacancy concentration in single crystal and polycrystal Fe–40 at. Al bulk results in an increase of strength~\cite{Yang1998}. Ti--Al alloy is a type of typical brittle material, thus, it can be assumed that its properties are sensitive to the existence of void. Surface defects such as small notches can cause low and high cycle fatigue strength of the Ti–47Al–2W–0.5Si alloy \cite{Nazmy2001}, and the strength of single crystal $\gamma$-TiAl is also lowered by point defect \cite{Wu2016}. The resistance of Ti–6Al–4V alloy, which was processed for typical fan blade applications, to high-cycle fatigue in the presence of foreign- object damage was reduced due to earlier crack initiation.  The nucleation and subsequent near-threshold growth of crack was primarily affected by the stress concentration associated with the foreign-object damage and the presence of small cracks in the damaged zone. Due to difficulties in observing the dynamic process during deformation wit experiments, MD simulation has become an effective method to investigate micro deformation mechanism. Defects such as grain boundary, voids and segregation play significant roles in the process of fracture \cite{Larsen2016}. This paper focus on the evolution of microstructure, tending to find out its connection to cold deformation behavior of two-phase Ti--Al alloys. MD simulation including model creation and analysis method is given in Section \ref{section:method}, Results and discussion are in Section \ref{section:RD}.
+
+\section{Molecular Dynamics Simulation \label{section:method}}
+\unskip
+\subsection{Atomic Potential}
+
+The interaction of particles in the material is determined by interatomic potential. Many reported simulation cases of deforming and crack propagation in metal materials were performed with embedded atomic method due to its better accuracy in metal lattice compare with F-S and L/J~\cite{Ko2015,Zepeda-Ruiz2017,Fan2018a}. Embedded atom method (EAM) potential developed by Zope and Mishin \cite{Zope2003} was used in the study. The simulation is performed  with the Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) open-source code \cite{Plimpton1995}. We did constant-pressure and constant-temperature (NPT) MD simulation at room temperature (298K). Definition of the potential is as following:
+
+\begin{equation} \label{eq:eam}
+E_{total}= \displaystyle\sum F_i(\rho_{h,i})+\frac{1}{2}\sum_i\sum_{j(\neq1)}\phi_{ij}(R_{ij})
+\end{equation}
+where $E_{total}$ is the total energy of the system, $\rho_{h,i}$, is the host electron density at atom $i$ due to the remaining atoms of the system, $F_i(\rho)$ represents the energy for embedding atom $i$ into the background electron density $\rho$, and $\phi_{ij}(R_{ij})$ gives the core-core pair repulsion between atoms $i$ and $j$ separated by the distance $R_{ij}$. It can be noted that $F_i$ only depends on the element of atom $i$ and $\phi_{ij}$ only depends on the elements of atoms $i$ and $j$.
+
+\subsection{Modeling}
+
+
+Two phase Ti--Al alloy is composed of $\gamma $-TiAl and $\alpha_2$-$\rm Ti_3Al$, TiAl has a fcc type cell with an $L1_0$ structure, and $\rm Ti_3Al$ has a hcp structure, these two types of initial cells are shown in Figure \ref{fig:tial-cell}. Geometry parameters of the two type of unit cell are given by Table \ref{tab:lattice_parameter}. Periodic boundary conditions (PBC) were applied along three directions, which makes polycrystal with periodic nanovoids structures. The initial size of simulation box is $L_x =200$ \si{\angstrom}, $L_y = $180 \si{\angstrom}, $L_z = 210$ \si{\angstrom}, and each model  about 460,000 atoms. The model includes 6 grains, with random shape and orientation created by Voronoi method. Total simulation time is restricted to computer power, thus, strain rate in molecular dynamic simulation is much greater than physical experiments. Attempts have been done to find decent time step and strain rate for tensile test with MD simulation. If the strain rate is too high and time step is too large in the simulation, the model cannot predict the real behavior of dislocations.  Previous work \cite{Zhu2008,Wu2016}  reveals that a strain rate from  $10^8\ \rm{s}^{-1}$ to $10^9\ \rm{s}^{-1}$ is appropriate for a system composed of metal atoms like Ti--Al metallic materials. thus, the strain rate of uniaxial loading was set as $5\times10^8\ \rm{s}^{-1}$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/modeling}
+\caption{Unit cell of \rm{TiAl} (\textbf{a}), $\rm{Ti_3Al}$ (\textbf{b}) and two-phase Ti--Al model (\textbf{c}).}
+\label{fig:tial-cell}
+\end{figure}
+\unskip
+\begin{table}[H]
+\caption{Parameters of nanocrystalline.}
+\centering
+\begin{tabular}{cccc}
+\toprule
+\textbf{Phase}			& \textbf{Space Group}		& \textbf{Designation} 		& \textbf{Parameters} \\
+\midrule
+$\alpha_2$ - $\rm{Ti_3Al}$		& $\rm P6_3/mmc$ 	& $\rm 0_{19}$ 		& $a$ = 0.5765 \\
+&					&					& $c$ = 0.46833 \\\midrule
+$\gamma$ - $\rm{TiAl}$ 		& $\rm tP4$ 		& $\rm L1_0$		& $a$ = 0.3997 \\
+&					&					& $c$ = 0.4062 \\
+\bottomrule
+\end{tabular}
+\label{tab:lattice_parameter}
+\end{table}
+
+
+% In order to study the deformation mechanism of the two-phase alloy and the effect of void, three types of models were created: Type-1.model without any void; Type-2. models with different size voids inside $\alpha_2$ phase; Type-3. models with void at $\alpha_2-\gamma$ interface. \ref{tab:lattice_parameter}. The simulation cells of two-phase polycrystalline with an initially spherical void at different position are shown in figure .
+\subsection{Analysis Method}
+In order to identify typical defects in the deformed model, a hybrid analysis method was used with free code ovito \cite{Stukowski2010}. Dislocation is visualized by DXA method, and centro-symmetry parameter (CSP) is used to differ grain boundaries, $\alpha_2$ phase grains and $\gamma$ phase grains. The definition of CSP is as~following:
+\begin{equation} \label{eq:csp}
+P = \displaystyle\sum_{i=1}^{6}|\vec{R_i}+{\vec{R}}_{i+6}|^2
+\end{equation}
+where $\vec{R_i}$ and ${\vec{R}}_{i+6}$ are the vectors corresponding to the six pairs of opposite nearest neighbors in the fcc lattice. The centro-symmetry parameter (CSP) is zero for atoms in a perfect lattice. In other words, if the lattice is distorted, the value of P will not be zero. Instead, the parameter will have a value within the range corresponding to a particular defect. By removing all the perfect and surface atoms within the bulk, atoms around defected zones are visualized.
+
+\subsection{Model Verification}
+The results of the molecular dynamics simulation greatly rely on accuracy of potential and controlling parameters such as strain rate, temperature and relaxation time. Thus, we performed model verification on a simplified model and then compared the results with experiments and simulation done by others.  Uniaxial tensile loading  was applied to single crystal $\gamma$-TiAl bulk shown by Figure~\ref{fig:verify}a, potential and relaxation parameters are the same as those which applied to the polycrystalline model. When temperature is 300 K, the sample was tensioned along [0 0 1] direction at a constant stain rate of $5\times10^8\ \rm{s}^{-1}$. The yield strength of the single crystal Ti--Al alloy is 9.5 GPa  and that is in good agreement with  work by Tang~\cite{Tang2010} in consideration of size effect, and the snapshoot of the fracture surface is shown by Figure~\ref{fig:verify}, and compared with experiment results by Cao \cite{CHEN2015365} shown in Figure \ref{fig:verify}c. It should be noticed that the image from SEM is in a greater scale than our simulation cell. However, the cracked surface in atomic model exhibits two major characteristics of TiAl alloy. First, the fracture type of TiAl at room temperate is typical brittle failure. Second, the fracture surface  of atomic model in Figure \ref{fig:verify}b is typical cleavage surface. This verification case has proven that the EAM potential is of high efficiency and accurate enough, and the simulation work flow is valid to predict failure behavior of  the system composed of Ti--Al.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/cold-fracture2}
+\caption{(\textbf{a}) Verifying model: TiAl single crystal bulk; (\textbf{b}) Cracked surface of atomic model; (\textbf{c}) Cracked surface from experiment \cite{CHEN2015365}.}
+\label{fig:verify}
+\end{figure}
+
+\section{Results and Discussion}\label{section:RD}
+
+
+
+
+
+%	/home/alex/Documents/violet/draft/img/perfect-line.pdf
+Deformation process of the model without void is shown in Figure \ref{fig:deformation-pf}, the strain of model at 10 key points are given by Table \ref{tab:key-point}. The strength of the model without void is 5.3 GPa. According to stress response under constant rate of strain rate, the whole tensile process can be divided into four stages:
+stage-\uppercase\expandafter{\romannumeral1}: elastic stage, from $\epsilon = 0$ to $\epsilon = 0.092$, including key point 1,
+stage-\uppercase\expandafter{\romannumeral2}: yield stage, ranging from $\epsilon = 0.092$ to $\epsilon = 0.101$, including key points 2 to 6,
+stage-\uppercase\expandafter{\romannumeral3}: cracking stage, ranging from $\epsilon = 0.101$ to $\epsilon = 0.112$, including key point 7 to 10,
+stage-\uppercase\expandafter{\romannumeral4}: fracture stage. Following discussion concentrates on deformation phenomena that rely on the elastro-plastic code formation of the $\gamma$ and $\alpha_2$ phases and on the particular point defect situation occurred in two-phase alloys.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/tens}
+\caption{Deformation process of the model without void}
+\label{fig:deformation-pf}
+\end{figure}
+\unskip
+\begin{table}[H]
+\caption{{Key points during tensile process}.} % This table has not been referred to within the text of the manuscript.
+\centering
+\begin{tabular}{lcccccccccc}
+\toprule
+\textbf{Number} &\textbf{1} &\textbf{2} &\textbf{3} &\textbf{4} &\textbf{5} &\textbf{6} &\textbf{7} &\textbf{8} &\textbf{9} &\textbf{10}\\
+\midrule
+\textbf{Stage} &\uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral1} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral2} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3} &\uppercase\expandafter{\romannumeral3}	 \\
+\midrule
+% Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.Fu = sin20 & 0.21 & 0.22 & 0.23 \\
+% \midule
+\textbf{Strain}	& 0.05 &  0.088 & 0.092 & 0.096 & 0.099 & 0.101 & 0.104 & 0.107 & 0.110 & 0.112  \\
+\bottomrule
+\end{tabular}
+\label{tab:key-point}
+\end{table}
+
+
+
+\subsection{Deformation Mechanism of Two Phase Ti--Al Alloy }
+
+
+% Due to this effect ( $\alpha_2$ + $\gamma$ ) alloys exhibit some remarkable properties that are unlike those of either constituent.
+% \subsection{Plastic }
+During the elastic stage, the deformation of $\alpha_2$ phase and $\gamma$ phase grains is compatible, however the properties of two phases are different. The elastic constants given by  experiments \cite{Schwarz1995,Tanaka1996} are listed in  Table \ref{tab:elastic}. $C_{11}^{\alpha_2}$ is 176, which is smaller than $C_{11}^{\gamma}$, other five parameters but $C_{33}$ of $\rm{Ti_3Al}$ are also smaller than Ti--Al. In order to quantify the difference of the two-phase deformation gradient was calculated by~formulation:
+\begin{equation}
+\label{eq:strain-grade}
+\mathbf { F^e } = \frac { \partial \mathbf { x } } { \partial \mathbf { X } } = \operatorname { Grad } \mathbf { x } , \quad F _ { i J } = \frac { \partial x _ { i } } { \partial X _ { J } }
+\end{equation}
+we computes the atomic level elastic strain and deformation gradient tensors in crystalline systems with the numerical method proposed by \cite{Singh2006}. When global strain is 0.015, local elastic strain $F_{xx}$ of the model is measured along the line cross center of the model and shown by Figure \ref{fig:strain}. In te figure, $\alpha_2$ phase located in the central part of the axial, and other parts on the axial are $\gamma$ phase.  It should be noticed that atomic level elastic strain effected by random thermal displacements of atoms, thus, fluctuation value exists in Figure \ref{fig:strain}. The local strain of $\alpha_2$ phase grain is greater than $\gamma$ phase grain when global strain of the model is 0.015. From the value of local strain, we can conclude that $\gamma$ phase less deformable than $\alpha_2$ phase during elastic stage.
+
+
+Snapshots of atoms configuration at the three of ten key points are shown by Figure \ref{fig:Defect}.  Atoms with ordered configuration  of $\gamma$ phase grains have been removed in Figure \ref{fig:Defect}a,b,\ $\alpha_2$ phase and defects inside grains have been left. Similarly, $\gamma$ phase grain have been removed in Figure \ref{fig:Defect}c,d, the defects of $\alpha_2$ phase have been left.  The results show that, at stage \uppercase\expandafter{\romannumeral1}, the structure of material is under typical elastic deformation, the size of simulation box enlarged due to the loading. In this stage, deformation of the two-phase are compatible. Emission of dislocation and evolution of defects initiated at the end of the stage \uppercase\expandafter{\romannumeral1}. A  great number of dislocation emitted inside $\gamma$ phase at earlier part of stage \uppercase\expandafter{\romannumeral2}, however, the dislocation inside $\alpha_2$ phase was emitted at the end of stage \uppercase\expandafter{\romannumeral2} is shown by Figure \ref{fig:Defect}c.
+
+\begin{table}[H]
+\caption{Elastic constants of TiAl and $\rm{Ti_3Al}$.}
+\centering
+\begin{tabular}{l c c c c c c c c c c}
+\toprule
+\textbf{ } &\boldmath$C_{11}$ &\boldmath$C_{12}$ &\boldmath$C_{13}$ &\boldmath$C_{33}$ &\boldmath$C_{44}$ &\boldmath$C_{66}$\\
+\midrule
+TiAl \cite{Schwarz1995} &186 &72 &74 & 176 &101 &77	 \\
+\midrule
+% Time/ps	& 0 & 0.15 & 0.16 & 0.17 & 0.18 & 0.19 & 0.Fu = sin20 & 0.21 & 0.22 & 0.23 \\
+% \midule
+$\rm{Ti_3Al}$ \cite{Tanaka1996}	& 176 &  87.8 & 61.2 & 218.7 & 91.9 & 62.4   \\
+\bottomrule
+\end{tabular}
+\label{tab:elastic}
+\end{table}
+\unskip
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{img/strgrad}
+\caption{Local strain along tensile direction.}
+\label{fig:strain}
+\end{figure}
+\unskip
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/def-box}
+\caption{Microstructure evolution inside $\gamma$ phase (\textbf{a},\textbf{b}), $\alpha_2$ phase (\textbf{c},\textbf{d}) during yield stage.}
+\label{fig:Defect}
+\end{figure}
+Experiments have shown that the velocity of dislocation motion is sensitive to stress and temperature \cite{Stein1960}. The brittleness of two-phase Ti--Al alloy attributed to the poor mobility of dislocation at room temperature. Velocity of a screw dislocation can be estimated by Escaig's elastic model \cite{Escaig1968}, it~can be written as:
+\begin{equation}\label{eq:temp-dis}
+v = v_0\ e^{-\Delta H(\tau^*)/kT}
+\end{equation}
+where the prefactor $v_0$ gives the velocity that would be obtained for each potential mobility, $L$ represents the free length of screw character of dislocation, $\Delta H(\tau^*)$ is activation enthalpy determined by loading conditions. The effect of temperature on the mobility can be evaluated under different loading conditions, thus, we chose  $\tau_1^*>\tau_2^*>\tau_3^*$ in Formulation (\ref{eq:temp-dis}), normalized velocity of dislocation motion is shown by Figure  \ref{fig:temp}. The  velocity  of dislocation movement rise along with increase of  stress, the~mobility  of dislocation is relatively poor at 298 K. Due to motion of dislocations is inactive inside $\alpha_2$ phase,  typical strengthening mechanism closely related to the interaction between grain boundary and dislocation can not be dramatic at room temperature, piling up of dislocations is not observed in this simulation, which is shown in Figure \ref{fig:Defect}.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/temp}
+\caption{Normalized velocity of dislocation motion under different loading conditions.}
+\label{fig:temp}
+\end{figure}
+
+
+Length of different types of dislocations are given at four stages in Figure \ref{fig:disum}. Dislocations are recognized and identified using the dislocation analysis (DXA) of ovito. The length of Shockley dislocation with Burgers vector $1/6[1 1 2]$ increased sharply during yield stage of the deformation process in Figure \ref{fig:disum}, but the length of perfect dislocation fluctuated at a low level. Perfect  dislocations split into Shockley partial dislocations, this decomposition process  can be given by Formulations (\ref{eq:dis-1}) and (\ref{eq:dis-2}). The structure spontaneously transformed into intrinsic stacking fault (ISF), which can be observed in Figure \ref{fig:Defect}a.
+
+
+
+%\begin{equation}\label{eq:dis-1}
+%[\ 0\ 1\ \overline{1}\ ] \to 1/2 [\ 1\ 1\ \overline{2}\ ]+1/2[\ \overline{1}\ 1\ 0\ ]\\
+%\end{equation}
+
+\begin{equation}\label{eq:dis-1}
+1/2 [\ 0\ 1\ 1\ ] \to 1/6[\ 1\ 1\ 2\ ]+1/6[\ \overline{1}\ 2\ 1\ ]
+\end{equation}
+\begin{equation}\label{eq:dis-2}
+1/2 [\ 1\ 0\ \overline{1}\ ] \to 1/6 [\ 1\ 1\ \overline{2}\ ] + 1/6[\ 2\ \overline{1}\ \overline{1}\ ]
+\end{equation}
+Interaction between dislocations with Burgers vector of $1/6 [112] $ and $ 1/6 [11\overline{2}]$ follows the decomposition of perfect dislocation. The process produced leading dislocation and trailing dislocation, when the two leading Shockley partials combined, they form Lomer–Cottrell junction, a separate dislocation. It's sessile in the slip plane, playing a role of barrier against other dislocations in the plane. This process is given by :
+\begin{equation}\label{eq:dis-3}
+1/6 [\ 1\ 1\ 2\ ] + 1/6 [\ 1\ 1\  \overline{2}\ ] \to 1/3 [\ 1\ 1\ 0\ ]
+\end{equation}
+According to the  results calculated by first principle, the stacking fault energy of Ti--Al is much smaller than $\rm{Ti_3Al}$, as a consequence, calculated shear strength of Ti--Al and $\rm{Ti_3Al}$is 4.1 GPa and 2.86 GPa along their easy slip plane respectively \cite{Liu2007}. This calculation reveals that tensile behavior in single crystal is mainly controlled by the type of the structure. However, in two-phase Ti--Al alloy, deformation of $\alpha_2$ phase is earlier than $\gamma$ phase during yield stage, thus, local displacement of two phases are incompatible during yield stage.  Mobility of dislocation is affected by structure of crystal, loading condition and temperature, and $\alpha_2$ phase is made up of hcp  structured grain, grains with this type of structure possess less slip system compared with grain with fcc structure \cite{Zhu2012}, thus, $\alpha_2$ phase is difficult do deform under uniaxial tensile loading.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/dis-summary}
+\caption{Summary of didderent types of dislocation under different strain.}
+\label{fig:disum}
+\end{figure}
+
+TEM examinations performed on tensile-tested lamellar alloys have revealed that the limited plasticity of  $\alpha_2$ phase is carried by local slip of dislocations with the Burgers vector $1/3[11\overline{2}0]$ prism planes shown by Figure \ref{fig:Defect}b, which is by far the easiest slip system in $\alpha_2$ single crystals.  Dislocation neighboring interfaces often needs to be transformed. For example, an ordinary 1/2 [110] dislocation gliding in one $\gamma$ grain has to be converted into $[101]$ super dislocation when the double Burgers vectors gliding in an adjacent $\gamma$ grain. At the $\alpha_2/\gamma$ interface, dislocations existing in  $D0_{19}$ structure  transform into dislocations, which is consistent with the $\rm{L1_0}$ structure. These core transformations are associated with the change of the dislocation line energy because of the differences of the length and the shear module.  Pyramidal slip of the $\alpha_2$ phase is required  when slip is forced to cross $\alpha_2$ phase, this process needs an extremely high shear stress. Two components ($\alpha_2$ and $\gamma$ phase) exhibit different properties in two-phase alloy comparing they are single-phase alloy respectively. $\gamma$ phase is the major source of dislocation in two-phase alloy, that is in good agreement with experiments \cite{Appel1998a,Singh2006}. When global strain is greater than 0.07, the reason why Ti3Al exhibits less plastic deformation is the absence of twinning in Ti3Al under tensile loading, which have been observed by experiments \cite{sastry1980plastic}. The deformation $\rm{Ti_3Al}$ is mainly constrained by loading conditions, as compression loading is applied, Ti3Al activates more moveable dislocation, thus, exhibits better elasticity \cite{intro-structure}.
+
+
+\subsection{The Effect of Void on the Strength of Material}
+
+
+In Figure \ref{fig:model-creation}, voids with different size of 2 \AA, 5 \AA, 10 \AA\ and 15 \AA\ were placed  at $\alpha_2$/$\gamma$ phase boundary, inside $\gamma$ phase respectively. The strength of materials with void in different size and at different position is shown in Figure \ref{fig:stress&strain}. The existence of void have little impact on the elastic properties of the material, and the model without void has the largest strength 5.3 GPa, the yield stress of model with void is smaller. Void at $\alpha_2$/$\gamma$ phase boundary  detracts the strength of  material most, and the void inside $\alpha_2$ phase  have less impact on the strength.
+Conventional definition of strength of materials with geometry subtraction was applied to the model, and theoretical strength of the models was calculated~by
+\begin{equation} \label{eq:section}
+\sigma^* = \sigma_0 \cdot({A^*}/{A_0})
+\end{equation}
+where $\sigma_0$ is the strength of model without voids of 5.3 GPa, and $A_0$ represents initial section area,  $A^*$ is effective section area in consideration of the area detraction by void.  In classic theory, the~relationship between void size and strength of the model is linear. However, simulation results reveals that two-phase Ti--Al alloy is sensitive to defect of void.  Comparing the strength determined from molecular dynamics simulation and the results calculated with Formulation (\ref{eq:section}), it can be seen that the main factor that affects the strength of materials is local behavior of the materials, thus, evolution of defects have dramatic influence on the yield and fracture process of the materials.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{img/slice-view}
+\caption{Model of the simulation (\textbf{a}) and sliced view of the model with no void (\textbf{b}), inside $\alpha_2$ phase (\textbf{c}) at $\alpha_2 / \gamma$ phase boundary (\textbf{d}).}
+\label{fig:model-creation}
+\end{figure}
+\unskip
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/allline}
+\caption{Stress-strain response of the materials under tensile loading.}
+\label{fig:stress&strain}
+\end{figure}
+
+
+%%%
+%\begin{figure}[ht]
+%%	\includegraphics[width=1\linewidth]{"img/fracture3"}
+%	\caption{Yield process of the models}
+%	\label{fig:yield}
+%\end{figure}
+
+It has been observed in Figure \ref{fig:strength} that voids detract the strength of  materials. The max stress  of the simulation cell decreases as the volume of voids increases. It can be seen from Figure \ref{fig:stress&strain} that there is a critical value of void radius about 15 \AA, the void greater than 15 \AA\ causes serious detraction of strength of material.  The decreased rate of loading area is smaller compared  with the detraction of strength, so it can be assumed that the  yield behavior and strength is more related with local behavior of grain boundaries and void. Grain and phase boundaries are obstacles to deformation process, thus, the stability of boundaries has a great impact on the strength of materials. Interaction between grain boundary and void determines the fracture mode of   Ti--Al alloy.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{img/effect_of_vol}
+\caption{Yield strength of the materials with different size void.}
+\label{fig:strength}
+\end{figure}
+
+
+
+\subsection{Evolution of Spherical Void}
+The role of void can be concluded as two main parts: source of dislocations and obstacles to dislocations, which is dominant depends on the location of void. Void inside $\alpha_2$ phase plays a role of inclusion, in other words, this type of void possess similar properties as second phase particles.
+
+\textls[-5]{Void inside $\alpha_2$ phase induced considerable misfit-stress fields and thus, can influence material properties. Such stress fields surrounding the second-phase particles can be due to misfit between $\alpha_2$ phase atoms and surface atoms surrounding the void. That is a possible favorable effect of second-phase particles that void contribute to the enhancement of mechanical strength. The strengthening effect of the particle inside single-phase Ti--Al alloy has been verified by experiment \cite{Zghal1998}. Considering yielding of a material as related to glide of dislocations, any mechanism obstructing dislocation glide improves the mechanical strength. The defect evolution neighboring the void during yield stage is shown in Figure  \ref{fig:orowan}a; the role of void is similar to second-phase particles. It servers as obstacles for dislocation migration which is shown by Figure \ref{fig:orowan}b: the stress fields surrounding the second-phase particles block migrating dislocation, the void particle acts as pinning point. The dislocation can pass two pinning points under shear  stress , and the critic value depends on the distance between  obstacles, it is be given~by~\cite{Xiong2015}:}
+\begin{equation} \label{eq:orowan}
+\tau_0 = Gb/d
+\end{equation}
+where $d$ represents the distance between two obstacles A and B in Figure \ref{fig:orowan} , reflects the dependence of the critical shear stress $\tau_0$ on the second-phase particle density and distribution. This mechanism for hardening is designated as the Orowan process with $\tau_0$ as the Orowan shear stress. As a result of the Orowan process, upon passage of the pinning points by a series of gliding dislocations, a system of concentric loops is formed around the second-phase particles. Consequently, the effective average distance between the second phase particles has decreased to $d$ which implies a necessary increase of the value of critical shear stress required for continuation of dislocation glide. The width of a Burgers vector, will be generated at both sides of a crystal along the direction of  burgers vector after dislocation traversing the entire crystal, as is shown in the third subfigure of Figure \ref{fig:orowan}b.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{"img/orowan"}
+\caption{(\textbf{a}) {Orowan process} occurred inside $\alpha_2$ phase grain (removed atoms with regular arrangement).(\textbf{b}) Schematic of Orowan process.} % There is no explanation for (a) and (b) in the figure.
+\label{fig:orowan}
+\end{figure}
+
+Effect of voids at different positions on the crack mode of the material are shown by Figure \ref{fig:void-gb}a. The model with void fractured cross the grain, and the model with void at $\alpha_2 / \gamma$ boundary resulted a large crack along the boundary under tensile loading. The difference of crack mode can attribute to the position of void and the evolution of the defect. Nucleation and emission of Shockley partial dislocation affect the evolution of the void at boundary greatly due to the anisotropy of two phases on the both sides of the phase boundary. The void weakens the strength of the grain it locates,  $\alpha_2$ phase grain is easy to deformed under shear stress, thus, that caused the crack initiated inside grain and finally caused fracture across the grain. Deformation mechanisms of the model with void at boundary can be  more complex due to the interaction between void and phase boundary. In the elastic stage, the~system composed of $\alpha_2$ phase, $\gamma$ phase and void is in equilibrium, internal stress are balanced under compatible deformation as is shown by the first subfigure of Figure \ref{fig:void-gb}b. In the middle moment of yield stage, partial dislocation with Burgers vector $1/6[\overline{2}\ \overline{1}\ 1]$ emitted from surface of void in Figure~\ref{fig:void-gb}b-2. The micro crack initialed from the zone neighbor  the interface between void and boundary, that quickly caused abrupt decohension of phase boundary. That accounts for the reason that material with void at $\alpha_2 / \gamma$ phase boundary is weaker than other cases.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\linewidth]{"img/void-gb"}
+\caption{(\textbf{a}) Fracture mode of two types of mode;  (\textbf{b}) Evolution of void at $\alpha_2 / \gamma$ phase boundary.}
+\label{fig:void-gb}
+\end{figure}
+
+
+\section{Conclusions}
+
+In this paper, deformation behavior of two-phase Ti--Al alloy under tensile loading was simulated with MD method. The mechanism of deformation was investigated under atomic scale, and the effect of void on the properties of two-phase Ti--Al alloy was also studied.  The conclusions are as follows:
+
+(1) Deformation behavior of two types of grain inside $\alpha_2+\gamma$ two-phase Ti--Al alloy are different due to their crystal structure. $\alpha_2$ phase $\rm{Ti_3Al}$ grain is easy to be deformed during elastic stage.
+
+
+(2) During the yield stage, the majority of dislocations in two-phase Ti--Al alloy activated inside $\gamma$ phase, $\alpha_2$ phase is harder to slip due to its hcp structure, this inhomogeneity results in cracks at interface of the two phases.
+
+
+(3) Effect of  void on the strength of the two-phase alloy is sensitive to the location of void. Void inside grain has detraction to the strength of material because the strengthening mechanism is similar to second-phase particles. Void at $\alpha_2 / \gamma$ boundary is the most risky situation for the two-phase alloy because of fast fractures along boundary.
+
+
+\vspace{6pt}
+\authorcontributions{Conceptualization, M.W.; Funding acquisition, R.F.; Investigation, M.W.; Methodology, M.W.; Project administration, Z.R.; Resources, H.L.; Software, Y.Q.; Supervision, R.F.; Visualization, Q.W.} % please add author contributions.
+
+\funding{This research was funded by the National Natural Science Foundation of China (No. 51665030, No. 51865027) and the Program for Changjiang Scholars and Innovative Research Team in Universities of the Ministry of Education of China (No. IRT-15R30), the Hongliu First-class  Disciplines Development Program of Lanzhou University of Technology.}
+
+\acknowledgments{The work was carried out at LvLiang Cloud Computing Center of China, and the calculations were performed on TianHe-2. Figure \ref{fig:verify}c is from Chen, J.H.; Cao, R. Chapter 9---Brittle Fracture of TiAl Alloys and NiTi Memory Alloys. In Micromechanism of Cleavage Fracture of Metals; Chen, J.H.; Cao, R., Eds.; Butterworth-Heinemann: Boston, 2015; pp. 365--443. Author have get permission from publisher. License number: 4492240737073.}
+
+\conflictsofinterest{The authors declare no conflict of interest.} % please add conflicts of interest.
+
+\reftitle{References}
+\begin{thebibliography}{999}
+
+\bibitem[Clemens and Mayer(2016)]{Clemens2016}
+Clemens, H.; Mayer, S.
+\newblock {Advanced Intermetallic TiAl Alloys}.
+\newblock {\em Mater. Sci. Forum} {\bf 2016}, {\em 879},~113--118. [\href{http://dx.doi.org/10.4028/www.scientific.net/MSF.879.113}{CrossRef}]
+
+\bibitem[Bewlay \em{et~al.}(2016)Bewlay, Nag, Suzuki, and Weimer]{Bewlay2016}
+Bewlay, B.P.; Nag, S.; Suzuki, A.; Weimer, M.J.
+\newblock {TiAl alloys in commercial aircraft engines}.
+\newblock {\em Mater. High Temp.} {\bf 2016}, {\em 33},~549--559. [\href{http://dx.doi.org/10.1080/09603409.2016.1183068}{CrossRef}]
+
+\bibitem[Mart{\'{i}}nkov{\'{a}} \em{et~al.}(2004)Mart{\'{i}}nkov{\'{a}},
+Nov{\'{a}}, Sablina, Graphodatsky, and Zima]{Munz2017}
+Mart{\'{i}}nkov{\'{a}}, N.; Nov{\'{a}}, P.; Sablina, O.V.; Graphodatsky, A.S.;
+Zima, J.
+\newblock {Karyotypic relationships of the Tatra vole (Microtus tatricus)}.
+\newblock {\em Folia Zool.} {\bf 2004}, {\em 53},~279--284. [\href{http://dx.doi.org/10.1007/s13398-014-0173-7.2}{CrossRef}]
+
+\bibitem[Appel \em{et~al.}(2016)Appel, Clemens, and Fischer]{Appel2016}
+Appel, F.; Clemens, H.; Fischer, F.D.
+\newblock {Modeling concepts for intermetallic titanium aluminides}.
+\newblock {\em \mbox{Prog. Mater. Sci.}} {\bf 2016}, {\em 81},~55--124. [\href{http://dx.doi.org/10.1016/j.pmatsci.2016.01.001}{CrossRef}]
+
+\bibitem[Sastry and Lipsitt(1980)]{sastry1980plastic}
+Sastry, S.M.L.; Lipsitt, H.A.
+\newblock {Plastic deformation of TiAl and Ti3Al}.
+\newblock  In Proceedings of the 4th International Conference on Titanium,  {Kyoto, Japan,  19--22  May} 1980;
+pp. 1231--1243. % Newly added information, please confirm.
+
+\bibitem[Farenc \em{et~al.}(1993)Farenc, Coujou, and Couret]{Farenc1993}
+Farenc, S.; Coujou, A.; Couret, A.
+\newblock {An in situ study of twin propagation in TiAl}.
+\newblock {\em Philos. Mag. A  Phys. Condens. Matter
+Struct. Defects  Mech. Prop.} {\bf 1993}, {\em 67},~127--142. [\href{http://dx.doi.org/10.1080/01418619308207147}{CrossRef}]
+
+\bibitem[Appel(2005)]{Appel2005}
+Appel, F.
+\newblock {An electron microscope study of mechanical twinning and fracture in
+TiAl alloys}.
+\newblock {\em Philos. Mag.} {\bf 2005}, {\em 85},~205--231. [\href{http://dx.doi.org/10.1080/14786430412331315662}{CrossRef}]
+
+\bibitem[Appel and Wagner(1998)]{Appel1998a}
+Appel, F.; Wagner, R.
+\newblock {Microstructure and deformation of two-phase $\gamma$-titanium
+aluminides}.
+\newblock {\em Mater. Sci. Eng. R  Rep.} {\bf 1998}, {\em
+22},~187--268. [\href{http://dx.doi.org/10.1016/S0927-796X(97)00018-1}{CrossRef}]
+
+\bibitem[Tang \em{et~al.}(2014)Tang, Cai, Bao, Xue, Lu, Zhu, and Rui]{Tang2014}
+Tang, F.L.; Cai, H.M.; Bao, H.W.; Xue, H.T.; Lu, W.J.; Zhu, L.; Rui, Z.Y.
+\newblock {Molecular dynamics simulations of void growth in $\gamma$-TiAl
+single crystal}.
+\newblock {\em Comput. Mater. Sci.} {\bf 2014}, {\em 84},~232--237. [\href{http://dx.doi.org/10.1016/j.commatsci.2013.12.014}{CrossRef}]
+
+\bibitem[Kim(1995)]{Kim1995}
+Kim, Y.W.
+\newblock {Effects of microstructure on the deformation and fracture of
+$\gamma$-TiAl alloys}.
+\newblock {\em Mater. Sci. Eng. A} {\bf 1995}, {\em
+192--193},~519--533. [\href{http://dx.doi.org/10.1016/0921-5093(94)03271-8}{CrossRef}]
+
+\bibitem[Singh \em{et~al.}(2006)Singh, Mol{\'{e}}nat, Sundararaman, Banerjee,
+Saada, Veyssi{\`{e}}re, and Couret]{Singh2006}
+{Singh, J.B.}; Mol{\'{e}}nat, G.; Sundararaman, M.; Banerjee, S.; Saada, G.;
+Veyssi{\`{e}}re, P.; Couret, A. In situ straining investigation of slip transfer across $\alpha$ 2
+lamellae at room temperature in a lamellar TiAl alloy. {\em \mbox{Philos. Mag. Lett.}} {\bf 2006}, {\em 86},~47--60. [\href{http://dx.doi.org/10.1080/09500830500497066}{CrossRef}]% ref. 11 and ref. 39 are same, please confirm it.
+
+\bibitem[Hempel \em{et~al.}(2017)Hempel, Bunn, Nitschke-Pagel, Payzant, and
+Dilger]{Hempel2017a}
+Hempel, N.; Bunn, J.R.; Nitschke-Pagel, T.; Payzant, E.A.; Dilger, K.
+\newblock {Study on the residual stress relaxation in girth-welded steel pipes
+under bending load using diffraction methods}.
+\newblock {\em Mater. Sci. Eng. A} {\bf 2017}, {\em
+688},~289--300. [\href{http://dx.doi.org/10.1016/j.msea.2017.02.005}{CrossRef}]
+
+\bibitem[Groh \em{et~al.}(2009)Groh, Marin, Horstemeyer, and Zbib]{Groh2009}
+Groh, S.; Marin, E.B.; Horstemeyer, M.F.; Zbib, H.M.
+\newblock {Multiscale modeling of the plasticity in an aluminum single
+crystal}.
+\newblock {\em Int. J. Plast.} {\bf 2009}, {\em
+25},~1456--1473. [\href{http://dx.doi.org/10.1016/j.ijplas.2008.11.003}{CrossRef}]
+
+\bibitem[Trout(1972)]{Liu2018}
+Trout, P.E.
+\newblock {Plastic Contaminants: Bad News for the Paper Recycler.}
+\newblock {\em Tappi} {\bf 1972}, {\em 55},~956--958. [\href{http://dx.doi.org/10.1016/j.cma.2018.06.026}{CrossRef}]
+
+\bibitem[Xu \em{et~al.}(2011)Xu, Hao, Su, Yu, Wan, and Hu]{Xu2011}
+Xu, S.Z.; Hao, Z.M.; Su, Y.Q.; Yu, Y.; Wan, Q.; Hu, W.J.
+\newblock {An analysis on nanovoid growth in body-centered cubic single
+crystalline vanadium}.
+\newblock {\em Comput. Mater. Sci.} {\bf 2011}, {\em
+50},~2411--2421. [\href{http://dx.doi.org/10.1016/j.commatsci.2011.03.019}{CrossRef}]
+
+\bibitem[Jing \em{et~al.}(2018)Jing, Yuan, Shivpuri, Xu, Zhang, Shan, and
+Guo]{Jing2018a}
+Jing, P.; Yuan, L.; Shivpuri, R.; Xu, C.; Zhang, Y.; Shan, D.; Guo, B.
+\newblock {Evolution of spherical nanovoids within copper polycrystals during
+plastic straining: Atomistic investigation}.
+\newblock {\em Int. J. Plast.} {\bf 2018}, {\em
+100},~122--141. [\href{http://dx.doi.org/10.1016/j.ijplas.2017.09.016}{CrossRef}]
+
+\bibitem[Elkhateeb and Shin(2018)]{Elkhateeb2018}
+Elkhateeb, M.G.; Shin, Y.C.
+\newblock {Molecular dynamics-based cohesive zone representation of Ti6Al4V/TiC
+composite interface}.
+\newblock {\em Mater. Des.} {\bf 2018}, {\em 155},~161--169. [\href{http://dx.doi.org/10.1016/j.matdes.2018.05.054}{CrossRef}]
+
+\bibitem[Xiong \em{et~al.}(2015)Xiong, Xu, McDowell, and Chen]{Xiong2015}
+Xiong, L.; Xu, S.; McDowell, D.L.; Chen, Y.
+\newblock {Concurrent atomistic-continuum simulations of dislocation-void
+interactions in fcc crystals}.
+\newblock {\em Int. J. Plast.} {\bf 2015}, {\em
+65},~33--42. [\href{http://dx.doi.org/10.1016/j.ijplas.2014.08.002}{CrossRef}]
+
+\bibitem[Kiener \em{et~al.}(2011)Kiener, Hosemann, Maloy, and
+Minor]{Kiener2011b}
+Kiener, D.; Hosemann, P.; Maloy, S.A.; Minor, A.M.
+\newblock {In situ nanocompression testing of irradiated copper}.
+\newblock {\em Nat. Mater.} {\bf 2011}, {\em 10},~608--613. [\href{http://dx.doi.org/10.1038/nmat3055}{CrossRef}]
+
+\bibitem[Yang and Baker(1998)]{Yang1998}
+Yang, Y.; Baker, I.
+\newblock {The influence of vacancy concentration on the mechanical behavior of
+Fe-40Al}.
+\newblock {\em Intermetallics} {\bf 1998}, {\em 6},~167--175. [\href{http://dx.doi.org/10.1016/S0966-9795(97)00062-9}{CrossRef}]
+
+\bibitem[Nazmy \em{et~al.}(2001)Nazmy, Staubli, Onofrio, and Lupinc]{Nazmy2001}
+Nazmy, M.; Staubli, M.; Onofrio, G.; Lupinc, V.
+\newblock {Surface defect tolerance of a cast TiAl alloy in fatigue}.
+\newblock {\em Scr.~Mater.} {\bf 2001}, {\em 45},~787--792. [\href{http://dx.doi.org/10.1016/S1359-6462(01)01097-1}{CrossRef}]
+
+\bibitem[Brimmo \em{et~al.}(2014)Brimmo, Hassan, and Shatilla]{Wu2016}
+Brimmo, A.T.; Hassan, M.I.; Shatilla, Y.
+\newblock {Transient heat transfer computational model for the stopped
+aluminium reduction pot---Cooling techniques evaluation}.
+\newblock {\em Appl. Therm. Eng.} {\bf 2014}, {\em 73},~114--125. [\href{http://dx.doi.org/10.1016/j.applthermaleng.2014.07.014}{CrossRef}]
+
+\bibitem[Larsen \em{et~al.}(2016)Larsen, Schmidt, and Schi{\O}tz]{Larsen2016}
+Larsen, P.M.; Schmidt, S.; Schi{\O}tz, J.
+\newblock {Robust structural identification via polyhedral template matching}.
+\newblock {\em Model. Simul. Mater. Sci. Eng.}
+{\bf 2016}, {\em 24},~055007. [\href{http://dx.doi.org/10.1088/0965-0393/24/5/055007}{CrossRef}]
+
+\bibitem[Ko \em{et~al.}(2015)Ko, Grabowski, and Neugebauer]{Ko2015}
+Ko, W.S.; Grabowski, B.; Neugebauer, J.
+\newblock {Development and application of a Ni-Ti interatomic potential with
+high predictive accuracy of the martensitic phase transition}.
+\newblock {\em Phys. Rev. B Condens. Matter Mater. Phys.} {\bf
+2015}, {\em 92},~134107. [\href{http://dx.doi.org/10.1103/PhysRevB.92.134107}{CrossRef}]
+
+\bibitem[Zepeda-Ruiz \em{et~al.}(2017)Zepeda-Ruiz, Stukowski, Oppelstrup, and
+Bulatov]{Zepeda-Ruiz2017}
+Zepeda-Ruiz, L.A.; Stukowski, A.; Oppelstrup, T.; Bulatov, V.V.
+\newblock {Probing the limits of metal plasticity with molecular dynamics
+simulations}.
+\newblock {\em Nature} {\bf 2017}, {\em 550},~492--495. [\href{http://dx.doi.org/10.1038/nature23472}{CrossRef}] [\href{http://www.ncbi.nlm.nih.gov/pubmed/28953878}{PubMed}]
+
+\bibitem[Fan \em{et~al.}(2018)Fan, Zhu, El-Awady, and Raabe]{Fan2018a}
+Fan, H.; Zhu, Y.; El-Awady, J.A.; Raabe, D.
+\newblock {Precipitation hardening effects on extension twinning in magnesium
+alloys}.
+\newblock {\em Int. J. Plast.} {\bf 2018}, {\em
+106},~186--202. [\href{http://dx.doi.org/10.1016/j.ijplas.2018.03.008}{CrossRef}]
+
+\bibitem[Zope and Mishin(2003)]{Zope2003}
+Zope, R.R.; Mishin, Y.
+\newblock {Interatomic potentials for atomistic simulations of the Ti--Al
+system}.
+\newblock {\em Phys. Rev. B   Condens. Matter Mater. Phys.} {\bf
+2003}, {\em 68},~024102. [\href{http://dx.doi.org/10.1103/PhysRevB.68.024102}{CrossRef}]
+
+\bibitem[Plimpton(1995)]{Plimpton1995}
+Plimpton, S.
+\newblock {Fast parallel algorithms for short-range molecular dynamics}.
+\newblock {\em J. Comput. Phys.} {\bf 1995}, {\em 117},~1--19. [\href{http://dx.doi.org/10.1006/jcph.1995.1039}{CrossRef}]
+
+\bibitem[Zhu \em{et~al.}(2008)Zhu, Li, Samanta, Leach, and Gall]{Zhu2008}
+Zhu, T.; Li, J.; Samanta, A.; Leach, A.; Gall, K.
+\newblock {Temperature and strain-rate dependence of surface dislocation
+nucleation}.
+\newblock {\em Phys. Rev. Lett.} {\bf 2008}, {\em 100},~025502. [\href{http://dx.doi.org/10.1103/PhysRevLett.100.025502}{CrossRef}]
+
+\bibitem[Stukowski(2010)]{Stukowski2010}
+Stukowski, A.
+\newblock {Visualization and analysis of atomistic simulation data with
+OVITO-the Open Visualization Tool}.
+\newblock {\em Model. Simul. Mater. Sci. Eng.}
+{\bf 2010}, {\em 18},~015012. [\href{http://dx.doi.org/10.1088/0965-0393/18/1/015012}{CrossRef}]
+
+
+
+\bibitem[Tang \em{et~al.}(2010)Tang, Kim, and Horstemeyer]{Tang2010}
+Tang, T.; Kim, S.; Horstemeyer, M.F.
+\newblock {Molecular dynamics simulations of void growth and coalescence in
+single crystal magnesium}.
+\newblock {\em Acta Mater.} {\bf 2010}, {\em 58},~4742--4759. [\href{http://dx.doi.org/10.1016/j.actamat.2010.05.011}{CrossRef}]
+
+\bibitem[Chen and Cao(2015)]{CHEN2015365}
+Chen, J.H.; Cao, R.
+\newblock {Chapter 9 - Brittle Fracture of TiAl Alloys and NiTi Memory Alloys}.
+In {\em Micromechanism of Cleavage Fracture of Metals}; Chen, J.H., Cao, R.,
+Eds.; Butterworth-Heinemann: Boston, MA, USA, 2015; pp.~365--443.
+
+\bibitem[He \em{et~al.}(1995)He, Schwarz, Migliori, and Whang]{Schwarz1995}
+He, Y.; Schwarz, R.; Migliori, A.; Whang, S.
+\newblock {Elastic constants of single crystal $\gamma$---TiAl}.
+\newblock {\em J. Mater. Res.} {\bf 1995}, {\em 10},~1187--1195. [\href{http://dx.doi.org/10.1557/JMR.1995.1187}{CrossRef}]
+
+\bibitem[Tanaka \em{et~al.}(1996)Tanaka, Okamoto, Inul, Mlnonishl, Yamaguch,
+and Koiwa]{Tanaka1996}
+Tanaka, K.; Okamoto, K.; Inul, H.; Mlnonishl, Y.; Yamaguch, M.; Koiwa, M.
+\newblock {Elastic constants and their temperature dependence for the
+intermetallic compound Ti3Al}.
+\newblock {\em Philos. Mag. A  Phys. Condens. Matter
+Struct. Defects Mech. Prop.} {\bf 1996}, {\em
+73},~1475--1488. [\href{http://dx.doi.org/10.1080/01418619608245145}{CrossRef}]
+
+\bibitem[Stein and Low(1960)]{Stein1960}
+Stein, D.F.; Low, J.R.
+\newblock {Mobility of edge dislocations in silicon-iron crystals}.
+\newblock {\em J. Appl. Phys.} {\bf 1960}, {\em 31},~362--369. [\href{http://dx.doi.org/10.1063/1.1735574}{CrossRef}]
+
+\bibitem[Escaig(1968)]{Escaig1968}
+Escaig, B.
+\newblock {L'activation thermique des d{\'{e}}viations sous faibles contraintes
+dans les structures h.c. et c.c. Par}.
+\newblock {\em Phys. Status Solidi (B)} {\bf 1968}, {\em 28},~463--474. [\href{http://dx.doi.org/10.1002/pssb.19680280203}{CrossRef}]
+
+\bibitem[Liu \em{et~al.}(2007)Liu, Liu, Wang, and Ye]{Liu2007}
+Liu, Y.L.; Liu, L.M.; Wang, S.Q.; Ye, H.Q.
+\newblock {First-principles study of shear deformation in TiAl alloys}.
+\newblock {\em \mbox{J. Alloys Compd.}} {\bf 2007}, {\em
+440},~287--294. [\href{http://dx.doi.org/10.1016/j.jallcom.2006.09.027}{CrossRef}]
+
+\bibitem[R{\"{o}}sner \em{et~al.}(2004)R{\"{o}}sner, Markmann, and
+Weissm{\"{u}}ller]{Zhu2012}
+R{\"{o}}sner, H.; Markmann, J.; Weissm{\"{u}}ller, J.
+\newblock {Deformation twinning in nanocrystalline Pd}.
+\newblock {\em Philos. Mag. Lett.} {\bf 2004}, {\em 84},~321--334. [\href{http://dx.doi.org/10.1080/09500830410001675687}{CrossRef}]
+
+\bibitem[{Fritz Appel} \em{et~al.}(2011){habil. Fritz Appel}, Paul,
+Oehring, and Microstructures]{intro-structure}
+Appel, F. , Paul, J. D. and Oehring, M.
+\newblock {Deformation Behavior of Two-Phase $\alpha$2(Ti3Al) + $\gamma$(TiAl)
+Alloys}.
+\newblock {\em Gamma Titan. Alum. Alloys} {\bf 2011}, {\em 2},~125--248. [\href{http://dx.doi.org/10.1002/9783527636204.ch6}{CrossRef}]
+
+\bibitem[Zghal \em{et~al.}(1998)Zghal, Menand, and Couret]{Zghal1998}
+Zghal, S.; Menand, A.; Couret, A.
+\newblock {Pinning points anchoring ordinary and shockley dislocations in TiAl
+alloys}.
+\newblock {\em Acta Mater.} {\bf 1998}, {\em 46},~5899--5905. [\href{http://dx.doi.org/10.1016/S1359-6454(98)00233-X}{CrossRef}]
+
+\end{thebibliography}
+
+
+
+\end{document}
+
+

@@ -1,6 +1,5 @@
 # Violet: Publish my work
-### 2018年4月20日受命换题目
-### 2018年5月开始模拟
-### 2018年7月模拟基本结束
-### 2018年8月开始写作
-### 2018年11月初稿完成
+## Received Date 27 November 2018
+## Revised Date 25 December 2018
+## Accepted Date 3 January 2019
+## Published Date 7 January 2019
